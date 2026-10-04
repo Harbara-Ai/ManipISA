@@ -2,6 +2,10 @@
 
 本仓库包含 ManipISA 源码、六条指令的设计契约、Adapter、示例、测试、实验设计文档，以及选定的本地验证证据。代码的已实现范围和限制以 [README](README.md) 与 [验证记录](docs/manipisa-runtime-validation.md) 为准。
 
+## 评测文档与实现组织
+
+总评分标准、Bench2Dex 对照评测协议和主实验设计统一位于 [`evaluation/docs/`](evaluation/docs)，入口见 [Evaluation README](evaluation/README.md)。顶层 `docs/` 保留指令设计、运行时与 Adapter 文档。后续评测代码和冻结配置也放在 `evaluation/`，按职责建立子目录；当前仅有评测文档。
+
 ## 只运行单元与契约测试
 
 使用 Python 3.11 或更高版本。以下命令无需启动 Isaac Sim：

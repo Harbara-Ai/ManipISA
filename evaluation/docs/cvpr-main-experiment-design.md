@@ -4,7 +4,7 @@
 
 核心建议是：用统一 Agent 循环下的四个视觉模型完成 Direct 与 ManipISA 的配对主实验，用原生 Codex 和 Claude Code 检验跨 Agent 系统适用性，并用共享控制器的机制实验检验精简接口与执行契约的贡献。任务、原生机器人绑定、扰动和成功判定全部来自 Bench2Dex，不新增任务。
 
-现有 [评测口径](bench2dex-manipisa-direct-evaluation.md) 继续用于日志与指标；本稿补充论文实验矩阵。指令版本采用 [六条核心契约](manipisa-v0.2-core-contracts.md)。以下模型名单、样本量、观测设计及消融均为本项目建议，不是 CVPR 或 Bench2Dex 的强制要求。
+现有 [评测口径](bench2dex-manipisa-direct-evaluation.md) 继续用于日志与指标；本稿补充论文实验矩阵。指令版本采用 [六条核心契约](../../docs/manipisa-v0.2-core-contracts.md)。以下模型名单、样本量、观测设计及消融均为本项目建议，不是 CVPR 或 Bench2Dex 的强制要求。
 
 ## 研究问题与可支持的结论
 
