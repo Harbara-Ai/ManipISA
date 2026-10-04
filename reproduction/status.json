@@ -1,0 +1,50 @@
+{
+  "status": "single_task_original_replay_validated",
+  "date": "2026-10-03",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.17 (main, Oct  1 2026, 20:58:35) [MSC v.1944 64 bit (AMD64)]",
+  "gpu": "NVIDIA RTX 2000 Ada Generation 16GB",
+  "driver": "610.88",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "0.54.2",
+    "torch": "2.7.0+cu128",
+    "torchvision": "0.22.0+cu128",
+    "numpy": "1.26.4",
+    "h5py": "3.15.1",
+    "warp-lang": "1.17.0",
+    "fastapi": "0.115.7",
+    "starlette": "0.49.1"
+  },
+  "source": {
+    "Bench2Dex": "fd90dcc625b66c2e535a8b25bcf75bc81c7b080d",
+    "IsaacLab_tag": "v2.3.2",
+    "IsaacLab": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "assets_revision": "bf65215f844d1fca30750e4cc70d7266650abf0a",
+    "teleopdata_revision": "b195787c65046083e6a43776b67bdf1389dfa3eb"
+  },
+  "task": "27_ball_box_loading",
+  "episode": "episode_000000.hdf5",
+  "frames": 916,
+  "joint_mapping": "52/52",
+  "rgb_cameras": 6,
+  "tactile_sites": 10,
+  "tactile_sites_with_nonzero_values": 10,
+  "original_trajectory_preserved": true,
+  "success_recomputed": true,
+  "replay_seconds": 170.3,
+  "upstream_source_modified": false,
+  "entrypoint": "reproduction/run_replay.ps1",
+  "validation": "reproduction/runs/ball-box-20261003-140245/validation.json",
+  "preview": "reproduction/runs/ball-box-20261003-140245/preview.mp4",
+  "known_dependency_conflicts": [
+    "fastapi 0.115.7 has requirement starlette<0.46.0,>=0.40.0, but you have starlette 0.49.1.",
+    "isaacsim-kernel 5.1.0.0 has requirement numpy==1.26.0, but you have numpy 1.26.4."
+  ],
+  "windows_install_fixes": [
+    "Short drive I: mapped to project because system long paths are disabled.",
+    "h5py==3.15.1 avoids Windows HDF5 2.0 DLL conflict (IsaacLab issue #5076).",
+    "flatdict build constrained to setuptools==80.9.0; wheel==0.43.0 compatible with pinned packaging."
+  ],
+  "scope": "One official task and one recorded kinematic demonstration; RGB and TacMap capture. No learned policy, closed-loop dynamics success rate, or full 26-task benchmark evaluation."
+}

@@ -1,0 +1,1362 @@
+{
+  "passed": true,
+  "checks": {
+    "dedicated_adapter": true,
+    "four_actor_bindings_52_joints": true,
+    "resource_conflict_rejected": true,
+    "missing_grasp_operands_rejected": true,
+    "shape_succeeded": true,
+    "rgb_initially_off": true,
+    "move_0_succeeded": true,
+    "move_1_succeeded": true,
+    "sustain_succeeded_after_active": true,
+    "cancel_retains_control": true,
+    "rgb_frames_valid": true,
+    "rgb_has_content": true,
+    "rgb_disable_stops_capture_and_clears_frames": true
+  },
+  "rgb_enabled_run": true,
+  "binding": {
+    "adapter": "DualUr5WujiAdapter",
+    "robot_path": "/World/Objects/GlobalRobot",
+    "sides": {
+      "right": {
+        "arm_actor": "arm_a",
+        "hand_actor": "hand_a",
+        "tool_frame": "tool_a",
+        "palm_frame": "palm_a",
+        "tcp": {
+          "parent": "wrist",
+          "offset": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "arm_coupling_groups": [],
+        "hand_coupling_groups": []
+      },
+      "left": {
+        "arm_actor": "arm_b",
+        "hand_actor": "hand_b",
+        "tool_frame": "tool_b",
+        "palm_frame": "palm_b",
+        "tcp": {
+          "parent": "wrist",
+          "offset": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "arm_coupling_groups": [],
+        "hand_coupling_groups": []
+      }
+    },
+    "wrist_to_palm": {
+      "right": {
+        "position": [
+          -0.0013668643975625386,
+          0.0010996130116651146,
+          0.06289999998989515
+        ],
+        "orientation_wxyz": [
+          0.7073882378922517,
+          0.0,
+          0.0,
+          0.7068252124052276
+        ]
+      },
+      "left": {
+        "position": [
+          -0.00017781093900420174,
+          -0.0001775280044678699,
+          0.06340000100317411
+        ],
+        "orientation_wxyz": [
+          0.7073882378922517,
+          0.0,
+          0.0,
+          0.7068252124052276
+        ]
+      }
+    },
+    "actors": {
+      "arm_a": {
+        "joints": [
+          "shoulder_pan_joint",
+          "shoulder_lift_joint",
+          "elbow_joint",
+          "wrist_1_joint",
+          "wrist_2_joint",
+          "wrist_3_joint"
+        ],
+        "body": "wrist_3_link",
+        "frame": "tool_a",
+        "tcp_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "hand_a": {
+        "joints": [
+          "right_finger1_joint1",
+          "right_finger1_joint2",
+          "right_finger1_joint3",
+          "right_finger1_joint4",
+          "right_finger2_joint1",
+          "right_finger2_joint2",
+          "right_finger2_joint3",
+          "right_finger2_joint4",
+          "right_finger3_joint1",
+          "right_finger3_joint2",
+          "right_finger3_joint3",
+          "right_finger3_joint4",
+          "right_finger4_joint1",
+          "right_finger4_joint2",
+          "right_finger4_joint3",
+          "right_finger4_joint4",
+          "right_finger5_joint1",
+          "right_finger5_joint2",
+          "right_finger5_joint3",
+          "right_finger5_joint4"
+        ],
+        "body": "right_palm_link",
+        "frame": "palm_a",
+        "tcp_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "arm_b": {
+        "joints": [
+          "L_arm_shoulder_pan_joint",
+          "L_arm_shoulder_lift_joint",
+          "L_arm_elbow_joint",
+          "L_arm_wrist_1_joint",
+          "L_arm_wrist_2_joint",
+          "L_arm_wrist_3_joint"
+        ],
+        "body": "L_arm_wrist_3_link",
+        "frame": "tool_b",
+        "tcp_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "hand_b": {
+        "joints": [
+          "left_finger1_joint1",
+          "left_finger1_joint2",
+          "left_finger1_joint3",
+          "left_finger1_joint4",
+          "left_finger2_joint1",
+          "left_finger2_joint2",
+          "left_finger2_joint3",
+          "left_finger2_joint4",
+          "left_finger3_joint1",
+          "left_finger3_joint2",
+          "left_finger3_joint3",
+          "left_finger3_joint4",
+          "left_finger4_joint1",
+          "left_finger4_joint2",
+          "left_finger4_joint3",
+          "left_finger4_joint4",
+          "left_finger5_joint1",
+          "left_finger5_joint2",
+          "left_finger5_joint3",
+          "left_finger5_joint4"
+        ],
+        "body": "left_palm_link",
+        "frame": "palm_b",
+        "tcp_position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "contacts": {},
+    "pre_step_hook_count": 1,
+    "ik": "IsaacLab.DifferentialIKController/dls"
+  },
+  "adapter_checks": false,
+  "scope": "Free-space physical MOVE/SHAPE_HAND smoke on local UR5+Wuji; not a Bench2Dex task success score",
+  "device": "cuda:0",
+  "physics_dt": 0.01,
+  "initial_state": {
+    "timestamp": 1.5199999660253525,
+    "env_id": 0,
+    "joints": {
+      "arm_a": {
+        "position": [
+          1.5700000524520874,
+          -1.5700000524520874,
+          1.5700000524520874,
+          1.2895244594357536e-10,
+          1.5700000524520874,
+          -8.242232590882637e-11
+        ],
+        "velocity": [
+          1.6343877362601233e-09,
+          -1.190830634101303e-08,
+          4.786879920226639e-11,
+          -6.964877563575556e-10,
+          3.305810347686844e-10,
+          2.9171858262344585e-09
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_joint_state",
+        "coordinate_names": [
+          "shoulder_pan_joint",
+          "shoulder_lift_joint",
+          "elbow_joint",
+          "wrist_1_joint",
+          "wrist_2_joint",
+          "wrist_3_joint"
+        ]
+      },
+      "hand_a": {
+        "position": [
+          0.10000000149011612,
+          2.9987221039640133e-10,
+          -8.113160837597277e-11,
+          -2.6691279395030243e-11,
+          1.86032611537712e-09,
+          -5.917173001579457e-11,
+          2.1279020212539024e-10,
+          1.543961312966413e-11,
+          1.4490163513514176e-09,
+          -8.897876879743194e-11,
+          2.7381838463291786e-10,
+          1.476380649678699e-11,
+          7.171270244299421e-10,
+          -8.413585800282064e-11,
+          2.010588084910836e-10,
+          9.753941578038994e-12,
+          1.8359516129606845e-09,
+          -2.4131819806316734e-11,
+          2.2691386269979574e-10,
+          1.7166911989163758e-11
+        ],
+        "velocity": [
+          -1.2973879748301442e-08,
+          -6.95796442684582e-09,
+          -8.874111445678068e-10,
+          -2.5711446860476883e-10,
+          -4.400113340352618e-08,
+          1.8947656776902022e-09,
+          -5.60520652115315e-09,
+          -4.69062844121737e-10,
+          -3.772443690763794e-08,
+          2.48764209231922e-09,
+          -8.171414656032994e-09,
+          -5.338401942722726e-10,
+          -2.3805199589332915e-08,
+          2.105767560323102e-09,
+          -5.683504777920234e-09,
+          -3.8899958254567935e-10,
+          -4.7090878751987475e-08,
+          1.179312425492185e-09,
+          -6.01550942391782e-09,
+          -9.679605728063478e-11
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_joint_state",
+        "coordinate_names": [
+          "right_finger1_joint1",
+          "right_finger1_joint2",
+          "right_finger1_joint3",
+          "right_finger1_joint4",
+          "right_finger2_joint1",
+          "right_finger2_joint2",
+          "right_finger2_joint3",
+          "right_finger2_joint4",
+          "right_finger3_joint1",
+          "right_finger3_joint2",
+          "right_finger3_joint3",
+          "right_finger3_joint4",
+          "right_finger4_joint1",
+          "right_finger4_joint2",
+          "right_finger4_joint3",
+          "right_finger4_joint4",
+          "right_finger5_joint1",
+          "right_finger5_joint2",
+          "right_finger5_joint3",
+          "right_finger5_joint4"
+        ]
+      },
+      "arm_b": {
+        "position": [
+          -1.5700000524520874,
+          1.5700000524520874,
+          -1.5700000524520874,
+          -7.339748253620826e-10,
+          -1.5700000524520874,
+          2.4039728541147554e-10
+        ],
+        "velocity": [
+          3.738717668788638e-11,
+          6.692765008864399e-09,
+          1.9073429058380498e-08,
+          1.1000936162020025e-08,
+          -8.046220634216894e-11,
+          -5.32883781545479e-09
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_joint_state",
+        "coordinate_names": [
+          "L_arm_shoulder_pan_joint",
+          "L_arm_shoulder_lift_joint",
+          "L_arm_elbow_joint",
+          "L_arm_wrist_1_joint",
+          "L_arm_wrist_2_joint",
+          "L_arm_wrist_3_joint"
+        ]
+      },
+      "hand_b": {
+        "position": [
+          0.10000000149011612,
+          2.6579086154221443e-10,
+          -8.628700531865263e-11,
+          1.949712787052693e-11,
+          6.250731043877522e-10,
+          6.483032166659797e-11,
+          1.4227781452991195e-10,
+          1.8061935627700088e-11,
+          1.526016757402715e-09,
+          8.326354883347875e-11,
+          1.728287235547299e-10,
+          1.3301922063835292e-11,
+          5.895474108896792e-10,
+          6.72525507505739e-11,
+          7.577918847978538e-11,
+          4.840113986687156e-12,
+          5.740271036280831e-10,
+          4.224915556294562e-11,
+          -6.194669777137563e-11,
+          -7.212026982561515e-12
+        ],
+        "velocity": [
+          -6.9985950368334215e-09,
+          -7.3779373721549746e-09,
+          2.94073959627994e-10,
+          -4.323603697287126e-10,
+          -2.0881968154640163e-08,
+          -1.3126000286689532e-09,
+          -5.147283932416258e-09,
+          -7.927491996184699e-10,
+          -3.800180792268293e-08,
+          -2.524137565629303e-09,
+          -5.895649302090078e-09,
+          -5.62159985229016e-10,
+          -2.179543834301967e-08,
+          -2.2180337566624075e-09,
+          -2.8360551684869506e-09,
+          -1.2301737406517077e-10,
+          -2.3508979651865047e-08,
+          -1.29725252762114e-09,
+          -1.8566745363379766e-10,
+          3.176250928937918e-10
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_joint_state",
+        "coordinate_names": [
+          "left_finger1_joint1",
+          "left_finger1_joint2",
+          "left_finger1_joint3",
+          "left_finger1_joint4",
+          "left_finger2_joint1",
+          "left_finger2_joint2",
+          "left_finger2_joint3",
+          "left_finger2_joint4",
+          "left_finger3_joint1",
+          "left_finger3_joint2",
+          "left_finger3_joint3",
+          "left_finger3_joint4",
+          "left_finger4_joint1",
+          "left_finger4_joint2",
+          "left_finger4_joint3",
+          "left_finger4_joint4",
+          "left_finger5_joint1",
+          "left_finger5_joint2",
+          "left_finger5_joint3",
+          "left_finger5_joint4"
+        ]
+      }
+    },
+    "frames": {
+      "tool_a": {
+        "position": [
+          0.39116233587265015,
+          0.04497496038675308,
+          1.169508695602417
+        ],
+        "orientation_wxyz": [
+          -0.7071066498756409,
+          0.70710688829422,
+          1.1920928955078125e-07,
+          6.322159151750384e-08
+        ],
+        "linear_velocity": [
+          -7.487439557252173e-10,
+          -2.7564501792198826e-09,
+          1.39822109446186e-08
+        ],
+        "angular_velocity": [
+          2.3583803354654265e-08,
+          2.894597672664645e-09,
+          1.3038673474241591e-09
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_body_state"
+      },
+      "palm_a": {
+        "position": [
+          0.3897954523563385,
+          0.10787493735551834,
+          1.168408989906311
+        ],
+        "orientation_wxyz": [
+          -0.5001989006996155,
+          0.5001991987228394,
+          -0.4998008906841278,
+          -0.49980080127716064
+        ],
+        "linear_velocity": [
+          -8.341440871362238e-10,
+          -2.6220847715308082e-09,
+          1.9338813217473216e-08
+        ],
+        "angular_velocity": [
+          2.3583803354654265e-08,
+          2.894597672664645e-09,
+          1.3038673474241591e-09
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_body_state"
+      },
+      "tool_b": {
+        "position": [
+          -0.39040642976760864,
+          0.04465031623840332,
+          1.1693778038024902
+        ],
+        "orientation_wxyz": [
+          0.7065433263778687,
+          -0.7076692581176758,
+          0.0005629062652587891,
+          -0.0005631166859529912
+        ],
+        "linear_velocity": [
+          -2.352298217322968e-11,
+          -1.3225158468355147e-10,
+          1.6327080132327865e-08
+        ],
+        "angular_velocity": [
+          3.196077003053688e-08,
+          -5.352750687137586e-09,
+          1.227569157435937e-10
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_body_state"
+      },
+      "palm_b": {
+        "position": [
+          -0.3904832601547241,
+          0.10805069655179977,
+          1.1694544553756714
+        ],
+        "orientation_wxyz": [
+          0.5001986026763916,
+          -0.5001991987228394,
+          0.500596821308136,
+          0.4990043640136719
+        ],
+        "linear_velocity": [
+          -3.3562701229339353e-11,
+          5.716545292688835e-11,
+          1.5163308830778988e-08
+        ],
+        "angular_velocity": [
+          3.196077003053688e-08,
+          -5.352750687137586e-09,
+          1.227569157435937e-10
+        ],
+        "timestamp": 1.5199999660253525,
+        "valid": true,
+        "source": "simulator_body_state"
+      }
+    },
+    "predicates": {
+      "joint_limits:arm_a": {
+        "truth": "SATISFIED",
+        "timestamp": 1.5199999660253525,
+        "source": "IsaacLab.Articulation",
+        "detail": "Observed joint positions against physical limits",
+        "failure_reason": "CONSTRAINT_VIOLATED"
+      },
+      "joint_limits:hand_a": {
+        "truth": "SATISFIED",
+        "timestamp": 1.5199999660253525,
+        "source": "IsaacLab.Articulation",
+        "detail": "Observed joint positions against physical limits",
+        "failure_reason": "CONSTRAINT_VIOLATED"
+      },
+      "joint_limits:arm_b": {
+        "truth": "SATISFIED",
+        "timestamp": 1.5199999660253525,
+        "source": "IsaacLab.Articulation",
+        "detail": "Observed joint positions against physical limits",
+        "failure_reason": "CONSTRAINT_VIOLATED"
+      },
+      "joint_limits:hand_b": {
+        "truth": "SATISFIED",
+        "timestamp": 1.5199999660253525,
+        "source": "IsaacLab.Articulation",
+        "detail": "Observed joint positions against physical limits",
+        "failure_reason": "CONSTRAINT_VIOLATED"
+      }
+    },
+    "state_source": "simulation_privileged",
+    "contacts": {}
+  },
+  "feedback": {
+    "state": {
+      "timestamp": 3.039999932050705,
+      "env_id": 0,
+      "joints": {
+        "arm_a": {
+          "position": [
+            1.5700136423110962,
+            -1.5688718557357788,
+            1.5180732011795044,
+            0.04751783236861229,
+            1.5699937343597412,
+            6.472192762885243e-05
+          ],
+          "velocity": [
+            2.6679035727283917e-06,
+            -1.858992618508637e-05,
+            -1.6948821212281473e-05,
+            -4.6023055233490595e-07,
+            -2.453074046115944e-07,
+            4.884935265181412e-07
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "shoulder_pan_joint",
+            "shoulder_lift_joint",
+            "elbow_joint",
+            "wrist_1_joint",
+            "wrist_2_joint",
+            "wrist_3_joint"
+          ]
+        },
+        "hand_a": {
+          "position": [
+            0.0999995693564415,
+            -1.649809604487018e-07,
+            -1.8718328931299766e-07,
+            -3.990234254125369e-10,
+            -2.0040658910147613e-06,
+            0.07951150089502335,
+            -1.8439355642385635e-07,
+            -1.669240567991892e-08,
+            -1.235942249877553e-06,
+            -3.2418497539765667e-06,
+            2.263262643964481e-07,
+            1.0259800120593354e-07,
+            -6.300621180344024e-07,
+            -3.107386874035001e-06,
+            -1.386984394002866e-07,
+            1.5765376559784272e-08,
+            -1.7666528151494276e-07,
+            -2.975337110910914e-06,
+            -3.9983956412470434e-07,
+            -4.701981737298411e-08
+          ],
+          "velocity": [
+            -3.1374120226246305e-06,
+            -1.1044660368497716e-06,
+            -1.1811098374892026e-06,
+            -1.9316037658256846e-09,
+            -4.729725787910866e-06,
+            1.779125000211934e-06,
+            -1.0373310033173766e-06,
+            -9.290984337440023e-08,
+            -2.6834486561710946e-06,
+            -8.574983212383813e-08,
+            -8.761901995057997e-07,
+            -7.964565185147876e-08,
+            -3.031527512575849e-06,
+            -4.6254015728663944e-07,
+            -4.852415145251143e-07,
+            -4.719721502510765e-09,
+            -2.9858993002562784e-06,
+            -8.526757824256492e-07,
+            -1.7757901105142082e-07,
+            4.651920093579065e-08
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "right_finger1_joint1",
+            "right_finger1_joint2",
+            "right_finger1_joint3",
+            "right_finger1_joint4",
+            "right_finger2_joint1",
+            "right_finger2_joint2",
+            "right_finger2_joint3",
+            "right_finger2_joint4",
+            "right_finger3_joint1",
+            "right_finger3_joint2",
+            "right_finger3_joint3",
+            "right_finger3_joint4",
+            "right_finger4_joint1",
+            "right_finger4_joint2",
+            "right_finger4_joint3",
+            "right_finger4_joint4",
+            "right_finger5_joint1",
+            "right_finger5_joint2",
+            "right_finger5_joint3",
+            "right_finger5_joint4"
+          ]
+        },
+        "arm_b": {
+          "position": [
+            -1.5700145959854126,
+            1.5688719749450684,
+            -1.5180739164352417,
+            -0.04751760885119438,
+            -1.5699938535690308,
+            -5.624277764582075e-05
+          ],
+          "velocity": [
+            4.54067594546359e-05,
+            8.945164881879464e-05,
+            5.3177642257651314e-05,
+            2.535614385124063e-06,
+            1.0586963071546052e-05,
+            -2.8202518933539977e-06
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "L_arm_shoulder_pan_joint",
+            "L_arm_shoulder_lift_joint",
+            "L_arm_elbow_joint",
+            "L_arm_wrist_1_joint",
+            "L_arm_wrist_2_joint",
+            "L_arm_wrist_3_joint"
+          ]
+        },
+        "hand_b": {
+          "position": [
+            0.10000021010637283,
+            3.9927037676079635e-08,
+            4.466358660693004e-08,
+            1.0862283295054453e-10,
+            1.3347275285013893e-07,
+            9.18466902533055e-09,
+            4.96377445813323e-08,
+            5.022528171139129e-09,
+            1.4542716542109702e-07,
+            1.2731096177276413e-08,
+            4.327321434516307e-08,
+            4.074809378806776e-09,
+            1.713092814270567e-07,
+            8.64274340983684e-09,
+            2.636678608780585e-08,
+            5.998378460603249e-10,
+            1.854596547445908e-07,
+            1.5261841790348285e-09,
+            1.4670289871787645e-08,
+            -1.6709893468913606e-09
+          ],
+          "velocity": [
+            -6.098307949287118e-06,
+            -1.5832586086617084e-06,
+            -1.8459292050465592e-06,
+            -3.733768405567162e-09,
+            -5.087091722089099e-06,
+            -3.257868002037867e-07,
+            -1.9689359760377556e-06,
+            -1.9795393768617942e-07,
+            -6.397978268068982e-06,
+            -1.0756760957519873e-06,
+            -1.9109825188934337e-06,
+            -1.858279716770994e-07,
+            -7.836079021217301e-06,
+            -1.498069991612283e-06,
+            -1.133388309426664e-06,
+            -2.6528873320330604e-08,
+            -9.14802512852475e-06,
+            -1.7394611404597526e-06,
+            -5.72774126794684e-07,
+            9.195956351959467e-08
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "left_finger1_joint1",
+            "left_finger1_joint2",
+            "left_finger1_joint3",
+            "left_finger1_joint4",
+            "left_finger2_joint1",
+            "left_finger2_joint2",
+            "left_finger2_joint3",
+            "left_finger2_joint4",
+            "left_finger3_joint1",
+            "left_finger3_joint2",
+            "left_finger3_joint3",
+            "left_finger3_joint4",
+            "left_finger4_joint1",
+            "left_finger4_joint2",
+            "left_finger4_joint3",
+            "left_finger4_joint4",
+            "left_finger5_joint1",
+            "left_finger5_joint2",
+            "left_finger5_joint3",
+            "left_finger5_joint4"
+          ]
+        }
+      },
+      "frames": {
+        "tool_a": {
+          "position": [
+            0.3911556601524353,
+            0.0452570803463459,
+            1.189696192741394
+          ],
+          "orientation_wxyz": [
+            -0.7082657217979431,
+            0.7059457898139954,
+            -1.4662742614746094e-05,
+            -2.8871545509900898e-05
+          ],
+          "linear_velocity": [
+            -1.2922214409627486e-06,
+            -5.499050985235954e-06,
+            1.691444413154386e-05
+          ],
+          "angular_velocity": [
+            3.60228332283441e-05,
+            4.592557161231525e-07,
+            2.915061941166641e-06
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_body_state"
+        },
+        "palm_a": {
+          "position": [
+            0.3897874355316162,
+            0.10816030204296112,
+            1.18880295753479
+          ],
+          "orientation_wxyz": [
+            -0.5009985566139221,
+            0.4993673861026764,
+            -0.4989906847476959,
+            -0.5006405711174011
+          ],
+          "linear_velocity": [
+            -1.4759948498976883e-06,
+            -5.470710675581358e-06,
+            1.918594352900982e-05
+          ],
+          "angular_velocity": [
+            3.60228332283441e-05,
+            4.592557161231525e-07,
+            2.915061941166641e-06
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_body_state"
+        },
+        "tool_b": {
+          "position": [
+            -0.3903987407684326,
+            0.044932615011930466,
+            1.1895644664764404
+          ],
+          "orientation_wxyz": [
+            0.7077032327651978,
+            -0.7065092921257019,
+            0.0005503296852111816,
+            -0.0005902443081140518
+          ],
+          "linear_velocity": [
+            -2.071583367069252e-05,
+            -2.2165460904943757e-05,
+            6.790938641643152e-05
+          ],
+          "angular_velocity": [
+            0.00014512606139760464,
+            -2.9197672120062634e-06,
+            3.481487510725856e-05
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_body_state"
+        },
+        "palm_b": {
+          "position": [
+            -0.3904742896556854,
+            0.10833239555358887,
+            1.1898491382598877
+          ],
+          "orientation_wxyz": [
+            0.5010381937026978,
+            -0.499387264251709,
+            0.49976783990859985,
+            0.49980485439300537
+          ],
+          "linear_velocity": [
+            -2.2923930373508483e-05,
+            -2.2209203962120228e-05,
+            7.711851503700018e-05
+          ],
+          "angular_velocity": [
+            0.00014512606139760464,
+            -2.9197672120062634e-06,
+            3.481487510725856e-05
+          ],
+          "timestamp": 3.039999932050705,
+          "valid": true,
+          "source": "simulator_body_state"
+        }
+      },
+      "predicates": {
+        "joint_limits:arm_a": {
+          "truth": "SATISFIED",
+          "timestamp": 3.039999932050705,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_limits:hand_a": {
+          "truth": "SATISFIED",
+          "timestamp": 3.039999932050705,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_limits:arm_b": {
+          "truth": "SATISFIED",
+          "timestamp": 3.039999932050705,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_limits:hand_b": {
+          "truth": "SATISFIED",
+          "timestamp": 3.039999932050705,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        }
+      },
+      "state_source": "simulation_privileged",
+      "contacts": {}
+    },
+    "state_valid": true,
+    "state_error": null,
+    "instructions": [
+      {
+        "call_id": "40a50a92f9f2421bbcc5d0bcf5154185",
+        "operation": "SHAPE_HAND",
+        "status": "SUCCEEDED",
+        "timestamp": 2.1599999517202377,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.1599999517202377,
+            "source": "simulator_joint_state",
+            "detail": "",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "configuration_max_error": 0.0004884319905795464,
+            "configuration_max_speed": 0.009770671837031841
+          }
+        },
+        "evidence": {
+          "joint_limits:hand_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.1599999517202377,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.1599999517202377,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.009770671837031841",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_40a50a92f9f2421bbcc5d0bcf5154185",
+        "relation": null
+      },
+      {
+        "call_id": "5faf3f16b3194feda1bb9ff614c5fcfa",
+        "operation": "MOVE",
+        "status": "SUCCEEDED",
+        "timestamp": 2.579999942332506,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "simulator_body_state",
+            "detail": "",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "position_m": 0.0003395820342845226,
+            "orientation_rad": 0.003287803407708131,
+            "linear_speed_m_s": 0.009903722651337227,
+            "angular_speed_rad_s": 0.06603221642402522
+          }
+        },
+        "evidence": {
+          "joint_limits:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.05573412403464317",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_5faf3f16b3194feda1bb9ff614c5fcfa",
+        "relation": null
+      },
+      {
+        "call_id": "bbb2ac5619a14ed8b42304aa13a1014a",
+        "operation": "MOVE",
+        "status": "SUCCEEDED",
+        "timestamp": 2.579999942332506,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "simulator_body_state",
+            "detail": "",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "position_m": 0.00033926594808017985,
+            "orientation_rad": 0.0032870683935913025,
+            "linear_speed_m_s": 0.00987896039957783,
+            "angular_speed_rad_s": 0.06597377644747363
+          }
+        },
+        "evidence": {
+          "joint_limits:arm_b": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm_b": {
+            "truth": "SATISFIED",
+            "timestamp": 2.579999942332506,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.05572620406746864",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_bbb2ac5619a14ed8b42304aa13a1014a",
+        "relation": null
+      },
+      {
+        "call_id": "868db2b99b2e45d6b4fa291ad2ceb8c0",
+        "operation": "MOVE",
+        "status": "SUCCEEDED",
+        "timestamp": 2.899999935179949,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.899999935179949,
+            "source": "simulator_body_state",
+            "detail": "",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "position_m": 3.3292759122366147e-06,
+            "orientation_rad": 7.799558726118939e-06,
+            "linear_speed_m_s": 6.462723506712656e-05,
+            "angular_speed_rad_s": 0.00013732808849256184
+          }
+        },
+        "evidence": {
+          "joint_limits:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.899999935179949,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.899999935179949,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=7.236157398438081e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          }
+        },
+        "active_since": 2.6399999409914017,
+        "control_handle": "hold_868db2b99b2e45d6b4fa291ad2ceb8c0",
+        "relation": null
+      },
+      {
+        "call_id": "f73eb546eca24301a72c728e3a55d281",
+        "operation": "MOVE",
+        "status": "CANCELED",
+        "timestamp": 2.9999999329447746,
+        "reason": "CANCELED",
+        "detail": "Caller canceled; position control retained",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.9999999329447746,
+            "source": "simulator_body_state",
+            "detail": "",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "position_m": 2.7258359213444358e-06,
+            "orientation_rad": 5.9017628643470065e-06,
+            "linear_speed_m_s": 7.286495897399907e-05,
+            "angular_speed_rad_s": 0.00015022935933841323
+          }
+        },
+        "evidence": {
+          "joint_limits:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.9999999329447746,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm_a": {
+            "truth": "SATISFIED",
+            "timestamp": 2.9999999329447746,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=8.08814074844122e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          }
+        },
+        "active_since": 2.919999934732914,
+        "control_handle": "hold_f73eb546eca24301a72c728e3a55d281",
+        "relation": null
+      },
+      {
+        "call_id": "aa46113a160d4ac5a7d6ab614bf6c87a",
+        "operation": "SHAPE_HAND",
+        "status": "REJECTED",
+        "timestamp": 1.5199999660253525,
+        "reason": "RESOURCE_CONFLICT",
+        "detail": "Resources or coupling domain owned by 40a50a92f9f2421bbcc5d0bcf5154185",
+        "goal": null,
+        "evidence": {},
+        "active_since": null,
+        "control_handle": null,
+        "relation": null
+      },
+      {
+        "call_id": "0cdeb54e19584ba1aa33345bca269e36",
+        "operation": "CONTROL_GRASP",
+        "status": "REJECTED",
+        "timestamp": 1.5199999660253525,
+        "reason": "INVALID_ARGUMENT",
+        "detail": "CONTROL_GRASP requires GraspGoal",
+        "goal": null,
+        "evidence": {},
+        "active_since": null,
+        "control_handle": null,
+        "relation": null
+      }
+    ],
+    "control_handles": {
+      "hold_40a50a92f9f2421bbcc5d0bcf5154185": {
+        "owner": "40a50a92f9f2421bbcc5d0bcf5154185",
+        "state": "HOLDING_POSITION",
+        "created_at": 2.1599999517202377,
+        "expires_at": 17.159999951720238,
+        "resources": [
+          "2252351170960/joint/12",
+          "2252351170960/joint/13",
+          "2252351170960/joint/14",
+          "2252351170960/joint/15",
+          "2252351170960/joint/16",
+          "2252351170960/joint/17",
+          "2252351170960/joint/18",
+          "2252351170960/joint/19",
+          "2252351170960/joint/20",
+          "2252351170960/joint/21",
+          "2252351170960/joint/27",
+          "2252351170960/joint/28",
+          "2252351170960/joint/29",
+          "2252351170960/joint/30",
+          "2252351170960/joint/31",
+          "2252351170960/joint/37",
+          "2252351170960/joint/38",
+          "2252351170960/joint/39",
+          "2252351170960/joint/40",
+          "2252351170960/joint/41"
+        ],
+        "detail": "Position control retained; this does not certify a grasp"
+      },
+      "hold_bbb2ac5619a14ed8b42304aa13a1014a": {
+        "owner": "bbb2ac5619a14ed8b42304aa13a1014a",
+        "state": "HOLDING_POSITION",
+        "created_at": 2.579999942332506,
+        "expires_at": 12.579999942332506,
+        "resources": [
+          "2252351170960/joint/10",
+          "2252351170960/joint/11",
+          "2252351170960/joint/2",
+          "2252351170960/joint/4",
+          "2252351170960/joint/6",
+          "2252351170960/joint/8"
+        ],
+        "detail": "Position control retained; this does not certify a grasp"
+      },
+      "hold_f73eb546eca24301a72c728e3a55d281": {
+        "owner": "f73eb546eca24301a72c728e3a55d281",
+        "state": "HOLDING_POSITION",
+        "created_at": 2.9999999329447746,
+        "expires_at": 7.999999932944775,
+        "resources": [
+          "2252351170960/joint/0",
+          "2252351170960/joint/1",
+          "2252351170960/joint/3",
+          "2252351170960/joint/5",
+          "2252351170960/joint/7",
+          "2252351170960/joint/9"
+        ],
+        "detail": "Position control retained; this does not certify a grasp"
+      }
+    },
+    "rgb": {
+      "enabled": false,
+      "capture_count": 8,
+      "frames": {}
+    }
+  },
+  "rgb_before_disable": {
+    "enabled": true,
+    "capture_count": 8,
+    "frames": {
+      "overview": {
+        "timestamp": 2.939999934285879,
+        "age_s": 0.05999999865889549,
+        "valid": true,
+        "error": null,
+        "shape": [
+          240,
+          320,
+          3
+        ],
+        "encoding": "rgb8",
+        "intrinsic": [
+          [
+            244.33309936523438,
+            0.0,
+            160.0
+          ],
+          [
+            0.0,
+            244.33309936523438,
+            120.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_from_camera": [
+          [
+            -0.6509445309638977,
+            0.6597345471382141,
+            0.3755285143852234,
+            2.5
+          ],
+          [
+            0.6509446501731873,
+            0.7396125197410583,
+            -0.17100995779037476,
+            -2.0
+          ],
+          [
+            -0.39056676626205444,
+            0.13313028216362,
+            -0.9108973741531372,
+            2.299999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_model": "pinhole",
+        "distortion_coefficients": null,
+        "frame_convention": "Bench2Dex.CameraFrame"
+      },
+      "overhead": {
+        "timestamp": 2.939999934285879,
+        "age_s": 0.05999999865889549,
+        "valid": true,
+        "error": null,
+        "shape": [
+          240,
+          320,
+          3
+        ],
+        "encoding": "rgb8",
+        "intrinsic": [
+          [
+            152.70819091796875,
+            0.0,
+            160.0
+          ],
+          [
+            0.0,
+            152.70819091796875,
+            120.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "world_from_camera": [
+          [
+            0.0,
+            -1.0,
+            -2.9802322387695312e-08,
+            0.5
+          ],
+          [
+            -2.9802322387695312e-08,
+            0.0,
+            1.0,
+            0.10000000149011612
+          ],
+          [
+            -1.0,
+            2.9802322387695312e-08,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_model": "pinhole",
+        "distortion_coefficients": null,
+        "frame_convention": "Bench2Dex.CameraFrame"
+      }
+    }
+  },
+  "note": "Simulation truth is explicit. No tactile, hidden task labels or demonstration actions used.",
+  "source_sha256": {
+    "manipisa/__init__.py": "85196ab13bfef7cb8e70840d1b08e62b9d891eaf85c7b507280d5faad4c1b2cc",
+    "manipisa/adapters/__init__.py": "9784a93adb320996e30bc6cf4b8d17781cab249396998e88c2d7b93f3efdefae",
+    "manipisa/adapters/base.py": "72212fef04fd0671fa65dee3f87b2bc4a92c256efb7613d942931296086db5cd",
+    "manipisa/adapters/dual_ur5_wuji.py": "480bdacf148bf47b2cdf35ca823ac003aa2ff452d7ef8151072d8b1abd9bd82f",
+    "manipisa/adapters/interaction_control.py": "e42f4ba8cfde55481619dd22aefbab3f73dc0bd80b39c2309c98f9d29b40ca59",
+    "manipisa/adapters/isaaclab.py": "ae83b622e3a5858671af00fe32874ca9d2d8d28eedf8c386e251b414faf8dedb",
+    "manipisa/adapters/physx_contacts.py": "fc1f1bab16cd324e7546e312b5a2316496bfb30d59b37a06b37c5cc12e76292a",
+    "manipisa/evidence.py": "adb9433746322dc3fe79b2ac2674ea8e02cb3138f298784626e6c36b394d8f89",
+    "manipisa/interaction.py": "33df3c59361398a18d2686d349aeda038aeeb58c1d97bceb6fbddfd91aa6e782",
+    "manipisa/rgb.py": "70458c4d70c16ca0698d476a1b4eb02ef4c00eb7f455a370ffbe97ba7c8ca060",
+    "manipisa/runtime.py": "ea69c4a9335f0b5a2e0ad8f521e078160fdeecf9f3ada25f97d8f0a0eb406733",
+    "manipisa/types.py": "0063e9bc9d9bf9b9e4d8b355152264085878d8e549302f481d36d8af9281da64",
+    "examples/isaaclab_smoke.py": "462da15607ffcbea01ad6410066c60ea1baec1c4d28b49f371c34f311ad0813e"
+  }
+}

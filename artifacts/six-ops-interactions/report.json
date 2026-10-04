@@ -1,0 +1,1664 @@
+{
+  "passed": true,
+  "checks": {
+    "make_contact": true,
+    "grasp_reach": true,
+    "grasp_sustain_under_load": true,
+    "grasp_relation_returned": true,
+    "probe_contact": true,
+    "apply_wrench": true,
+    "physical_wrench_reference_point": true,
+    "break_contact": true,
+    "physical_gap_proven": true,
+    "reestablish_contact": true,
+    "overload_test_started_active": true,
+    "overload_fails_grasp": true,
+    "failure_remains_terminal": true
+  },
+  "results": {
+    "make_contact": {
+      "call_id": "b17557b03f8541c4bc3d1406a2633efb",
+      "operation": "MAKE_CONTACT",
+      "status": "SUCCEEDED",
+      "timestamp": 0.35499999206513166,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=True, normal_force=5.989727020263672, gap=-3.783896416413579e-06; right_contact: present=True, normal_force=5.989725112915039, gap=-7.891692446852783e-06",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {}
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=5.3702155128121376e-05",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.35499999206513166,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        }
+      },
+      "active_since": null,
+      "control_handle": "hold_b17557b03f8541c4bc3d1406a2633efb",
+      "relation": null
+    },
+    "grasp_reach": {
+      "call_id": "90c8a126d03c45728d67cfec564e5302",
+      "operation": "CONTROL_GRASP",
+      "status": "SUCCEEDED",
+      "timestamp": 0.40999999083578587,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=True, normal_force=5.989702224731445, gap=-3.777796163475372e-06; right_contact: present=True, normal_force=5.989702224731445, gap=-7.886382999557767e-06; Finite declared external load cases; measured preload budget",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {
+          "relative_linear_speed": 0.0005554460415111795,
+          "relative_angular_speed": 0.03121358677041382
+        }
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=5.429063457995653e-05",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        },
+        "grasp_relative_motion": {
+          "truth": "SATISFIED",
+          "timestamp": 0.40999999083578587,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "GRASP_INVALID"
+        }
+      },
+      "active_since": null,
+      "control_handle": "hold_90c8a126d03c45728d67cfec564e5302",
+      "relation": {
+        "object_frame": "object",
+        "reference_frame": "grip_frame",
+        "contacts": [
+          "left_contact",
+          "right_contact"
+        ],
+        "load_cases_world_at_object_origin": [
+          [
+            0.0,
+            0.0,
+            -0.2,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "friction_coefficient": 0.5,
+        "model": "quasistatic_inner_friction_pyramid",
+        "timestamp": 0.40999999083578587,
+        "valid_at_timestamp_only": true,
+        "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+      }
+    },
+    "grasp_sustain_under_load": {
+      "call_id": "f72b1dd52cda46f19e52632c4e0d5667",
+      "operation": "CONTROL_GRASP",
+      "status": "SUCCEEDED",
+      "timestamp": 0.7699999827891588,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=True, normal_force=5.989715576171875, gap=-3.766074309685674e-06; right_contact: present=True, normal_force=5.989718914031982, gap=-7.878176342790422e-06; Finite declared external load cases; measured preload budget",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {
+          "relative_linear_speed": 0.0005618449523277444,
+          "relative_angular_speed": 0.031094736125679763
+        }
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=5.38435997441411e-05",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        },
+        "grasp_relative_motion": {
+          "truth": "SATISFIED",
+          "timestamp": 0.7699999827891588,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "GRASP_INVALID"
+        }
+      },
+      "active_since": 0.46499998960644007,
+      "control_handle": "hold_f72b1dd52cda46f19e52632c4e0d5667",
+      "relation": {
+        "object_frame": "object",
+        "reference_frame": "grip_frame",
+        "contacts": [
+          "left_contact",
+          "right_contact"
+        ],
+        "load_cases_world_at_object_origin": [
+          [
+            0.0,
+            0.0,
+            -0.2,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "friction_coefficient": 0.5,
+        "model": "quasistatic_inner_friction_pyramid",
+        "timestamp": 0.7699999827891588,
+        "valid_at_timestamp_only": true,
+        "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+      }
+    },
+    "probe_contact": {
+      "call_id": "8e4c2584d12d40cc8e860f1f6d2da4fb",
+      "operation": "MAKE_CONTACT",
+      "status": "SUCCEEDED",
+      "timestamp": 0.9849999779835343,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 0.9849999779835343,
+          "source": "interaction_evidence",
+          "detail": "press: present=True, normal_force=7.416621685028076, gap=1.3828277589666982e-07",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {}
+      },
+      "evidence": {
+        "joint_limits:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 0.9849999779835343,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 0.9849999779835343,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=0.0",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:press": {
+          "truth": "SATISFIED",
+          "timestamp": 0.9849999779835343,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "acquisition:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 0.9849999779835343,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        }
+      },
+      "active_since": null,
+      "control_handle": "hold_8e4c2584d12d40cc8e860f1f6d2da4fb",
+      "relation": null
+    },
+    "apply_wrench": {
+      "call_id": "776534bb89ad4806a156557e0eb3c7cc",
+      "operation": "APPLY_WRENCH",
+      "status": "SUCCEEDED",
+      "timestamp": 1.7949999598786235,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "interaction_evidence",
+          "detail": "press: present=True, normal_force=2.055246591567993, gap=1.907348634588857e-08",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {
+          "wrench_error_0": 0.055246591567993164
+        }
+      },
+      "evidence": {
+        "joint_limits:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=0.0",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:press": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:press": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "acquisition:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 1.7949999598786235,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        }
+      },
+      "active_since": 1.5899999644607306,
+      "control_handle": "hold_776534bb89ad4806a156557e0eb3c7cc",
+      "relation": null
+    },
+    "break_contact": {
+      "call_id": "86afbd9f93874bebb8f9e0e0e1f7db60",
+      "operation": "BREAK_CONTACT",
+      "status": "SUCCEEDED",
+      "timestamp": 1.9099999573081732,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=False, normal_force=0.0, gap=0.0057446002634419235; right_contact: present=False, normal_force=0.0, gap=0.005747850026936674",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {}
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=0.011126152239739895",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 1.9099999573081732,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        }
+      },
+      "active_since": null,
+      "control_handle": "hold_86afbd9f93874bebb8f9e0e0e1f7db60",
+      "relation": null
+    },
+    "reestablish_contact": {
+      "call_id": "85b3ecc8e3f7460eaa265ae4e5fb2f54",
+      "operation": "MAKE_CONTACT",
+      "status": "SUCCEEDED",
+      "timestamp": 2.029999954625964,
+      "reason": null,
+      "detail": "",
+      "goal": {
+        "evidence": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=True, normal_force=5.9897050857543945, gap=-3.779044519352376e-06; right_contact: present=True, normal_force=5.989703178405762, gap=-7.886790982330333e-06",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {}
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=5.2936957217752934e-05",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.029999954625964,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        }
+      },
+      "active_since": null,
+      "control_handle": "hold_85b3ecc8e3f7460eaa265ae4e5fb2f54",
+      "relation": null
+    },
+    "overload_expected_failure": {
+      "call_id": "e32b0f61eda24d8895ce7f6344ea412e",
+      "operation": "CONTROL_GRASP",
+      "status": "FAILED",
+      "timestamp": 2.0899999532848597,
+      "reason": "GRASP_INVALID",
+      "detail": "Active SUSTAIN target was lost",
+      "goal": {
+        "evidence": {
+          "truth": "VIOLATED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_evidence",
+          "detail": "left_contact: present=True, normal_force=5.957303524017334, gap=-9.050899383519079e-06; right_contact: present=True, normal_force=5.999082088470459, gap=-1.3193679582409329e-05; Finite declared external load cases; measured preload budget",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "errors": {
+          "relative_linear_speed": 0.4026614531317804,
+          "relative_angular_speed": 0.35137506422422704
+        }
+      },
+      "evidence": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_speed:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "simulator_joint_state",
+          "detail": "Observed max joint speed=0.002120481338351965",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "force_limit:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:left_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "force_limit:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "FORCE_LIMIT"
+        },
+        "keep_contact:right_contact": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "CONTACT_LOST"
+        },
+        "acquisition:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "ACQUISITION_LIMIT"
+        },
+        "grasp_relative_motion": {
+          "truth": "SATISFIED",
+          "timestamp": 2.0899999532848597,
+          "source": "interaction_monitor",
+          "detail": "",
+          "failure_reason": "GRASP_INVALID"
+        }
+      },
+      "active_since": 2.0849999533966184,
+      "control_handle": "hold_e32b0f61eda24d8895ce7f6344ea412e",
+      "relation": {
+        "object_frame": "object",
+        "reference_frame": "grip_frame",
+        "contacts": [
+          "left_contact",
+          "right_contact"
+        ],
+        "load_cases_world_at_object_origin": [
+          [
+            0.0,
+            0.0,
+            -0.2,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "friction_coefficient": 0.5,
+        "model": "quasistatic_inner_friction_pyramid",
+        "timestamp": 2.0849999533966184,
+        "valid_at_timestamp_only": true,
+        "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+      }
+    }
+  },
+  "feedback": {
+    "state": {
+      "timestamp": 2.109999952837825,
+      "env_id": 0,
+      "joints": {
+        "hand": {
+          "position": [
+            0.010005084797739983,
+            -0.010005027987062931
+          ],
+          "velocity": [
+            -0.0005654165870510042,
+            -7.830210961401463e-06
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "left_joint",
+            "right_joint"
+          ]
+        },
+        "arm": {
+          "position": [
+            0.02000001259148121
+          ],
+          "velocity": [
+            0.0
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_joint_state",
+          "coordinate_names": [
+            "tip_joint"
+          ]
+        }
+      },
+      "frames": {
+        "grip_frame": {
+          "position": [
+            0.0,
+            0.0,
+            0.6000000238418579
+          ],
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_body_state"
+        },
+        "probe_frame": {
+          "position": [
+            1.0199999809265137,
+            0.0,
+            0.6000000238418579
+          ],
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_body_state"
+        },
+        "object": {
+          "position": [
+            1.9329665974510135e-06,
+            1.9813803930901486e-08,
+            0.5960860252380371
+          ],
+          "orientation_wxyz": [
+            0.9999999403953552,
+            1.6497622709721327e-05,
+            4.8579793656244874e-05,
+            -1.127419409385766e-06
+          ],
+          "linear_velocity": [
+            0.0005494467914104462,
+            0.0005762545624747872,
+            -0.0007991106249392033
+          ],
+          "angular_velocity": [
+            -0.0024072336964309216,
+            0.2603134512901306,
+            0.05473647639155388
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_entity_state"
+        },
+        "surface": {
+          "position": [
+            1.059999942779541,
+            0.0,
+            0.6000000238418579
+          ],
+          "orientation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "timestamp": 2.109999952837825,
+          "valid": true,
+          "source": "simulator_entity_state"
+        }
+      },
+      "predicates": {
+        "joint_limits:hand": {
+          "truth": "SATISFIED",
+          "timestamp": 2.109999952837825,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        },
+        "joint_limits:arm": {
+          "truth": "SATISFIED",
+          "timestamp": 2.109999952837825,
+          "source": "IsaacLab.Articulation",
+          "detail": "Observed joint positions against physical limits",
+          "failure_reason": "CONSTRAINT_VIOLATED"
+        }
+      },
+      "state_source": "simulation_privileged",
+      "contacts": {
+        "left_contact": {
+          "actor": "hand",
+          "target": "object",
+          "timestamp": 2.109999952837825,
+          "present": true,
+          "normal_force": 6.004509449005127,
+          "force_on_target_w": [
+            6.004509449005127,
+            0.29208165407180786,
+            2.625821828842163
+          ],
+          "torque_on_target_world_origin_w": [
+            -0.1727529913187027,
+            3.5544798374176025,
+            -0.009903047233819962
+          ],
+          "points": [
+            {
+              "position_w": [
+                -0.020000141113996506,
+                -0.019999241456389427,
+                0.5760874152183533
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 2.900815725326538
+            },
+            {
+              "position_w": [
+                -0.019999898970127106,
+                0.0200007576495409,
+                0.5760887265205383
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 2.032701015472412
+            },
+            {
+              "position_w": [
+                -0.019995559006929398,
+                0.019999438896775246,
+                0.6160887479782104
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 1.0709930658340454
+            },
+            {
+              "position_w": [
+                -0.019995801150798798,
+                -0.020000560209155083,
+                0.6160874366760254
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 0.0
+            }
+          ],
+          "separation_m": -5.13990763540903e-06,
+          "valid": true,
+          "wrench_valid": true,
+          "source": "PhysX.raw_contact_and_friction_patches",
+          "detail": ""
+        },
+        "right_contact": {
+          "actor": "hand",
+          "target": "object",
+          "timestamp": 2.109999952837825,
+          "present": true,
+          "normal_force": 5.987571716308594,
+          "force_on_target_w": [
+            -5.987571716308594,
+            -0.2880301773548126,
+            -2.633511543273926
+          ],
+          "torque_on_target_world_origin_w": [
+            0.17033354938030243,
+            -3.5440433025360107,
+            0.010158618912100792
+          ],
+          "points": [
+            {
+              "position_w": [
+                0.019999857991933823,
+                -0.019999483600258827,
+                0.5760830640792847
+              ],
+              "normal_on_target_w": [
+                -1.0,
+                -0.0,
+                -0.0
+              ],
+              "normal_force": 1.427215576171875
+            },
+            {
+              "position_w": [
+                0.020000100135803223,
+                0.0200005155056715,
+                0.5760843753814697
+              ],
+              "normal_on_target_w": [
+                -1.0,
+                -0.0,
+                -0.0
+              ],
+              "normal_force": 0.8760117888450623
+            },
+            {
+              "position_w": [
+                0.02000444009900093,
+                0.019999196752905846,
+                0.6160843968391418
+              ],
+              "normal_on_target_w": [
+                -1.0,
+                -0.0,
+                -0.0
+              ],
+              "normal_force": 2.5157828330993652
+            },
+            {
+              "position_w": [
+                0.02000419795513153,
+                -0.020000802353024483,
+                0.6160830855369568
+              ],
+              "normal_on_target_w": [
+                -1.0,
+                -0.0,
+                -0.0
+              ],
+              "normal_force": 1.168561577796936
+            }
+          ],
+          "separation_m": -8.948098830684897e-06,
+          "valid": true,
+          "wrench_valid": true,
+          "source": "PhysX.raw_contact_and_friction_patches",
+          "detail": ""
+        },
+        "press": {
+          "actor": "arm",
+          "target": "surface",
+          "timestamp": 2.109999952837825,
+          "present": true,
+          "normal_force": 2.055246591567993,
+          "force_on_target_w": [
+            2.055246591567993,
+            0.0,
+            0.0
+          ],
+          "torque_on_target_world_origin_w": [
+            0.0,
+            1.1920920610427856,
+            0.039100971072912216
+          ],
+          "points": [
+            {
+              "position_w": [
+                1.0399998426437378,
+                -0.019999999552965164,
+                0.5800000429153442
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 2.0051186084747314
+            },
+            {
+              "position_w": [
+                1.0399998426437378,
+                0.019999999552965164,
+                0.5800000429153442
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 0.04890615865588188
+            },
+            {
+              "position_w": [
+                1.0399998426437378,
+                0.019999999552965164,
+                0.6200000047683716
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 0.0011928142048418522
+            },
+            {
+              "position_w": [
+                1.0399998426437378,
+                -0.019999999552965164,
+                0.6200000047683716
+              ],
+              "normal_on_target_w": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "normal_force": 2.9094355340930633e-05
+            }
+          ],
+          "separation_m": 1.907348634588857e-08,
+          "valid": true,
+          "wrench_valid": true,
+          "source": "PhysX.raw_contact_and_friction_patches",
+          "detail": ""
+        }
+      }
+    },
+    "state_valid": true,
+    "state_error": null,
+    "instructions": [
+      {
+        "call_id": "b17557b03f8541c4bc3d1406a2633efb",
+        "operation": "MAKE_CONTACT",
+        "status": "SUCCEEDED",
+        "timestamp": 0.35499999206513166,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=True, normal_force=5.989727020263672, gap=-3.783896416413579e-06; right_contact: present=True, normal_force=5.989725112915039, gap=-7.891692446852783e-06",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {}
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=5.3702155128121376e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.35499999206513166,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_b17557b03f8541c4bc3d1406a2633efb",
+        "relation": null
+      },
+      {
+        "call_id": "90c8a126d03c45728d67cfec564e5302",
+        "operation": "CONTROL_GRASP",
+        "status": "SUCCEEDED",
+        "timestamp": 0.40999999083578587,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=True, normal_force=5.989702224731445, gap=-3.777796163475372e-06; right_contact: present=True, normal_force=5.989702224731445, gap=-7.886382999557767e-06; Finite declared external load cases; measured preload budget",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "relative_linear_speed": 0.0005554460415111795,
+            "relative_angular_speed": 0.03121358677041382
+          }
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=5.429063457995653e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          },
+          "grasp_relative_motion": {
+            "truth": "SATISFIED",
+            "timestamp": 0.40999999083578587,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "GRASP_INVALID"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_90c8a126d03c45728d67cfec564e5302",
+        "relation": {
+          "object_frame": "object",
+          "reference_frame": "grip_frame",
+          "contacts": [
+            "left_contact",
+            "right_contact"
+          ],
+          "load_cases_world_at_object_origin": [
+            [
+              0.0,
+              0.0,
+              -0.2,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "friction_coefficient": 0.5,
+          "model": "quasistatic_inner_friction_pyramid",
+          "timestamp": 0.40999999083578587,
+          "valid_at_timestamp_only": true,
+          "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+        }
+      },
+      {
+        "call_id": "f72b1dd52cda46f19e52632c4e0d5667",
+        "operation": "CONTROL_GRASP",
+        "status": "SUCCEEDED",
+        "timestamp": 0.7699999827891588,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=True, normal_force=5.989715576171875, gap=-3.766074309685674e-06; right_contact: present=True, normal_force=5.989718914031982, gap=-7.878176342790422e-06; Finite declared external load cases; measured preload budget",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "relative_linear_speed": 0.0005618449523277444,
+            "relative_angular_speed": 0.031094736125679763
+          }
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=5.38435997441411e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          },
+          "grasp_relative_motion": {
+            "truth": "SATISFIED",
+            "timestamp": 0.7699999827891588,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "GRASP_INVALID"
+          }
+        },
+        "active_since": 0.46499998960644007,
+        "control_handle": "hold_f72b1dd52cda46f19e52632c4e0d5667",
+        "relation": {
+          "object_frame": "object",
+          "reference_frame": "grip_frame",
+          "contacts": [
+            "left_contact",
+            "right_contact"
+          ],
+          "load_cases_world_at_object_origin": [
+            [
+              0.0,
+              0.0,
+              -0.2,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "friction_coefficient": 0.5,
+          "model": "quasistatic_inner_friction_pyramid",
+          "timestamp": 0.7699999827891588,
+          "valid_at_timestamp_only": true,
+          "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+        }
+      },
+      {
+        "call_id": "8e4c2584d12d40cc8e860f1f6d2da4fb",
+        "operation": "MAKE_CONTACT",
+        "status": "SUCCEEDED",
+        "timestamp": 0.9849999779835343,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 0.9849999779835343,
+            "source": "interaction_evidence",
+            "detail": "press: present=True, normal_force=7.416621685028076, gap=1.3828277589666982e-07",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {}
+        },
+        "evidence": {
+          "joint_limits:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 0.9849999779835343,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 0.9849999779835343,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.0",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:press": {
+            "truth": "SATISFIED",
+            "timestamp": 0.9849999779835343,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "acquisition:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 0.9849999779835343,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_8e4c2584d12d40cc8e860f1f6d2da4fb",
+        "relation": null
+      },
+      {
+        "call_id": "776534bb89ad4806a156557e0eb3c7cc",
+        "operation": "APPLY_WRENCH",
+        "status": "SUCCEEDED",
+        "timestamp": 1.7949999598786235,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "interaction_evidence",
+            "detail": "press: present=True, normal_force=2.055246591567993, gap=1.907348634588857e-08",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "wrench_error_0": 0.055246591567993164
+          }
+        },
+        "evidence": {
+          "joint_limits:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.0",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:press": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:press": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "acquisition:arm": {
+            "truth": "SATISFIED",
+            "timestamp": 1.7949999598786235,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          }
+        },
+        "active_since": 1.5899999644607306,
+        "control_handle": "hold_776534bb89ad4806a156557e0eb3c7cc",
+        "relation": null
+      },
+      {
+        "call_id": "86afbd9f93874bebb8f9e0e0e1f7db60",
+        "operation": "BREAK_CONTACT",
+        "status": "SUCCEEDED",
+        "timestamp": 1.9099999573081732,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=False, normal_force=0.0, gap=0.0057446002634419235; right_contact: present=False, normal_force=0.0, gap=0.005747850026936674",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {}
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.011126152239739895",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 1.9099999573081732,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_86afbd9f93874bebb8f9e0e0e1f7db60",
+        "relation": null
+      },
+      {
+        "call_id": "85b3ecc8e3f7460eaa265ae4e5fb2f54",
+        "operation": "MAKE_CONTACT",
+        "status": "SUCCEEDED",
+        "timestamp": 2.029999954625964,
+        "reason": null,
+        "detail": "",
+        "goal": {
+          "evidence": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=True, normal_force=5.9897050857543945, gap=-3.779044519352376e-06; right_contact: present=True, normal_force=5.989703178405762, gap=-7.886790982330333e-06",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {}
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=5.2936957217752934e-05",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.029999954625964,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          }
+        },
+        "active_since": null,
+        "control_handle": "hold_85b3ecc8e3f7460eaa265ae4e5fb2f54",
+        "relation": null
+      },
+      {
+        "call_id": "e32b0f61eda24d8895ce7f6344ea412e",
+        "operation": "CONTROL_GRASP",
+        "status": "FAILED",
+        "timestamp": 2.0899999532848597,
+        "reason": "GRASP_INVALID",
+        "detail": "Active SUSTAIN target was lost",
+        "goal": {
+          "evidence": {
+            "truth": "VIOLATED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_evidence",
+            "detail": "left_contact: present=True, normal_force=5.957303524017334, gap=-9.050899383519079e-06; right_contact: present=True, normal_force=5.999082088470459, gap=-1.3193679582409329e-05; Finite declared external load cases; measured preload budget",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "errors": {
+            "relative_linear_speed": 0.4026614531317804,
+            "relative_angular_speed": 0.35137506422422704
+          }
+        },
+        "evidence": {
+          "joint_limits:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "IsaacLab.Articulation",
+            "detail": "Observed joint positions against physical limits",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "joint_speed:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "simulator_joint_state",
+            "detail": "Observed max joint speed=0.002120481338351965",
+            "failure_reason": "CONSTRAINT_VIOLATED"
+          },
+          "force_limit:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:left_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "force_limit:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "FORCE_LIMIT"
+          },
+          "keep_contact:right_contact": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "CONTACT_LOST"
+          },
+          "acquisition:hand": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "ACQUISITION_LIMIT"
+          },
+          "grasp_relative_motion": {
+            "truth": "SATISFIED",
+            "timestamp": 2.0899999532848597,
+            "source": "interaction_monitor",
+            "detail": "",
+            "failure_reason": "GRASP_INVALID"
+          }
+        },
+        "active_since": 2.0849999533966184,
+        "control_handle": "hold_e32b0f61eda24d8895ce7f6344ea412e",
+        "relation": {
+          "object_frame": "object",
+          "reference_frame": "grip_frame",
+          "contacts": [
+            "left_contact",
+            "right_contact"
+          ],
+          "load_cases_world_at_object_origin": [
+            [
+              0.0,
+              0.0,
+              -0.2,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "friction_coefficient": 0.5,
+          "model": "quasistatic_inner_friction_pyramid",
+          "timestamp": 2.0849999533966184,
+          "valid_at_timestamp_only": true,
+          "scope": "Declared finite loads under rigid point-contact/controllable preload assumptions; not dynamic force closure"
+        }
+      }
+    ],
+    "control_handles": {
+      "hold_776534bb89ad4806a156557e0eb3c7cc": {
+        "owner": "776534bb89ad4806a156557e0eb3c7cc",
+        "state": "HOLDING_POSITION",
+        "created_at": 1.7949999598786235,
+        "expires_at": 31.794999959878623,
+        "resources": [
+          "2491803812816/joint/0",
+          "contact//World/Probe/tip|/World/Target"
+        ],
+        "detail": "Last bounded position targets retained; no continuing grasp or wrench certification"
+      },
+      "hold_e32b0f61eda24d8895ce7f6344ea412e": {
+        "owner": "e32b0f61eda24d8895ce7f6344ea412e",
+        "state": "HOLDING_POSITION",
+        "created_at": 2.0899999532848597,
+        "expires_at": 32.08999995328486,
+        "resources": [
+          "2491804518864/joint/0",
+          "2491804518864/joint/1",
+          "contact//World/Grip/left|/World/Object",
+          "contact//World/Grip/right|/World/Object"
+        ],
+        "detail": "Last bounded position targets retained; no continuing grasp or wrench certification"
+      }
+    },
+    "rgb": {
+      "enabled": false,
+      "frames": {}
+    }
+  },
+  "scope": "Isaac Lab physical acceptance fixture, actual contact/friction and free object; not a Wuji grasp or Bench2Dex score",
+  "physics_dt": 0.005,
+  "measured_wrench_before_release": [
+    2.055246591567993,
+    0.0,
+    0.0,
+    0.0,
+    -0.04105594289890746,
+    0.039100971072912216
+  ],
+  "source_sha256": {
+    "manipisa\\__init__.py": "85196ab13bfef7cb8e70840d1b08e62b9d891eaf85c7b507280d5faad4c1b2cc",
+    "manipisa\\adapters\\__init__.py": "c7d2d462b59e147073475813a7f30e27e9e2f09e4cde162bf3a45f01904516de",
+    "manipisa\\adapters\\base.py": "72212fef04fd0671fa65dee3f87b2bc4a92c256efb7613d942931296086db5cd",
+    "manipisa\\adapters\\interaction_control.py": "e42f4ba8cfde55481619dd22aefbab3f73dc0bd80b39c2309c98f9d29b40ca59",
+    "manipisa\\adapters\\isaaclab.py": "ae83b622e3a5858671af00fe32874ca9d2d8d28eedf8c386e251b414faf8dedb",
+    "manipisa\\adapters\\physx_contacts.py": "fc1f1bab16cd324e7546e312b5a2316496bfb30d59b37a06b37c5cc12e76292a",
+    "manipisa\\evidence.py": "adb9433746322dc3fe79b2ac2674ea8e02cb3138f298784626e6c36b394d8f89",
+    "manipisa\\interaction.py": "33df3c59361398a18d2686d349aeda038aeeb58c1d97bceb6fbddfd91aa6e782",
+    "manipisa\\rgb.py": "70458c4d70c16ca0698d476a1b4eb02ef4c00eb7f455a370ffbe97ba7c8ca060",
+    "manipisa\\runtime.py": "ea69c4a9335f0b5a2e0ad8f521e078160fdeecf9f3ada25f97d8f0a0eb406733",
+    "manipisa\\types.py": "0063e9bc9d9bf9b9e4d8b355152264085878d8e549302f481d36d8af9281da64",
+    "examples\\isaaclab_interaction_smoke.py": "f6b0318858d75c9c36063e2d68bde895217e3cd82c4be0603fc18e46ee38a3d8"
+  }
+}

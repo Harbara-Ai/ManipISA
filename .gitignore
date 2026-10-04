@@ -1,0 +1,36 @@
+# Local Python / simulator environments
+.runtime/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# External source, assets and demonstrations
+/Bench2Dex/
+/IsaacLab/
+/dex2bench_dataset/
+/teleopdata/
+
+# New runs stay local; selected historical validation evidence is tracked.
+/artifacts/
+/reproduction/runs/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

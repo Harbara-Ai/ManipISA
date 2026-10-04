@@ -1,0 +1,21 @@
+{
+  "frame_count": 916,
+  "robot_key": "multi_ur5_wuji_with_flange",
+  "action_dim": 52,
+  "action_type": "absolute",
+  "effective_fps": 20.0,
+  "step_stride": 3,
+  "homing_start_sim_step": 10943,
+  "success": true,
+  "collection_mode": "scripted_hold",
+  "demo_eligible": false,
+  "moving_joint_count": 52,
+  "joint_names_unique": true,
+  "qpos_finite": true,
+  "source_sha256": "89df79b50089a838530b2ceb6f834cc46bb2327e888db400d98eab4d3feefb9e",
+  "upstream_eval_frame": 908,
+  "upstream_success_at_eval_frame": true,
+  "upstream_stable_success_recomputed": true,
+  "scope": "Official recorded trajectory validation; not a policy rollout or dynamic control success rate.",
+  "metadata_caveat": "Current upstream collector/data_collector.py hard-codes collection_mode=scripted_hold and demo_eligible=False at lines 701-723. These fields alone do not establish actual collection provenance or training eligibility."
+}

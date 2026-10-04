@@ -1,0 +1,6 @@
+{
+  "scope": "Default wrist TCP versus saved pre-refactor UR5+Wuji trajectory; new palm observations are additional",
+  "common_steps": 148,
+  "maximum_absolute_difference": 0.0,
+  "passed": true
+}

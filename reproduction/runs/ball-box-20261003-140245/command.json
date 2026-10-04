@@ -1,0 +1,20 @@
+{
+  "python": "I:\\.runtime\\env\\Scripts\\python.exe",
+  "cwd": "I:\\Bench2Dex",
+  "arguments": [
+    "replay.py",
+    "--hdf5",
+    "../teleopdata/dataset/27_ball_box_loading/origin-generalization/episode_000000.hdf5",
+    "--scene",
+    "scenes/27_ball_box_loading.yaml",
+    "--restore-generalization",
+    "--enable-rgb",
+    "--enable-tactile",
+    "--output",
+    "I:\\reproduction\\runs\\ball-box-20261003-140245\\episode_000000.hdf5",
+    "--save-sample-frames",
+    "I:\\reproduction\\runs\\ball-box-20261003-140245\\samples",
+    "--headless"
+  ],
+  "startedAt": "2026-10-03T14:02:45.5712919+08:00"
+}

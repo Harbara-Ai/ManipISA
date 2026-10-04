@@ -1,0 +1,312 @@
+{
+  "output": "D:\\yl\\embodied ai\\ManipISA\\reproduction\\runs\\ball-box-20261003-140245\\episode_000000.hdf5",
+  "scope": "Kinematic replay with official RGB and TacMap capture, not learned policy evaluation.",
+  "frames": 916,
+  "qpos_identical_to_source": true,
+  "object_poses_identical_to_source": true,
+  "cameras": {
+    "cam_chest": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 54.94289989299923,
+          "mean": 159.2353927951389
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 56.03976751651564,
+          "mean": 146.9659375
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 53.58077546700192,
+          "mean": 155.98962890625
+        }
+      ]
+    },
+    "cam_overhead": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 49.225329629329885,
+          "mean": 168.03132161458333
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 48.56291366410087,
+          "mean": 166.66327473958333
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 49.54366711259703,
+          "mean": 168.19558159722223
+        }
+      ]
+    },
+    "cam_stereo_left": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 60.14944172329078,
+          "mean": 141.6249435763889
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 59.25495547842217,
+          "mean": 136.7651150173611
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 60.048283863524574,
+          "mean": 141.6115625
+        }
+      ]
+    },
+    "cam_stereo_right": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 60.070771679463014,
+          "mean": 141.84760850694445
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 60.269176121440985,
+          "mean": 140.33598090277778
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 60.038853678386026,
+          "mean": 141.59087456597223
+        }
+      ]
+    },
+    "cam_wrist_left": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 69.53072919608962,
+          "mean": 64.88607204861111
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 71.53616334923923,
+          "mean": 70.78156684027778
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 69.44585986788526,
+          "mean": 65.12688042534722
+        }
+      ]
+    },
+    "cam_wrist_right": {
+      "frames": 916,
+      "samples": [
+        {
+          "frame": 0,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 71.32758355829374,
+          "mean": 66.79878797743055
+        },
+        {
+          "frame": 458,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 75.38283888060737,
+          "mean": 75.16332682291667
+        },
+        {
+          "frame": 915,
+          "shape": [
+            480,
+            640,
+            3
+          ],
+          "std": 73.62853962340525,
+          "mean": 69.43043619791666
+        }
+      ]
+    }
+  },
+  "tactile": {
+    "left_index_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 150,
+      "max": 30
+    },
+    "left_little_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 2685593,
+      "max": 255
+    },
+    "left_middle_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 261738,
+      "max": 255
+    },
+    "left_ring_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 383323,
+      "max": 255
+    },
+    "left_thumb_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 2962001,
+      "max": 255
+    },
+    "right_index_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 1115402,
+      "max": 255
+    },
+    "right_little_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 613549,
+      "max": 255
+    },
+    "right_middle_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 844053,
+      "max": 255
+    },
+    "right_ring_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 2143302,
+      "max": 255
+    },
+    "right_thumb_J4": {
+      "shape": [
+        916,
+        240,
+        240
+      ],
+      "nonzero_values": 59757,
+      "max": 252
+    }
+  },
+  "validation_passed": true
+}

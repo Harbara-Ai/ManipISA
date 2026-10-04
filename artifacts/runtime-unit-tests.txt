@@ -1,0 +1,35 @@
+test_disabled_channel_never_captures_and_clears_cached_pixels (test_runtime.RGBTests.test_disabled_channel_never_captures_and_clears_cached_pixels) ... ok
+test_missing_frames_are_invalid_not_black_success (test_runtime.RGBTests.test_missing_frames_are_invalid_not_black_success) ... ok
+test_render_failure_does_not_change_instruction_result (test_runtime.RGBTests.test_render_failure_does_not_change_instruction_result) ... ok
+test_rgb_on_off_preserves_structured_control_trajectory (test_runtime.RGBTests.test_rgb_on_off_preserves_structured_control_trajectory) ... ok
+test_sampling_timestamp_calibration_and_staleness (test_runtime.RGBTests.test_sampling_timestamp_calibration_and_staleness) ... ok
+test_activation_constraints_are_not_checked_as_entry_conditions (test_runtime.RuntimeTests.test_activation_constraints_are_not_checked_as_entry_conditions) ... ok
+test_active_goal_loss_fails (test_runtime.RuntimeTests.test_active_goal_loss_fails) ... ok
+test_actual_joint_speed_violation_is_detected (test_runtime.RuntimeTests.test_actual_joint_speed_violation_is_detected) ... ok
+test_alias_cannot_overwrite_resource (test_runtime.RuntimeTests.test_alias_cannot_overwrite_resource) ... ok
+test_backend_observation_failure_marks_active_calls_failed (test_runtime.RuntimeTests.test_backend_observation_failure_marks_active_calls_failed) ... ok
+test_cached_observation_does_not_accumulate_dwell (test_runtime.RuntimeTests.test_cached_observation_does_not_accumulate_dwell) ... ok
+test_cancel_retains_ownership_and_explicit_handoff (test_runtime.RuntimeTests.test_cancel_retains_ownership_and_explicit_handoff) ... ok
+test_coupling_conflict_without_shared_joint (test_runtime.RuntimeTests.test_coupling_conflict_without_shared_joint) ... ok
+test_entry_rechecked_after_prepare (test_runtime.RuntimeTests.test_entry_rechecked_after_prepare) ... ok
+test_entry_rechecked_before_first_control_tick (test_runtime.RuntimeTests.test_entry_rechecked_before_first_control_tick) ... ok
+test_environment_and_entity_control_rejected (test_runtime.RuntimeTests.test_environment_and_entity_control_rejected) ... ok
+test_failed_continuation_cannot_report_success (test_runtime.RuntimeTests.test_failed_continuation_cannot_report_success) ... ok
+test_failed_handoff_preserves_old_owner (test_runtime.RuntimeTests.test_failed_handoff_preserves_old_owner) ... ok
+test_hold_expiration_remains_visible_and_owned (test_runtime.RuntimeTests.test_hold_expiration_remains_visible_and_owned) ... ok
+test_invalid_nan_and_negative_tolerance_rejected (test_runtime.RuntimeTests.test_invalid_nan_and_negative_tolerance_rejected) ... ok
+test_json_feedback_has_no_evaluator_scores (test_runtime.RuntimeTests.test_json_feedback_has_no_evaluator_scores) ... ok
+test_missing_observation_fails_and_does_not_recover (test_runtime.RuntimeTests.test_missing_observation_fails_and_does_not_recover) ... ok
+test_reach_waits_for_real_observation_speed_and_dwell (test_runtime.RuntimeTests.test_reach_waits_for_real_observation_speed_and_dwell) ... ok
+test_stale_or_future_observation_rejected (test_runtime.RuntimeTests.test_stale_or_future_observation_rejected) ... ok
+test_sustain_is_active_before_completion (test_runtime.RuntimeTests.test_sustain_is_active_before_completion) ... ok
+test_timeout_and_activation_timeout (test_runtime.RuntimeTests.test_timeout_and_activation_timeout) ... ok
+test_unknown_entry_rejected_without_actuation (test_runtime.RuntimeTests.test_unknown_entry_rejected_without_actuation) ... ok
+test_unsupported_opcodes_do_not_move (test_runtime.RuntimeTests.test_unsupported_opcodes_do_not_move) ... ok
+test_update_preserves_time_budget_and_rejects_obligation_changes (test_runtime.RuntimeTests.test_update_preserves_time_budget_and_rejects_obligation_changes) ... ok
+test_violation_latches_even_if_state_recovers (test_runtime.RuntimeTests.test_violation_latches_even_if_state_recovers) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.012s
+
+OK

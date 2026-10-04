@@ -1,0 +1,42 @@
+{
+  "scope": "One paired UR5+Wuji free-space run; not a task success score",
+  "trace_lengths": [
+    148,
+    152
+  ],
+  "common_physics_steps": 148,
+  "source_hashes_match_current_code": true,
+  "instruction_outcomes_match": true,
+  "both_runs_passed": true,
+  "metrics": {
+    "simulation_time_s": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "joints_position": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "joints_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frames_position": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frames_orientation_wxyz": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frames_linear_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frames_angular_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    }
+  },
+  "paired_check_passed": true
+}

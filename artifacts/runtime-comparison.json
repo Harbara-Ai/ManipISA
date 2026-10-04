@@ -1,0 +1,45 @@
+{
+  "scope": "One paired free-space physical smoke; not task success-rate or general robustness evidence",
+  "atol": 1e-05,
+  "rtol": 1e-05,
+  "common_physics_steps": 148,
+  "trace_lengths": [
+    148,
+    152
+  ],
+  "extra_rgb_steps": "Four additional steps test disabling RGB after the shared control sequence",
+  "both_physical_runs_passed": true,
+  "source_hashes_match_current_code": true,
+  "instruction_outcomes_match": true,
+  "metrics": {
+    "relative_sim_time_s": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "joint_position": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "joint_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frame_position": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frame_orientation_wxyz": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frame_linear_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    },
+    "frame_angular_velocity": {
+      "maximum_absolute_difference": 0.0,
+      "within_tolerance": true
+    }
+  },
+  "paired_check_passed": true
+}

@@ -1,0 +1,3017 @@
+{
+  "revision": "bf65215f844d1fca30750e4cc70d7266650abf0a",
+  "files": [
+    {
+      "type": "file",
+      "oid": "61837cc67c863edf42f60a12f25f5c054dffdf39",
+      "size": 122084,
+      "lfs": {
+        "oid": "fa2a1c704773eaf94b65f18ef31698c1231398ec95e25ef55f73d7ee0dae5790",
+        "size": 122084,
+        "pointerSize": 131
+      },
+      "xetHash": "de307827190dc6c2e48a483b3626c10b4c90e36d630167fff5f953abe7b20191",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/l_arm_flange.STL"
+    },
+    {
+      "type": "file",
+      "oid": "f92e940c6afd6090572f99ca68ee7b84a1675cab",
+      "size": 391884,
+      "lfs": {
+        "oid": "a46ca92947aff26a7830d422b37e73021187afc86b427bb3205c329194e5c888",
+        "size": 391884,
+        "pointerSize": 131
+      },
+      "xetHash": "9c743497bd485f9f2ba385ee02622fa547d4728adc22aaef95b1675e52fa73a5",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/l_hand_flange.STL"
+    },
+    {
+      "type": "file",
+      "oid": "68f016dcaf92d557a2fedd8750e9a586b9b2a825",
+      "size": 389384,
+      "lfs": {
+        "oid": "ef6226834aafe36a718c3bdedd6a8a53ac076d833f4c989c4259fe111098426e",
+        "size": 389384,
+        "pointerSize": 131
+      },
+      "xetHash": "85b0d40b14fb39e5614e3d1200d4214c5c4e28e5680a941fa6fd7ecd61998947",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger1_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "673ea14be8f262cf6acff5f232f944f50e4019e1",
+      "size": 91484,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger1_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "e561e78ff0fb36e5178dedb1725c20b6e7800fbb",
+      "size": 99384,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger1_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "662a217d5727276f9dca1b17508d9b3a37cddbc4",
+      "size": 64584,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger1_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "de0f27e0fb250d08a48ca4a70436747068b107b3",
+      "size": 96384,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger1_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "9a4e08bcb149646a6a146f5cfba7d5b0c0a982ec",
+      "size": 67584,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger2_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "9cec1ad4cf14a33070f1b5d2d07cc2677f9f66fc",
+      "size": 55484,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger2_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "7c39fab6a012521f92fed6619addb82d1c172794",
+      "size": 133184,
+      "lfs": {
+        "oid": "764426f6623a6809565954770980dccfe5694d7c822b3035c75e3fad14712601",
+        "size": 133184,
+        "pointerSize": 131
+      },
+      "xetHash": "1e6a740cef8f38a054138688de130937add84d2d0f08f96363f00126310fdbdf",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger2_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "d491293268e1bc1430d8271f415ae80bfb1d9c5c",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger2_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "97c8a205a0cd0f5cef216c884959ad0e5c79e5ba",
+      "size": 112784,
+      "lfs": {
+        "oid": "ef47c5b835948311609616142247f6e764adf2fc1e060d620f64fd19efef9458",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "0f49e3c430744c2bc64e14d3d46cd99394d7e5f06be9714267c11e6032e1d869",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger2_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "78c41c4ff0e3e5470aae22d2a4ebb71f7201fd6c",
+      "size": 67584,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger3_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "6265b862d0ea7dda91d3e0a75e1ff13c9ba1f16c",
+      "size": 55484,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger3_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "a0e8b93cb70d736d5909ac1c0b8d74e764fc33dd",
+      "size": 133184,
+      "lfs": {
+        "oid": "795ecf9b1fe67da36cea333d47bce7e7dc8339c058d9d6dc6dd954c93beb3ba6",
+        "size": 133184,
+        "pointerSize": 131
+      },
+      "xetHash": "3830d7b61f8115173c090bf15b9e0c5c037d2778aa35e8a0c7df29da0b7e4f8c",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger3_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "3692ca2894c91507d8a412dbd8fec548ad5b12a2",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger3_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "3bb469d4c08b454841f106d8914f6437ed0eebf9",
+      "size": 112784,
+      "lfs": {
+        "oid": "36b33404458a39a8e87dcc2e842f3d2679439f2a02dce37d441304060e6a235b",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "428c1103bc9ae6e773b4a07a194d6555865a9a496bad10d1f39e8b708abf45e9",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger3_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "5fa53c38aa35d88ab7143aeb57fa98d1de004c1f",
+      "size": 67584,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger4_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "a9f3ed99909fa7efc2bcda16a20ba330ac43e77a",
+      "size": 55484,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger4_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "ac5043ce599b98f33f3243993f9dfd6a4c7a3704",
+      "size": 133184,
+      "lfs": {
+        "oid": "18d23d11f4b8735bbc0a790a3d4493eeb0389afdbdc44665f77e4c6d604c16fb",
+        "size": 133184,
+        "pointerSize": 131
+      },
+      "xetHash": "3a934699b61510f8e8e1e41ed5df8aa2e72e72fa79be6381851b3b6ce26b5e69",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger4_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "df3c7ad06f05d2af1a2e06e9d9b79d68b198ef1b",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger4_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "d452e798d1cc6800f47a6f30f043f2bd3bcbdcbc",
+      "size": 112784,
+      "lfs": {
+        "oid": "67995957f5082af59a3d8745f435adc44133446b1574b7cfacf07ed02ff7aa09",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "32ab49c1f98be0a5c8faaa01a089d4a89b6892df0deb8653ebbef22fc0ec4800",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger4_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "19bdca4aab6047892828c933cdfbc25f689927ef",
+      "size": 67584,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger5_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "8b1c2e09a450c52c4bcd581780e9a87d6c057f33",
+      "size": 55484,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger5_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "c55ee38aa06664feed5b1ae2dea7fa46de4a36b2",
+      "size": 133184,
+      "lfs": {
+        "oid": "2550cb770eba8132cab3208c10b6891de17b05c051555dea79dbb9e8dac2b011",
+        "size": 133184,
+        "pointerSize": 131
+      },
+      "xetHash": "2aed220687692ad97df673ecab518924a801e0e0eae2ee7fd2ef9ceeefe3ce0c",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger5_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "941d740392365d04f82ea617a60e44be88d2783e",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger5_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "f54de214e8a238efeec2bf06a7822d54e4ca398f",
+      "size": 112784,
+      "lfs": {
+        "oid": "6955f23515b68a893b6e1c9de7067c4852224e1cc8413211a948ec4c09dbf5aa",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "efe3ee462a300059e575ae8c998f3e68121e2d3b92211ee239988a199667bcb4",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_finger5_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "3db0592df1dc9a097130d7e2a4c23b90a621a10c",
+      "size": 470084,
+      "lfs": {
+        "oid": "5a16d3510b49444857cc829a18202ce8bf62a129c20684190ccaedb545992298",
+        "size": 470084,
+        "pointerSize": 131
+      },
+      "xetHash": "ffd8a9849a9a7a351872c8c7e7c3eb33d9d7af82a5a19ea41f5a8b25c8c1b1b0",
+      "path": "Robots_p/ur5+wuji/meshes/hand_left/left_palm_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "1bc33dfb489a04901fa2785c7efc6892ad94d0f5",
+      "size": 122084,
+      "lfs": {
+        "oid": "192e22867971a532d6605d9502d7b13b661637a38fa8e24dd80959b8759c7786",
+        "size": 122084,
+        "pointerSize": 131
+      },
+      "xetHash": "5f19e103e8e0f9443cbc7029c87f061dafa4ce2643162e9dd9c31eec2a56002f",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/r_arm_flange.STL"
+    },
+    {
+      "type": "file",
+      "oid": "6650744c30f070999b9bf3ba9f7f83899ca3f204",
+      "size": 391884,
+      "lfs": {
+        "oid": "dc3de59a6c2d9a2c3149fcd59913e63ce983195f05ed2b1573635f7e240463e2",
+        "size": 391884,
+        "pointerSize": 131
+      },
+      "xetHash": "80316e14b3652a088e5fcb21ce81b036b3b2f19b52b0e8e06142fd5b65d5ef1e",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/r_hand_flange.STL"
+    },
+    {
+      "type": "file",
+      "oid": "bc2da1cbe88aac240bb5567848121dfead55fec6",
+      "size": 366584,
+      "lfs": {
+        "oid": "0e32302a46cd00d6cc1e7fb03cc483988c639271708c2300a9aecc9de537e42b",
+        "size": 366584,
+        "pointerSize": 131
+      },
+      "xetHash": "f9d19c4d1b55f2d8b7b1bfd2f3b7ed237d0426d2d7276d6d7eb87f46296ff7d5",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger1_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "648a9c7c275d941ba93bc662e94c06c17eadfd4f",
+      "size": 92684,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger1_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "f658dd129820604729eb1c18fa2453e75e3b00d2",
+      "size": 89184,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger1_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "0bb3ab04c494d3d49b39d858483ca563fc077a3e",
+      "size": 65984,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger1_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "273f8f16adb7abf52564aa9809923dda32a3fdf3",
+      "size": 96084,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger1_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "d9b8472dc47c7d0fb2a0899352e9ad8fce556438",
+      "size": 56184,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger2_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "5b0bea8093901c1100e71da3bbfa8d875d815b3c",
+      "size": 51984,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger2_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "11a0b215807a1f60c8ad2b1605d847603ce24134",
+      "size": 91284,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger2_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "64cb6c9a22c759ea5726916f4a089a3bddfbc602",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger2_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "59e46226a3363a6b8faf4ae81793fdf809b1ca2d",
+      "size": 112784,
+      "lfs": {
+        "oid": "496039ce3f4f3fbe6bac466a01567797f741af95c6f11dc61626ec2de175900b",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "5835e04d7efeaeec2d93ed58c03b5221439d377ac0bd8cc41ade2ab358a0e390",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger2_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "6b1e76cac9c6dde7fdb9b6239b741467a9473e52",
+      "size": 56184,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger3_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "84082390f1c509587a31d459359de6068c4058b2",
+      "size": 51984,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger3_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "a69ba513df59ce22240116c3aa8e25f36301a379",
+      "size": 91284,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger3_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "67ca1f32cdc100da3ef322f3addf2763dfc95a45",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger3_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "3fef1c5f6f0e12a24cfcc250ad5fe6f77d392834",
+      "size": 112784,
+      "lfs": {
+        "oid": "7a99f65a6a473899913d4273e61319e3724fbf81ac8532969ed5c2ff1c1bde54",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "b27a01b5e9e2813d981d04e197e3bb55893aedb80a4f50f5290c9a109a47dd92",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger3_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "68db5f87ad1c5e9babfe2ad4e903c47a5ce86dff",
+      "size": 56184,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger4_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "d61a8317d033bce08426a0357975d28672717b76",
+      "size": 51984,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger4_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "1c42dbef621061a7f7524d75bd229611ef1aa95f",
+      "size": 91284,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger4_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "1079ae0586aa663858e1b2b4865381e207593f06",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger4_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "623387db6c305d55525c24d99d3a946a7373dd8d",
+      "size": 113484,
+      "lfs": {
+        "oid": "e8b1fbee8e019afe490e820b1cba5e02c5124bb4a09aa73896bd46db6586dfde",
+        "size": 113484,
+        "pointerSize": 131
+      },
+      "xetHash": "15b2a340fc6405bcfb1f13c32fddf962d78f34fbb750120c2a9eb0716084568a",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger4_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "09c47cd7677673ee940e3d3dbb600034299e4380",
+      "size": 56184,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger5_link1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "1ac92055bc8bf48c374f61cffff32c59df0a53df",
+      "size": 51984,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger5_link2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "0f40c6bc2dce5d07e203bce8aa7b19859cd687f2",
+      "size": 91284,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger5_link3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "d40d954635d110d213215c1f8a2734b4c74c0022",
+      "size": 54884,
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger5_link4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "ccd435d946a9fdd98801f91da956064c36e5ad6b",
+      "size": 112784,
+      "lfs": {
+        "oid": "ebbf48ca7ba3bca5f329f95277ae392d0c1a09615eda23f1bf646c5112a38cee",
+        "size": 112784,
+        "pointerSize": 131
+      },
+      "xetHash": "e6e0907aa7b3812cb21e985b0bfa2d28b143d3f592d9507e0631543ca1124318",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_finger5_tip_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "7a28ced65f14afb861080fbaee89cf8676861bb0",
+      "size": 456184,
+      "lfs": {
+        "oid": "1ba4495e3b7adc707d50150a8625a0ed3731fa42ab6d40e62ae7437da103ce5e",
+        "size": 456184,
+        "pointerSize": 131
+      },
+      "xetHash": "b6cb1b7066b7f93102eba7b28923b6df518c4662d3f2f987744840d21da41095",
+      "path": "Robots_p/ur5+wuji/meshes/hand_right/right_palm_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "457fe31e938358f82fdac9bb4890af7f63c963da",
+      "size": 3614784,
+      "lfs": {
+        "oid": "4be04206de23267ed11f25bfeafaaa3ec5230dcd3fdd1ec3c757e741eaf15978",
+        "size": 3614784,
+        "pointerSize": 132
+      },
+      "xetHash": "7fd4343ec6fa68d7455f04d7626c9138e2a54c15e24cca7a22f10d6d10c8fc0e",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/L_base_link.STL"
+    },
+    {
+      "type": "file",
+      "oid": "4eb2f7eb38493e36b16587650cd65c516ea27766",
+      "size": 28984,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/base.stl"
+    },
+    {
+      "type": "file",
+      "oid": "ffbed4536ef7c23c7691736124e161a226546bb9",
+      "size": 52584,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/forearm.stl"
+    },
+    {
+      "type": "file",
+      "oid": "c5bb7684a9cd9696ba3aa84c717c933febacdd6d",
+      "size": 411284,
+      "lfs": {
+        "oid": "48f8ce3d436eb448288eb02194faf27d76148db8b1d83ca64a4bc1a866bfbe33",
+        "size": 411284,
+        "pointerSize": 131
+      },
+      "xetHash": "f0bb60ca99135b5e090d92c4b3f7536ae616b09bfaaf8b5a47f10dc58fd95562",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_index_1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "c02d83f7701f82acacee9f37501a5811a1b0a0b0",
+      "size": 333684,
+      "lfs": {
+        "oid": "1f6ae7c570dcfc87ba8b54b19b5c8be4804d68660b4489ee0ee684d3d137401c",
+        "size": 333684,
+        "pointerSize": 131
+      },
+      "xetHash": "1ceb3876be748e1e6251b6c9ce8481a84c73a4593896377834a72df8f80cdf0f",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_index_2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "b7d959311143dbefdf5c36ee5b4c22a109875569",
+      "size": 411284,
+      "lfs": {
+        "oid": "cff441b2e940f3444a9bac52e82cbba585658d5d9385e3d24acec4d3517a7e24",
+        "size": 411284,
+        "pointerSize": 131
+      },
+      "xetHash": "ebad9e1a83f336bd51ba99732294b91b27070e8a2a6cdeb25a74d9dd411395dc",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_little_1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "7db64015d0e776ae2524b99b99ed60708183f7ed",
+      "size": 413234,
+      "lfs": {
+        "oid": "08dfcc448aa7f16843c760dba35c46259be38608356f7f3d168b9b6afa8d4436",
+        "size": 413234,
+        "pointerSize": 131
+      },
+      "xetHash": "ce198f9521808944f5f499859d6d95481c085002e5ad61259d0de0fe2a281bc0",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_little_2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "29616ab85f7427597c2783d4f384804ec6fd3aaa",
+      "size": 411284,
+      "lfs": {
+        "oid": "45617e0af222764c1c4ea3f941c40fa303dc2a423ddeffde78bc855919226f6b",
+        "size": 411284,
+        "pointerSize": 131
+      },
+      "xetHash": "40077a8115e24cc96d0e78b4396d0541b2a91da18fe3aa9da68ca367f77aadfd",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_middle_1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "0a799bfb3f4e3c42d83d128596170f876215cff0",
+      "size": 182884,
+      "lfs": {
+        "oid": "7b4f60c77f6d61a9023da3d4b03bc6d0b18e7edd92e00b757d663c94ed3ccfe2",
+        "size": 182884,
+        "pointerSize": 131
+      },
+      "xetHash": "e6c350cb4f42a99f8183695e03e0b82d46c92a33d1042f5c7ba4eaf1d29412c6",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_middle_2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "a2e606380ddf349fd8d967a4c8cef1bfbb77133c",
+      "size": 411284,
+      "lfs": {
+        "oid": "c30bb35bc7218bbb69726e0cd3547df9d997dab1f5e65004163ca326c45ea4a8",
+        "size": 411284,
+        "pointerSize": 131
+      },
+      "xetHash": "da7372c9bfd00cb4816a4ffcbbf5d48bf63c9d7efc8abbd4ae75993168aae6ab",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_ring_1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "68c82d16e9779eb95e7e9fea481c4d46d360acdd",
+      "size": 332484,
+      "lfs": {
+        "oid": "24ef54ff3753ba36bdc2824fccf612f97f2966a9a2f0925d921b548d8861d2b8",
+        "size": 332484,
+        "pointerSize": 131
+      },
+      "xetHash": "1a206c9b92d02db78e102d2c33845706e9e0bc3895072b1d1fa6daa50f517e8f",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_ring_2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "ccb3be77d10642a5c01fb245a63609a9ee22abcc",
+      "size": 46484,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_thumb_1.STL"
+    },
+    {
+      "type": "file",
+      "oid": "0fc150101abfa455a05791ec5531bad9a9d10e7b",
+      "size": 920484,
+      "lfs": {
+        "oid": "342fdd3aa3fbb9c1c4ddc476f82fde76427a049d14c4b5f523e29436e8a09c29",
+        "size": 920484,
+        "pointerSize": 131
+      },
+      "xetHash": "463ecef3db6191a38f5d31ba75a805bff941f4d021c7ae288f60009f8b00ced5",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_thumb_2.STL"
+    },
+    {
+      "type": "file",
+      "oid": "47251db052b38aff17b1532c3d39a599bc4000fc",
+      "size": 482684,
+      "lfs": {
+        "oid": "dceb3bf74bec6a249907a30bb7e5ff6461b4099e7bf54e0496ab1198a88f8777",
+        "size": 482684,
+        "pointerSize": 131
+      },
+      "xetHash": "750f04f71c90a49f9533dd43ceb84f371b2a3c91b35c6113b51ac8ccd0310947",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_thumb_3.STL"
+    },
+    {
+      "type": "file",
+      "oid": "0ca4f0d82477f5b14337f86c6c00117cba2611b0",
+      "size": 155384,
+      "lfs": {
+        "oid": "ddbee60fba2507765e1b287f9fa36db72f3f7499f3ed0722dcba2cdb09df3711",
+        "size": 155384,
+        "pointerSize": 131
+      },
+      "xetHash": "9a9b1c94d0f95267ed24ff542d0cc591faceb0d79771aa6eae7892c5702d4b18",
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/left_thumb_4.STL"
+    },
+    {
+      "type": "file",
+      "oid": "5088831c10deb4656b129feee4bd533824e7c152",
+      "size": 33784,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/shoulder.stl"
+    },
+    {
+      "type": "file",
+      "oid": "734386e871f9114d9be2567a68c66179ea8f16b5",
+      "size": 58884,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/upperarm.stl"
+    },
+    {
+      "type": "file",
+      "oid": "a960c0c571ba7366ed2a72e94ee733bcaf034485",
+      "size": 35184,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/wrist1.stl"
+    },
+    {
+      "type": "file",
+      "oid": "9b089de4c6077cc743130865040b934248cc5b4d",
+      "size": 35184,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/wrist2.stl"
+    },
+    {
+      "type": "file",
+      "oid": "96c71f0413dfe4311bd253a8747824f29982aed4",
+      "size": 22384,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/collision/wrist3.stl"
+    },
+    {
+      "type": "file",
+      "oid": "05477edf3f43bcfe4654b9d77f841330825b8bc2",
+      "size": 156838,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/base.dae"
+    },
+    {
+      "type": "file",
+      "oid": "6e657554f4a309d6cc6f5fc14c58e7537d5215a0",
+      "size": 1473551,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/forearm.dae"
+    },
+    {
+      "type": "file",
+      "oid": "8feb681bdb5dab0f83af432ae0ad6594267f6fe0",
+      "size": 1011833,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/shoulder.dae"
+    },
+    {
+      "type": "file",
+      "oid": "fca6491758b388828eb7d098adf7865c26e0125c",
+      "size": 2009218,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/upperarm.dae"
+    },
+    {
+      "type": "file",
+      "oid": "3baee37a006e997e4c8929cb99efc9fca0ff71c0",
+      "size": 952757,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/wrist1.dae"
+    },
+    {
+      "type": "file",
+      "oid": "53e52f368cf7afc559d7f590751ec0f5b23d9bed",
+      "size": 951570,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/wrist2.dae"
+    },
+    {
+      "type": "file",
+      "oid": "a01700d81f020126c1b9649e31f10e5b80427e15",
+      "size": 127927,
+      "path": "Robots_p/ur5+wuji/meshes/ur5/visual/wrist3.dae"
+    },
+    {
+      "type": "file",
+      "oid": "9bcf90c866571953a3581e3ea8e1f0c26d261e4f",
+      "size": 691328,
+      "lfs": {
+        "oid": "71cbda83ca26b83cb33059cb10a494f6e399c38df0fd01cf4267fe4550eb9875",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "942a1443a2953456d93cae8abfd6dd5c26bd022ebf8e2e1fd146631b3a0241d3",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_L4F_normal.npy"
+    },
+    {
+      "type": "file",
+      "oid": "00d542ba397b5461cf821d0c9209f20ef81431cb",
+      "size": 691328,
+      "lfs": {
+        "oid": "c73579ef0d21780919127341a811e272b6460edc1d46d67f3aa3b76b1deba69b",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "5c6ad8d1f412759de386f4545bb009a6ae5e13b58841a98a531c96c095893065",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_L4F_point.npy"
+    },
+    {
+      "type": "file",
+      "oid": "7cdf0923aa72461d2b2d96e90390ab339ae938f2",
+      "size": 691328,
+      "lfs": {
+        "oid": "42b52f2a81c5b0cb18762f274006369b4a755193799f6d6dc7dd46d945d9e0ab",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "ef56f8ee47d118a30d0a6fa5573e507758216fb0036668a8452709c02d8f0780",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_LTH_normal.npy"
+    },
+    {
+      "type": "file",
+      "oid": "69d33c39522fafcab6e6f24b4663a4a5be2f6e3d",
+      "size": 691328,
+      "lfs": {
+        "oid": "4134f15dc205dfb15ac0fde4ebcaac118483996bab15715a3a130abfa5a696b4",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "0ff8d1b1074dc52a5a392cbeefd9eff58ce24fe5a941aca24853f04e3415c72f",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_LTH_point.npy"
+    },
+    {
+      "type": "file",
+      "oid": "a94e7a70aa4899d5f6abb63a6220fb6df8dba3a6",
+      "size": 691328,
+      "lfs": {
+        "oid": "f7ad17714d8fb5dd7f007121d3d01780a2a747102692d440a122a094ac0618ee",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "e0127e7b4609fee9d1b3371fb87109f1718f395aeaa97883dee2e18541118f2d",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_R4F_normal.npy"
+    },
+    {
+      "type": "file",
+      "oid": "0b458a50699fa073c85e88d4bdd30a76a79f28a4",
+      "size": 691328,
+      "lfs": {
+        "oid": "36a864db5501c39eabe9113cf0f7866b5eea54c9e6c2f12a720831a22cc18102",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "a8f4c2a54f61b2519df55f139cc54b16d879774b780e591f1ff4ee9494e96ee2",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_R4F_point.npy"
+    },
+    {
+      "type": "file",
+      "oid": "dfc21e3c25f608a446362d324ec0db402e499b7c",
+      "size": 691328,
+      "lfs": {
+        "oid": "f54498b639de937800cb860bd79fb09b2008170da014e37ae94098abb5b8c233",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "d4d8439e7fd3a52b72aeb794069f8c500b9463502604a0772d78f25ca364752a",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_RTH_normal.npy"
+    },
+    {
+      "type": "file",
+      "oid": "c7a74e7588dc7c8e478d68dc897c8a4433544469",
+      "size": 691328,
+      "lfs": {
+        "oid": "d90a6d276c23e3e9893a0712dc42a39b3f5dcba3b5e63a6a1821138f07bd2052",
+        "size": 691328,
+        "pointerSize": 131
+      },
+      "xetHash": "6a6c6820aca44b9bfae0bb1afc0e6e95c8a7276f2ee83cbf62864b30b3ef550d",
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactileSensor_map_RTH_point.npy"
+    },
+    {
+      "type": "file",
+      "oid": "8ad1238913e5ed9e8917c1b51558f775884618ef",
+      "size": 53099,
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactile_sensor_left_finger1_tip_link.obj"
+    },
+    {
+      "type": "file",
+      "oid": "5e3880ea33e4ac02494f1050a0256798f8cce9b6",
+      "size": 81239,
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactile_sensor_left_finger2_tip_link.obj"
+    },
+    {
+      "type": "file",
+      "oid": "2f66f1d853cb991b8115df1cd2a8d9054e3f17e3",
+      "size": 73166,
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactile_sensor_right_finger1_tip_link.obj"
+    },
+    {
+      "type": "file",
+      "oid": "134997eb741f73710ac0c4527ec9c0e74259e05f",
+      "size": 84708,
+      "path": "Robots_p/ur5+wuji/tactile_sensor/tactile_sensor_right_finger2_tip_link.obj"
+    },
+    {
+      "type": "file",
+      "oid": "e20b908be5c69962db8ae3e0c7e3d0d52c65af3c",
+      "size": 31202,
+      "path": "Robots_p/ur5+wuji/urdf/Left_Hand.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "9affec327ce5b844c6ce8bfcdd858d3326c14757",
+      "size": 57245,
+      "path": "Robots_p/ur5+wuji/urdf/Left_UR5_wuji_with_flange.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "aa91c34018d9e90cc5d37e69a102127bbf990ad8",
+      "size": 33606,
+      "path": "Robots_p/ur5+wuji/urdf/Multi_UR5.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "6253db05a537c0fc2d1365a7e1d601743e5b657f",
+      "size": 98861,
+      "path": "Robots_p/ur5+wuji/urdf/Multi_UR5_wuji_with_flange.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "07467b5cf9ffe22290097cba3b064f93fe58a435",
+      "size": 29131,
+      "path": "Robots_p/ur5+wuji/urdf/Right_Hand.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "558bc9de1394b0f65029c23255d67a5003e61c1f",
+      "size": 54874,
+      "path": "Robots_p/ur5+wuji/urdf/Right_UR5_wuji_with_flange.urdf"
+    },
+    {
+      "type": "file",
+      "oid": "b0208f659c258ea6edd76c33ce9aa80aa1533b51",
+      "size": 32,
+      "path": "Robots_p/ur5+wuji/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "7d5ca72894e9dc01d9cf16ac834ce6ef8b85037f",
+      "size": 1475,
+      "path": "Robots_p/ur5+wuji/usd/Multi_UR5_wuji_with_flange.usd"
+    },
+    {
+      "type": "file",
+      "oid": "d39336988f29161901731ce26468a313a85d2a94",
+      "size": 645,
+      "path": "Robots_p/ur5+wuji/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "edce3d7526fb72b75fbbb1e5f41aa0c188f54a98",
+      "size": 16746797,
+      "lfs": {
+        "oid": "7ae66a7b0f259d5f726087f5b4dae0686f3b671ec5fe9b3d78609c3bc14882db",
+        "size": 16746797,
+        "pointerSize": 133
+      },
+      "xetHash": "c8fdc4ebe593ec4166c14fb4edb6dcb2fcbcef2a8c6efca7e6baca1a07d1454b",
+      "path": "Robots_p/ur5+wuji/usd/configuration/Multi_UR5_wuji_with_flange_base.usd"
+    },
+    {
+      "type": "file",
+      "oid": "88aa3c8aaa9e2daf567093ae567d5e5e6a20d8d5",
+      "size": 21177,
+      "path": "Robots_p/ur5+wuji/usd/configuration/Multi_UR5_wuji_with_flange_physics.usd"
+    },
+    {
+      "type": "file",
+      "oid": "c58a7ac94b430beccbd1647a90cc9d0e5b739c0a",
+      "size": 4614,
+      "path": "Robots_p/ur5+wuji/usd/configuration/Multi_UR5_wuji_with_flange_robot.usd"
+    },
+    {
+      "type": "file",
+      "oid": "070c30ac87f16e56dc0152cf6f107cb13da6dd58",
+      "size": 643,
+      "path": "Robots_p/ur5+wuji/usd/configuration/Multi_UR5_wuji_with_flange_sensor.usd"
+    },
+    {
+      "type": "file",
+      "oid": "318fed615b9f9a49dd484ba1221087d956583d72",
+      "size": 32,
+      "path": "Objects/154_wooden_box/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "af84f01c1f15c6bfdfb56f98458e260b67776b2b",
+      "size": 1459989,
+      "lfs": {
+        "oid": "9d9f9b006c8bdc1ba34563c0279b3239ef373e3efa003c7afd8e3e8596404127",
+        "size": 1459989,
+        "pointerSize": 132
+      },
+      "xetHash": "4cfe7e598015f43594cba065dfa19a0a099f83c48bdd1b12c8246b37b1f7cb1f",
+      "path": "Objects/154_wooden_box/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "7893f95fb0574482c95d05c8b3f6144457d2b99e",
+      "size": 2301080,
+      "lfs": {
+        "oid": "8467f1844fd9443ef97f4e1d49667dab65ec1aa38bfcf64a21f4cf12c4081777",
+        "size": 2301080,
+        "pointerSize": 132
+      },
+      "xetHash": "2da566506ced8eb808a6bd33357f0cb21b7d3774f77e73a83ce82b5bd2e71579",
+      "path": "Objects/154_wooden_box/base0.glb"
+    },
+    {
+      "type": "file",
+      "oid": "2fe081ccd516885eaac47efd29c617ed15c13f8d",
+      "size": 1459876,
+      "lfs": {
+        "oid": "3dfb769a997031d050014fa3e6819dc383ff9eecd4294a1131cb7a429658a09a",
+        "size": 1459876,
+        "pointerSize": 132
+      },
+      "xetHash": "fdd6792cc41e3cc9eb4037ac7f4c2d1428310d586385c2c7f78e689232fcef53",
+      "path": "Objects/154_wooden_box/base0.usd"
+    },
+    {
+      "type": "file",
+      "oid": "23684ccc5f400d0e666d829e92bcbc1ccd7d39ac",
+      "size": 1454,
+      "path": "Objects/154_wooden_box/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "c9646bc52facc3489efaf806eddbd8751ce772e1",
+      "size": 464316,
+      "lfs": {
+        "oid": "4da9a5b98ddaad6dcb8c0a391b6086e7adbbb3aa344e4509fcbb87c9c7d6d376",
+        "size": 464316,
+        "pointerSize": 131
+      },
+      "xetHash": "e3fca73b4b9c6f28311084d41648d0fa3654c87d270a4d72b04de1e412087ae0",
+      "path": "Objects/154_wooden_box/textures/Image_0.png"
+    },
+    {
+      "type": "file",
+      "oid": "d35fd4e000313b180b2673a729fdbd2cc6a2a46e",
+      "size": 531856,
+      "lfs": {
+        "oid": "6e25031b79a86e3b5859893b40caf4cc8e0748c4544fa3b1b1eae1ce9610fd58",
+        "size": 531856,
+        "pointerSize": 131
+      },
+      "xetHash": "212a9e8435421715b7bc813ecfba7e47b9725be0a7464a92f5aab2be2fb47d49",
+      "path": "Objects/154_wooden_box/textures/Image_1.png"
+    },
+    {
+      "type": "file",
+      "oid": "4a4d2899ec817ad261cb0d3743b3356ae660fd69",
+      "size": 674784,
+      "lfs": {
+        "oid": "ae88b7aa09625372ec99d460e170a417aff628258f8e95bbbdcbecae60673212",
+        "size": 674784,
+        "pointerSize": 131
+      },
+      "xetHash": "5a48b92890ef29f98bee21efd9faf0fb8b916d71107a70401b0da3cd6a1b4167",
+      "path": "Objects/154_wooden_box/textures/Image_2.png"
+    },
+    {
+      "type": "file",
+      "oid": "82bcabc185c0d0e1ef5b9798e9d6e3d0d2a63884",
+      "size": 32,
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "b30ae50f4e5a1ce5e913830133964fe166875d1a",
+      "size": 1460841,
+      "lfs": {
+        "oid": "5db17ffdabe6d2e7660a2a560aab92ef3d0b003ae3b95d5c630dfd895a2508ef",
+        "size": 1460841,
+        "pointerSize": 132
+      },
+      "xetHash": "27aafdc8571770a97a1fae8bfc15f295c6e18da00274ee25d1d812613812c95c",
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/base0.usd"
+    },
+    {
+      "type": "file",
+      "oid": "668dfabcf33ab6b8c9324d242ace272f22c8ffcc",
+      "size": 1415,
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "c9646bc52facc3489efaf806eddbd8751ce772e1",
+      "size": 464316,
+      "lfs": {
+        "oid": "4da9a5b98ddaad6dcb8c0a391b6086e7adbbb3aa344e4509fcbb87c9c7d6d376",
+        "size": 464316,
+        "pointerSize": 131
+      },
+      "xetHash": "e3fca73b4b9c6f28311084d41648d0fa3654c87d270a4d72b04de1e412087ae0",
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/textures/Image_0.png"
+    },
+    {
+      "type": "file",
+      "oid": "d35fd4e000313b180b2673a729fdbd2cc6a2a46e",
+      "size": 531856,
+      "lfs": {
+        "oid": "6e25031b79a86e3b5859893b40caf4cc8e0748c4544fa3b1b1eae1ce9610fd58",
+        "size": 531856,
+        "pointerSize": 131
+      },
+      "xetHash": "212a9e8435421715b7bc813ecfba7e47b9725be0a7464a92f5aab2be2fb47d49",
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/textures/Image_1.png"
+    },
+    {
+      "type": "file",
+      "oid": "4a4d2899ec817ad261cb0d3743b3356ae660fd69",
+      "size": 674784,
+      "lfs": {
+        "oid": "ae88b7aa09625372ec99d460e170a417aff628258f8e95bbbdcbecae60673212",
+        "size": 674784,
+        "pointerSize": 131
+      },
+      "xetHash": "5a48b92890ef29f98bee21efd9faf0fb8b916d71107a70401b0da3cd6a1b4167",
+      "path": "Objects/154_wooden_box/usd_decomposition_linux/textures/Image_2.png"
+    },
+    {
+      "type": "file",
+      "oid": "0c2028a26376b19445ec0b2835b49dd6ed4c9023",
+      "size": 32,
+      "path": "Objects/154_wooden_box/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "b957a85dc40e82f243f168f7eea7ae1ac966ad04",
+      "size": 1460833,
+      "lfs": {
+        "oid": "40a6543e7a564e2454dadf77fb5567f709d4f69652f315b7c582cb19eae01abd",
+        "size": 1460833,
+        "pointerSize": 132
+      },
+      "xetHash": "2dc2d012f3e8fd83144f76ed5d5e7529dd2bb272dae9cd35c09a8f030d5dd32b",
+      "path": "Objects/154_wooden_box/usd_sdf_linux/base0.usd"
+    },
+    {
+      "type": "file",
+      "oid": "038f95ab480ba11ee087a24c0de07cb5c7725dbf",
+      "size": 1312,
+      "path": "Objects/154_wooden_box/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "c9646bc52facc3489efaf806eddbd8751ce772e1",
+      "size": 464316,
+      "lfs": {
+        "oid": "4da9a5b98ddaad6dcb8c0a391b6086e7adbbb3aa344e4509fcbb87c9c7d6d376",
+        "size": 464316,
+        "pointerSize": 131
+      },
+      "xetHash": "e3fca73b4b9c6f28311084d41648d0fa3654c87d270a4d72b04de1e412087ae0",
+      "path": "Objects/154_wooden_box/usd_sdf_linux/textures/Image_0.png"
+    },
+    {
+      "type": "file",
+      "oid": "d35fd4e000313b180b2673a729fdbd2cc6a2a46e",
+      "size": 531856,
+      "lfs": {
+        "oid": "6e25031b79a86e3b5859893b40caf4cc8e0748c4544fa3b1b1eae1ce9610fd58",
+        "size": 531856,
+        "pointerSize": 131
+      },
+      "xetHash": "212a9e8435421715b7bc813ecfba7e47b9725be0a7464a92f5aab2be2fb47d49",
+      "path": "Objects/154_wooden_box/usd_sdf_linux/textures/Image_1.png"
+    },
+    {
+      "type": "file",
+      "oid": "4a4d2899ec817ad261cb0d3743b3356ae660fd69",
+      "size": 674784,
+      "lfs": {
+        "oid": "ae88b7aa09625372ec99d460e170a417aff628258f8e95bbbdcbecae60673212",
+        "size": 674784,
+        "pointerSize": 131
+      },
+      "xetHash": "5a48b92890ef29f98bee21efd9faf0fb8b916d71107a70401b0da3cd6a1b4167",
+      "path": "Objects/154_wooden_box/usd_sdf_linux/textures/Image_2.png"
+    },
+    {
+      "type": "file",
+      "oid": "d2f8135c6aefb8ff15a135e42e9f2a391bd0bbf4",
+      "size": 216,
+      "path": "Objects/053_mini_soccer_ball/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "7fa77c5bf66dc3b1b6b00c6f1ec7847f221d9f07",
+      "size": 1007975,
+      "path": "Objects/053_mini_soccer_ball/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "53c4dc8a269db8322bc70a0d24577193b645bcbb",
+      "size": 819284,
+      "lfs": {
+        "oid": "fbd3a3043c4ac01da38e5ad54dee318ee597d41079ad8bb7fe466dcd7c491f8a",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "bbea9d686a6178fc7446f0c05115818612f0a580f49448ed7808b1ee5b7399b6",
+      "path": "Objects/053_mini_soccer_ball/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "072ddc425489180b79271f1bc2fe8648749fefe7",
+      "size": 6377081,
+      "lfs": {
+        "oid": "b146adbcb6098b91f4f5a38de909e8b7998d0aac63d469d18262046e05096d60",
+        "size": 6377081,
+        "pointerSize": 132
+      },
+      "xetHash": "1e79cb993d24635cf4763bd218cf0ae04ceda4b52b77fef825d771b5de20d973",
+      "path": "Objects/053_mini_soccer_ball/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "da4782487d8827086be7c855eafaf9f2fbb83f60",
+      "size": 2818737,
+      "path": "Objects/053_mini_soccer_ball/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/053_mini_soccer_ball/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "ac15b08e010d40dd03e7a93fbb99f1c11feccaeb",
+      "size": 1472156,
+      "lfs": {
+        "oid": "e6223378447e2410cd09d2815c2c009f864ca3f59b84aad21dbaea574a8aa4de",
+        "size": 1472156,
+        "pointerSize": 132
+      },
+      "xetHash": "620eb7f62059418c0f362dd863e7b377d56041bb723f9bbc5ceec19177b3c0ff",
+      "path": "Objects/053_mini_soccer_ball/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "9e87a5b2e48c3122d97fbb42155e0fb9d200c440",
+      "size": 32,
+      "path": "Objects/053_mini_soccer_ball/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "a04ee9cf767131be5b483d803a0d42aee52e749a",
+      "size": 1156210,
+      "lfs": {
+        "oid": "de95c5bc11a75f5d31d4ea938a0e4d31f6deb71c66f7dde93bf070df45989bb0",
+        "size": 1156210,
+        "pointerSize": 132
+      },
+      "xetHash": "904278944913e0ade9f5cdcde89ddaf3bcb50bd4074c2919b2b3da355b54fc59",
+      "path": "Objects/053_mini_soccer_ball/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "23e359fad3e6f07e3b6fa3bfaf0348917cf2d54c",
+      "size": 1485,
+      "path": "Objects/053_mini_soccer_ball/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "5bd3c37b49a84d608f05f83c4e12b1cf2b1edbe6",
+      "size": 1156121,
+      "lfs": {
+        "oid": "d5f7e56bd0920e8312d62e42c1bd711b045beb8646ce8e753339e64f6e1b62c6",
+        "size": 1156121,
+        "pointerSize": 132
+      },
+      "xetHash": "0d88932171a632a7d45172ffff3a38358685eb6913574594850f60a401b7a6d2",
+      "path": "Objects/053_mini_soccer_ball/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "072ddc425489180b79271f1bc2fe8648749fefe7",
+      "size": 6377081,
+      "lfs": {
+        "oid": "b146adbcb6098b91f4f5a38de909e8b7998d0aac63d469d18262046e05096d60",
+        "size": 6377081,
+        "pointerSize": 132
+      },
+      "xetHash": "1e79cb993d24635cf4763bd218cf0ae04ceda4b52b77fef825d771b5de20d973",
+      "path": "Objects/053_mini_soccer_ball/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "c7e6ffe43c669845c8ec13cd1d70576721ed4046",
+      "size": 32,
+      "path": "Objects/053_mini_soccer_ball/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "5240e3fadd35bf33dfaa736104599434ff72f95d",
+      "size": 1434,
+      "path": "Objects/053_mini_soccer_ball/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "2235564450e7d77a169d9204b1c49a15a0f6943b",
+      "size": 1156910,
+      "lfs": {
+        "oid": "593da51b35f34c77617d5c18ec99371f159838ba3359861bce811055dee07e6b",
+        "size": 1156910,
+        "pointerSize": 132
+      },
+      "xetHash": "782a4e6e438040c987ff1d412e725edae15f0c7a9bc50d744b146305c93fa8b4",
+      "path": "Objects/053_mini_soccer_ball/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "072ddc425489180b79271f1bc2fe8648749fefe7",
+      "size": 6377081,
+      "lfs": {
+        "oid": "b146adbcb6098b91f4f5a38de909e8b7998d0aac63d469d18262046e05096d60",
+        "size": 6377081,
+        "pointerSize": 132
+      },
+      "xetHash": "1e79cb993d24635cf4763bd218cf0ae04ceda4b52b77fef825d771b5de20d973",
+      "path": "Objects/053_mini_soccer_ball/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "25f754266fa4310437bac72ee2c066ed88215932",
+      "size": 32,
+      "path": "Objects/053_mini_soccer_ball/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "6f9113ce0061674ac8533c150351abd24ee78462",
+      "size": 1331,
+      "path": "Objects/053_mini_soccer_ball/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a0d3f5bb28c699d38967e785182e0a593d0ce726",
+      "size": 1156906,
+      "lfs": {
+        "oid": "4c7c770624f97b07ac85c16a638c6f3070433cd31e9acfd0528960ccc7526698",
+        "size": 1156906,
+        "pointerSize": 132
+      },
+      "xetHash": "e25aba21892290dc6b079bd8f856d5a33407bbe2333ea4e16024c2185b80fad5",
+      "path": "Objects/053_mini_soccer_ball/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "072ddc425489180b79271f1bc2fe8648749fefe7",
+      "size": 6377081,
+      "lfs": {
+        "oid": "b146adbcb6098b91f4f5a38de909e8b7998d0aac63d469d18262046e05096d60",
+        "size": 6377081,
+        "pointerSize": 132
+      },
+      "xetHash": "1e79cb993d24635cf4763bd218cf0ae04ceda4b52b77fef825d771b5de20d973",
+      "path": "Objects/053_mini_soccer_ball/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "9d5524a0bdb367971c948224bf1c60216ac763d6",
+      "size": 206,
+      "path": "Objects/056_tennis_ball/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "e0739649268632f43d7f2a0b1b4f7fb91f26b02c",
+      "size": 1008960,
+      "path": "Objects/056_tennis_ball/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "cf53bfc5ce8a0733a5f3bac1baf4d7a0e98fe6f6",
+      "size": 819284,
+      "lfs": {
+        "oid": "e4a849e6bbabb5a1f964ad3d9f1e0b5459d5fe481572c47e5e972fb53bfb2dcf",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "79977477df5d641d229be09de6e37b97685b7c3e70e69e6eca1a013a0826244d",
+      "path": "Objects/056_tennis_ball/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "eba70f08a4c83633d5a3f84c8b482ff559918c7a",
+      "size": 3792497,
+      "lfs": {
+        "oid": "7e2aef766a39b64dab16fe84e9a4a6779008727946d2a6127c6270eea10fde60",
+        "size": 3792497,
+        "pointerSize": 132
+      },
+      "xetHash": "57272e9a9e41e9bb685c131d62ac410f6f1c45616a68806e738961aa93441f2a",
+      "path": "Objects/056_tennis_ball/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "b548f0e62ca7b630061aedf1d40a09f8af91331a",
+      "size": 2821164,
+      "path": "Objects/056_tennis_ball/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/056_tennis_ball/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "52260a83bbacb2bce6dda9d6301b98bd348b52aa",
+      "size": 1473787,
+      "path": "Objects/056_tennis_ball/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "4ec79bcd7af758d7df3d499186779ee8c66576d3",
+      "size": 32,
+      "path": "Objects/056_tennis_ball/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "ae0e69573009fee71658fb39aa169c02c7d5c572",
+      "size": 1153104,
+      "lfs": {
+        "oid": "0a1909b87c122a7f4d3c4e8cb4499b7931c47a77d82b8cc643154b12857dd220",
+        "size": 1153104,
+        "pointerSize": 132
+      },
+      "xetHash": "80c58ca234aef10eea082a26a055c5cf9e7f1da086d2e3ab7e1d61b740f1ea0f",
+      "path": "Objects/056_tennis_ball/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "ea95e117258266c3e8941a51075a6afa7d46e012",
+      "size": 1476,
+      "path": "Objects/056_tennis_ball/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "28df68cdea4dfc1e0bca10ede82c1adffcb3f647",
+      "size": 1153020,
+      "lfs": {
+        "oid": "0ae7f55ee10d569f87f0b414b3f83e8523542036d7e7ea756c6429c287fbc6a2",
+        "size": 1153020,
+        "pointerSize": 132
+      },
+      "xetHash": "c86d93c287180991a95cbd4c638b0909d3ec49987e755aff23e4aec092977d45",
+      "path": "Objects/056_tennis_ball/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "eba70f08a4c83633d5a3f84c8b482ff559918c7a",
+      "size": 3792497,
+      "lfs": {
+        "oid": "7e2aef766a39b64dab16fe84e9a4a6779008727946d2a6127c6270eea10fde60",
+        "size": 3792497,
+        "pointerSize": 132
+      },
+      "xetHash": "57272e9a9e41e9bb685c131d62ac410f6f1c45616a68806e738961aa93441f2a",
+      "path": "Objects/056_tennis_ball/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "fed2d05de12588b834fe85f87e7d22a6f1dbea03",
+      "size": 32,
+      "path": "Objects/056_tennis_ball/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "d73f28ec04a15ff71db6a89b9934e2c2b687ca41",
+      "size": 1425,
+      "path": "Objects/056_tennis_ball/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "cf78f762c7af12ec3ae9f37330665499656fc86f",
+      "size": 1153809,
+      "lfs": {
+        "oid": "e3d6a28b1380880831a8d08ccd17a4eb120269d44532647cc9e4a4900fdc3179",
+        "size": 1153809,
+        "pointerSize": 132
+      },
+      "xetHash": "b23b825da36c4342580955c55d1bdd9c0c92047d38b10d5461dc04092a810913",
+      "path": "Objects/056_tennis_ball/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "eba70f08a4c83633d5a3f84c8b482ff559918c7a",
+      "size": 3792497,
+      "lfs": {
+        "oid": "7e2aef766a39b64dab16fe84e9a4a6779008727946d2a6127c6270eea10fde60",
+        "size": 3792497,
+        "pointerSize": 132
+      },
+      "xetHash": "57272e9a9e41e9bb685c131d62ac410f6f1c45616a68806e738961aa93441f2a",
+      "path": "Objects/056_tennis_ball/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "809e62192632a3fd16756109e2583d0b278691f0",
+      "size": 32,
+      "path": "Objects/056_tennis_ball/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "69a56d86187e5231be2d3a69e3634e8eda2dee63",
+      "size": 1322,
+      "path": "Objects/056_tennis_ball/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "fe1c706db68a49f9d9cc09046be7251c826255e9",
+      "size": 1153805,
+      "lfs": {
+        "oid": "bb48fb6c3a764cd7476f440a73252379e1d3ee36f27da0daeb6e1b8b419d117c",
+        "size": 1153805,
+        "pointerSize": 132
+      },
+      "xetHash": "92b5bcb8a48e282ccacb8cad25a99ebad2019ef35a8cb68a3e0e50a8e8fe9d05",
+      "path": "Objects/056_tennis_ball/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "eba70f08a4c83633d5a3f84c8b482ff559918c7a",
+      "size": 3792497,
+      "lfs": {
+        "oid": "7e2aef766a39b64dab16fe84e9a4a6779008727946d2a6127c6270eea10fde60",
+        "size": 3792497,
+        "pointerSize": 132
+      },
+      "xetHash": "57272e9a9e41e9bb685c131d62ac410f6f1c45616a68806e738961aa93441f2a",
+      "path": "Objects/056_tennis_ball/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "c22d8e32d0dcfde5b262d247d36ac2aade01998c",
+      "size": 202,
+      "path": "Objects/058_golf_ball/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "d92a3e9413acc24cf384a38bffa8726911700d71",
+      "size": 1009860,
+      "path": "Objects/058_golf_ball/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "a0cbfd081108d6fea194cb21e976511867f41122",
+      "size": 819284,
+      "lfs": {
+        "oid": "2ac70ee360238397a88f2397f17d2019a379a66be141f851fdf349370b304d14",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "4382d38617f2cfdcde0b3db7588d7ad10608967e6e0d5020f209188408542eaf",
+      "path": "Objects/058_golf_ball/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "c88f1196650b491bfdf24c6035c53dc9dd132d89",
+      "size": 3811105,
+      "lfs": {
+        "oid": "6d8a8a3562bf8efe2a3dda03c587e49ad58ac820aae66e9e84e7f0008fc5a5d0",
+        "size": 3811105,
+        "pointerSize": 132
+      },
+      "xetHash": "89b0a7980184569e5010eb89854b21202618741f96b7e1d86e679ae4150d8ed6",
+      "path": "Objects/058_golf_ball/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "36a013b28532b7706973e9365ed39c4a9a199f60",
+      "size": 2823377,
+      "path": "Objects/058_golf_ball/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/058_golf_ball/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "f07fc4d5ffdcc75488522b86e318fb8f71d355a9",
+      "size": 1476046,
+      "path": "Objects/058_golf_ball/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "1a0577049cc9e8e806bb7e4dff39851df7472a64",
+      "size": 32,
+      "path": "Objects/058_golf_ball/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "73f3ef1c58c9064bc3ba3cb6b60469b3e344f8e1",
+      "size": 1154106,
+      "lfs": {
+        "oid": "824cb33d214e5f18ecd05bf9e89c3f2e6a09bf5fd7a1ed63ad756075f2d3f5a2",
+        "size": 1154106,
+        "pointerSize": 132
+      },
+      "xetHash": "588a3887b8f065bd9022e0e1df5993e5d7936ab63b84474b3ff5b1ab79027f13",
+      "path": "Objects/058_golf_ball/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "22719102d03146a674d7615cd46abb93902004d6",
+      "size": 1472,
+      "path": "Objects/058_golf_ball/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "05e42adfbb32583739af8539ae90c50254b9c0a4",
+      "size": 1154017,
+      "lfs": {
+        "oid": "41070f12a7198f043f66147d96962d371d66dfd4dcf4a6634f08e9433ff8fc3e",
+        "size": 1154017,
+        "pointerSize": 132
+      },
+      "xetHash": "b5c72752c9750cb4c130d279ca42957a08a224620c5352805531ba54b9e50648",
+      "path": "Objects/058_golf_ball/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "c88f1196650b491bfdf24c6035c53dc9dd132d89",
+      "size": 3811105,
+      "lfs": {
+        "oid": "6d8a8a3562bf8efe2a3dda03c587e49ad58ac820aae66e9e84e7f0008fc5a5d0",
+        "size": 3811105,
+        "pointerSize": 132
+      },
+      "xetHash": "89b0a7980184569e5010eb89854b21202618741f96b7e1d86e679ae4150d8ed6",
+      "path": "Objects/058_golf_ball/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "1bb1367814a313bdb65a43eeb2ff9544af150140",
+      "size": 32,
+      "path": "Objects/058_golf_ball/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "adaf545170aa8403ef67009fd1abb47e206fe0be",
+      "size": 1421,
+      "path": "Objects/058_golf_ball/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "2436c22d2065f915b3d4af4b6272814e23b77be2",
+      "size": 1154804,
+      "lfs": {
+        "oid": "7584ced024df1a12c2b42b4da23eaa0ce2e87fe0c6ab85c1361d3c72d3804de3",
+        "size": 1154804,
+        "pointerSize": 132
+      },
+      "xetHash": "28963def9a777111d781a9870fb24cf2db7583f89ebfc293c960e14c1c4e3f82",
+      "path": "Objects/058_golf_ball/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "c88f1196650b491bfdf24c6035c53dc9dd132d89",
+      "size": 3811105,
+      "lfs": {
+        "oid": "6d8a8a3562bf8efe2a3dda03c587e49ad58ac820aae66e9e84e7f0008fc5a5d0",
+        "size": 3811105,
+        "pointerSize": 132
+      },
+      "xetHash": "89b0a7980184569e5010eb89854b21202618741f96b7e1d86e679ae4150d8ed6",
+      "path": "Objects/058_golf_ball/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "2f97d085bc8d132c3e353d78951f7a49b730c42d",
+      "size": 32,
+      "path": "Objects/058_golf_ball/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "d732e30782e0f8adffd1507b2dbed265ce9b7362",
+      "size": 1318,
+      "path": "Objects/058_golf_ball/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6210ad302ee737162a4eb458288e09ffa83fc52d",
+      "size": 1154800,
+      "lfs": {
+        "oid": "2c5c40d7e0e10f87af8ef179d25eb718bd6027b672f9e7ce2315372a28ca0aa6",
+        "size": 1154800,
+        "pointerSize": 132
+      },
+      "xetHash": "737b866ffb52038bf5b1ff74ffb345c78a74603ba51b682074b610af9424fdc2",
+      "path": "Objects/058_golf_ball/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "c88f1196650b491bfdf24c6035c53dc9dd132d89",
+      "size": 3811105,
+      "lfs": {
+        "oid": "6d8a8a3562bf8efe2a3dda03c587e49ad58ac820aae66e9e84e7f0008fc5a5d0",
+        "size": 3811105,
+        "pointerSize": 132
+      },
+      "xetHash": "89b0a7980184569e5010eb89854b21202618741f96b7e1d86e679ae4150d8ed6",
+      "path": "Objects/058_golf_ball/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "53469fa91ed34bf16c1f9aeee96d5da691b85d91",
+      "size": 32,
+      "path": "Objects/144_table-tennis/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "96e876d7c35a8ac6a826b833fde5ecbeeb182125",
+      "size": 1326304,
+      "lfs": {
+        "oid": "60eb873f11efa19ecdb5650f14978760821a45422bc94d6646f9914ea435e57e",
+        "size": 1326304,
+        "pointerSize": 132
+      },
+      "xetHash": "e1a012400ef42c9dcdbb99f5da9b090418e5d9c59b66ac78ebaa65be95ff506f",
+      "path": "Objects/144_table-tennis/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "e580d3bee613160f68df32de761a27a6d3cfa45f",
+      "size": 857984,
+      "lfs": {
+        "oid": "9d3e6889b614d7e8c52e30410adda4a2e02231072a4eb7f71805d1ef508f59dd",
+        "size": 857984,
+        "pointerSize": 131
+      },
+      "xetHash": "10ada20459ee4a1d2e9d61cd4ca94f348c34af2d029029e759108b0c8ed476a1",
+      "path": "Objects/144_table-tennis/base1.glb"
+    },
+    {
+      "type": "file",
+      "oid": "f7125ec3b42a94770711cef0e86fb79d54fd9ecc",
+      "size": 1326164,
+      "lfs": {
+        "oid": "507a4e77209d0d6088ccc6b2ced97d1009a57d73caafa4e0d301a7efb03e5bbc",
+        "size": 1326164,
+        "pointerSize": 132
+      },
+      "xetHash": "bc35ebfa35fca7c57d993e8558bfc10171665b0565b3fe9803a54d8d14e7d572",
+      "path": "Objects/144_table-tennis/base1.usd"
+    },
+    {
+      "type": "file",
+      "oid": "88d0d39cdd0ffb6ac296d77ed7ee79348075b7ea",
+      "size": 1458,
+      "path": "Objects/144_table-tennis/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a6c10d65308110a70a7ae099aeafff97739fc531",
+      "size": 380579,
+      "lfs": {
+        "oid": "e1481285b6e50f3b1f4c267e61a767f6ed8d5996f1ca85419af008c9f5a87a81",
+        "size": 380579,
+        "pointerSize": 131
+      },
+      "xetHash": "775d6a7d5ee1372247889a103e00f31db111466024873cefa8b7b1635c04a4d0",
+      "path": "Objects/144_table-tennis/textures/texture_diffuse.png"
+    },
+    {
+      "type": "file",
+      "oid": "b387d484254253018b5f63c6f9039bf0bc97b514",
+      "size": 32,
+      "path": "Objects/144_table-tennis/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "fc268034bb3d5446f4e5b0334e93a08b2e39a61b",
+      "size": 1327070,
+      "lfs": {
+        "oid": "75bbf275d3b0e8401f1607ef66d8868c2065999edc678642fe51479e4b4db58b",
+        "size": 1327070,
+        "pointerSize": 132
+      },
+      "xetHash": "0ec444162396d201bc207c1e007a9b11b2d3a2d3f70b742cc63356732ee3766b",
+      "path": "Objects/144_table-tennis/usd_decomposition_linux/base1.usd"
+    },
+    {
+      "type": "file",
+      "oid": "31219ad55e4b16aabdc9248e3cb13b60eb85b776",
+      "size": 1419,
+      "path": "Objects/144_table-tennis/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a6c10d65308110a70a7ae099aeafff97739fc531",
+      "size": 380579,
+      "lfs": {
+        "oid": "e1481285b6e50f3b1f4c267e61a767f6ed8d5996f1ca85419af008c9f5a87a81",
+        "size": 380579,
+        "pointerSize": 131
+      },
+      "xetHash": "775d6a7d5ee1372247889a103e00f31db111466024873cefa8b7b1635c04a4d0",
+      "path": "Objects/144_table-tennis/usd_decomposition_linux/textures/texture_diffuse.png"
+    },
+    {
+      "type": "file",
+      "oid": "4032f1ae53072e4a5e2ab4cb873403c5184d0b8c",
+      "size": 32,
+      "path": "Objects/144_table-tennis/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "a7a53795cf91757b19222293b7c109ded38d5f60",
+      "size": 1327062,
+      "lfs": {
+        "oid": "12f2b4731072f96530e9f8969571c401d78170c8f1bdcd924efaf9616e3fa437",
+        "size": 1327062,
+        "pointerSize": 132
+      },
+      "xetHash": "bd811a4481da7e364c7c69d8863461e68d7e827d343b02617fe64e33d93664ad",
+      "path": "Objects/144_table-tennis/usd_sdf_linux/base1.usd"
+    },
+    {
+      "type": "file",
+      "oid": "476a61d6c55701b1970dae64a54a58aad4c11044",
+      "size": 1316,
+      "path": "Objects/144_table-tennis/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a6c10d65308110a70a7ae099aeafff97739fc531",
+      "size": 380579,
+      "lfs": {
+        "oid": "e1481285b6e50f3b1f4c267e61a767f6ed8d5996f1ca85419af008c9f5a87a81",
+        "size": 380579,
+        "pointerSize": 131
+      },
+      "xetHash": "775d6a7d5ee1372247889a103e00f31db111466024873cefa8b7b1635c04a4d0",
+      "path": "Objects/144_table-tennis/usd_sdf_linux/textures/texture_diffuse.png"
+    },
+    {
+      "type": "file",
+      "oid": "03f6667160322090d3a938126ab7cf750cc197a2",
+      "size": 807,
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Contents.usda"
+    },
+    {
+      "type": "file",
+      "oid": "182947d0d17866c4896b551ef3d31bc03967f1c0",
+      "size": 138581,
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Geometry.usda"
+    },
+    {
+      "type": "file",
+      "oid": "87d4cbac605e4f121356512dd94fc86168701267",
+      "size": 601233,
+      "lfs": {
+        "oid": "1bf12c03c138fd874df952abfc2526a187153eae273015f8f8e3da77184a9ebe",
+        "size": 601233,
+        "pointerSize": 131
+      },
+      "xetHash": "16d88db45736a863581b6ca88e329f04fdaa42640b65829f2a5f4483463f4c88",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/GeometryLibrary.usdc"
+    },
+    {
+      "type": "file",
+      "oid": "c527fb3544552176e1fcb55412ad37bdf987e2c6",
+      "size": 13179,
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Materials.usda"
+    },
+    {
+      "type": "file",
+      "oid": "95afe1bc85c27df3910431ac79d4c1eb0debeb4e",
+      "size": 19281,
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/MaterialsLibrary.usda"
+    },
+    {
+      "type": "file",
+      "oid": "4ade6a43c18f0f0469c71bcecea67e32117f0755",
+      "size": 35693,
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Physics.usda"
+    },
+    {
+      "type": "file",
+      "oid": "df4c13d5d9a39b8c24d4a5f33276bf30d355bd75",
+      "size": 772835,
+      "lfs": {
+        "oid": "2756aaebc34d76f6eca72d222ef47b858c14adb18da6b973df15ccfaeec4c95c",
+        "size": 772835,
+        "pointerSize": 131
+      },
+      "xetHash": "a7fb8d82672e6fca496c03a4de574d4c1efd0d6af035f06c7878d2bad8bd88de",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/6a00d8345293e069e2019102c4931b970c-800wi.png"
+    },
+    {
+      "type": "file",
+      "oid": "7f1868fec48b37c35642d7525481fdc1e71c0693",
+      "size": 246287,
+      "lfs": {
+        "oid": "ad2ee84ce6cd225ea854b72be7d395baf767022f69e7ffc350e16e9b57144bdc",
+        "size": 246287,
+        "pointerSize": 131
+      },
+      "xetHash": "411686f145714951d9af26c1d491912c70c48fe01118ff17f93989e798afbad6",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/Carpet1.png"
+    },
+    {
+      "type": "file",
+      "oid": "7b685b1b376312362bd234f57d7b48c954ac8d47",
+      "size": 4529,
+      "lfs": {
+        "oid": "1bbe40af628fc6f9f783babfeb8684829556cbb04113b4a53ce6bfa2c51e6a71",
+        "size": 4529,
+        "pointerSize": 129
+      },
+      "xetHash": "8a9f2496a0b41e7c055196f2f3031545e8f6fde32cbae78c53bf5513846e8828",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/Copper_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "d19ec2459b27c0f0f5d93cf0c416da407cc146d3",
+      "size": 364984,
+      "lfs": {
+        "oid": "8e05504e3dafab0cc499543df132f384fb061ddd01d36e82baed687b62095a75",
+        "size": 364984,
+        "pointerSize": 131
+      },
+      "xetHash": "ad6c5b5a64e8d78be581ae6019f7f70bb2342eead09f8ae568ac60dd89347a9c",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/DarkWoodFloors.png"
+    },
+    {
+      "type": "file",
+      "oid": "b0181c39133c24150f0b083ff252ba73c79b5c68",
+      "size": 63277,
+      "lfs": {
+        "oid": "8f98c0980fde3103bd3dd44587f2a6dee93bdafac138faa42d59fe3150ef5687",
+        "size": 63277,
+        "pointerSize": 130
+      },
+      "xetHash": "48b442b236200ff02545207c97b80f6bfb72be5e386ebb51240323626e71a702",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/FlowerDecal.png"
+    },
+    {
+      "type": "file",
+      "oid": "9ea6130c5263c1816b9af59be931f12e941b88b5",
+      "size": 37793,
+      "lfs": {
+        "oid": "33047da5bc6bc063d029bd33c74f3935a3fae9686eff90c75bb6af143cf94c8e",
+        "size": 37793,
+        "pointerSize": 130
+      },
+      "xetHash": "799261a46618b0e05471675ab96b977f4ca4e242a0862efe662ce176dd7e8e59",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/HammeredMetal_MetallicSmoothness.png"
+    },
+    {
+      "type": "file",
+      "oid": "1896e3ff80d5e509e66822e7f096c07da2846805",
+      "size": 789555,
+      "lfs": {
+        "oid": "810da68be5b7e4ab736b5368d22a48db65b36f5c6bd4d12e21de326116d3e9f1",
+        "size": 789555,
+        "pointerSize": 131
+      },
+      "xetHash": "cd6abb7360ecec17219be5916b0f137bfc0b13c0497954e7d0d4a2e8a1d79e6f",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/TexturesCom_WoodFine0038_1_seamless_albedo_S.png"
+    },
+    {
+      "type": "file",
+      "oid": "eae3f2ca9c2227deba3b8c7d90bf1041125d999c",
+      "size": 175613,
+      "lfs": {
+        "oid": "59e799025d0b4ecfb729945704c6d00d792a3b353b8519924a59fecf50b7eb50",
+        "size": 175613,
+        "pointerSize": 131
+      },
+      "xetHash": "168372c6f30b6e57a8c9b1f8cd2877d53f106e315c242b3839e6668ee91eca3a",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/WallDrywallWhite.png"
+    },
+    {
+      "type": "file",
+      "oid": "0d0d3f5c24359392b4992a22083a7a8295ad4427",
+      "size": 85404,
+      "lfs": {
+        "oid": "c158d27333c47077f3177d3b6866a4c81cab49118e50933c5015343678bad7d0",
+        "size": 85404,
+        "pointerSize": 130
+      },
+      "xetHash": "4808ad13b7cda789358ad0d223e10ce2f6451e4fd74b72514e661701ce7759f9",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/WoodGrains1.png"
+    },
+    {
+      "type": "file",
+      "oid": "34f68965f00d40630d92161711f8f385215b51f3",
+      "size": 505236,
+      "lfs": {
+        "oid": "2cb0f54bcdbb77b51f5262717a30c7a958993cc5a69ad358dbe358499cc03ebc",
+        "size": 505236,
+        "pointerSize": 131
+      },
+      "xetHash": "1eb731ac10db321b130a7d7ca3f38198cb0104252f23800984e537e94b711a7e",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/american-gothic.png"
+    },
+    {
+      "type": "file",
+      "oid": "e72dbd2005621acdc7338f12f566ea6584b80011",
+      "size": 1796,
+      "lfs": {
+        "oid": "9e3332d4f611c8678ec20221c67b6a7e75fd01ea491505afffc63552b495f064",
+        "size": 1796,
+        "pointerSize": 129
+      },
+      "xetHash": "cb38efac31e1b470e438f3cee5ffbfe0345d44995d33566a7d142a15ad622a01",
+      "path": "scenes/ithor/FloorPlan220_physics/Payload/Textures/trim.png"
+    },
+    {
+      "type": "file",
+      "oid": "84e975e85fc89d1bc33ef6bb475f89a31261ed4e",
+      "size": 738,
+      "path": "scenes/ithor/FloorPlan220_physics/scene.preprocessed.json"
+    },
+    {
+      "type": "file",
+      "oid": "3afa2db8696ce2bb10d7328137f4628c4151f803",
+      "size": 3981,
+      "path": "scenes/ithor/FloorPlan220_physics/scene.usda"
+    },
+    {
+      "type": "file",
+      "oid": "a206d5b9ef7535f33a1f231712fcc6a68485a89d",
+      "size": 206,
+      "path": "Objects/057_racquetball/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "c4511b6e831550223bc97e91aee4eda2e2f06b1c",
+      "size": 1001453,
+      "path": "Objects/057_racquetball/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "2447aab5529f035845950b22b4f9367be1ce9db9",
+      "size": 819284,
+      "lfs": {
+        "oid": "9ff9445d3d88e82963a4d42edef8727e518089091e50eab58a2d2d165d6ba3ed",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "9f8c0456df36314755b280032318f2cfdf2976263175881223e6372ddd9bb224",
+      "path": "Objects/057_racquetball/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "9d64a1558aac2c93252ad379c3b893bcf5deec31",
+      "size": 3548124,
+      "lfs": {
+        "oid": "731434186b80edbbdcc21c213a712b5a174af5d6843eb1816b5e2fbc9844c0e2",
+        "size": 3548124,
+        "pointerSize": 132
+      },
+      "xetHash": "6913526078df5a4a8b29224b73f06bcb2d4d070f3fb7024cb7b5afb9df3d5647",
+      "path": "Objects/057_racquetball/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "b03de028b87fecb4648f68268c2c31806a688509",
+      "size": 2822881,
+      "path": "Objects/057_racquetball/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/057_racquetball/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "16b6e2d879e2b710f53ea678424fab4182e1186f",
+      "size": 1476039,
+      "path": "Objects/057_racquetball/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "4f74d9838a1b8abad44bddde7ec60dfb3d7d0dea",
+      "size": 32,
+      "path": "Objects/057_racquetball/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "3e489fbe066176863382ff0151f262e80df13f80",
+      "size": 1153640,
+      "lfs": {
+        "oid": "e0e7b629da78ee64c1e476e7f470c7475fbf11086d376ac07b9039a768fe70a1",
+        "size": 1153640,
+        "pointerSize": 132
+      },
+      "xetHash": "141594d9079251e03b1cd57a42c62fccab8e1fdfaa68b6591cf39ae77ac2dce7",
+      "path": "Objects/057_racquetball/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "696e1dbd18611c9d6507b543b305e7280de37122",
+      "size": 1475,
+      "path": "Objects/057_racquetball/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "8d1725c581b792a6423022f235ec534adb5deafc",
+      "size": 1153556,
+      "lfs": {
+        "oid": "d73abec3d6cdeedc4d666d4518e0078dcdd2078743979346d018e6b6a37d0fce",
+        "size": 1153556,
+        "pointerSize": 132
+      },
+      "xetHash": "59e3c7a5d2b307ebac8a70d0138d8150bc4b483fb72dc07d772685688c73134f",
+      "path": "Objects/057_racquetball/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "9d64a1558aac2c93252ad379c3b893bcf5deec31",
+      "size": 3548124,
+      "lfs": {
+        "oid": "731434186b80edbbdcc21c213a712b5a174af5d6843eb1816b5e2fbc9844c0e2",
+        "size": 3548124,
+        "pointerSize": 132
+      },
+      "xetHash": "6913526078df5a4a8b29224b73f06bcb2d4d070f3fb7024cb7b5afb9df3d5647",
+      "path": "Objects/057_racquetball/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "4193a9ff1c288b791c044f97690fcd289f642d8a",
+      "size": 32,
+      "path": "Objects/057_racquetball/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "1accd19c8767a012d89d4629d62d254e4dbd67c3",
+      "size": 1424,
+      "path": "Objects/057_racquetball/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "e7fa186265bba659548675d24bea05ede735e203",
+      "size": 1154345,
+      "lfs": {
+        "oid": "f5d7182fd1c4c2b736fdcc69fd1177f33001ead19b232380bd4b4e2fe80cc3e8",
+        "size": 1154345,
+        "pointerSize": 132
+      },
+      "xetHash": "10e9aa73bd57823fe4c87654d52a0ffaf4449c02ca2e844d4830da9ce31d5db7",
+      "path": "Objects/057_racquetball/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "9d64a1558aac2c93252ad379c3b893bcf5deec31",
+      "size": 3548124,
+      "lfs": {
+        "oid": "731434186b80edbbdcc21c213a712b5a174af5d6843eb1816b5e2fbc9844c0e2",
+        "size": 3548124,
+        "pointerSize": 132
+      },
+      "xetHash": "6913526078df5a4a8b29224b73f06bcb2d4d070f3fb7024cb7b5afb9df3d5647",
+      "path": "Objects/057_racquetball/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "554277cad494c3979bde77565986579fb6c77fd2",
+      "size": 32,
+      "path": "Objects/057_racquetball/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "0c6a84435bf9ec5d563d13f3ce29fe11e3fbaaee",
+      "size": 1321,
+      "path": "Objects/057_racquetball/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "0e1dcc04dd29415871370966912c0713d49113f8",
+      "size": 1154341,
+      "lfs": {
+        "oid": "ccbc13df60adb1140d9f536eeeb540fd1c212a2097a02ac77b993cc134f44d13",
+        "size": 1154341,
+        "pointerSize": 132
+      },
+      "xetHash": "605527554201144f1f4ebaaf341da5947ed012ceec17b22aaa6dc241ab37265e",
+      "path": "Objects/057_racquetball/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "9d64a1558aac2c93252ad379c3b893bcf5deec31",
+      "size": 3548124,
+      "lfs": {
+        "oid": "731434186b80edbbdcc21c213a712b5a174af5d6843eb1816b5e2fbc9844c0e2",
+        "size": 3548124,
+        "pointerSize": 132
+      },
+      "xetHash": "6913526078df5a4a8b29224b73f06bcb2d4d070f3fb7024cb7b5afb9df3d5647",
+      "path": "Objects/057_racquetball/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "27b24124e22147f940ac828dfb3523e2129da736",
+      "size": 206,
+      "path": "Objects/009_gelatin_box/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "f94901b2236013f3815cec6e6e04acd9f9dcf8cd",
+      "size": 1013325,
+      "path": "Objects/009_gelatin_box/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "633c703d7bc371ff1b8cb537e608e36d40e6c010",
+      "size": 819284,
+      "lfs": {
+        "oid": "ad9ece1a80b097a7a2980bc14e639abeed7d5aad2de627ea46647ab74238f288",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "e081974b0d15cfba2c443744b922b5281a7fa00d6380ca1212b17e3c0e461214",
+      "path": "Objects/009_gelatin_box/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "5c8ba8a18064fcdf1de3683dc8a2871ccd9122fd",
+      "size": 8040853,
+      "lfs": {
+        "oid": "3eab55fd6e4cc2a15d522bcbba63022bd778ea660c2a65c3215392912cb8e59e",
+        "size": 8040853,
+        "pointerSize": 132
+      },
+      "xetHash": "050bbc9b9228f23fd6b54c6d48e9517ae241f899975d88178366a017c908ec87",
+      "path": "Objects/009_gelatin_box/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "6c989914d064a03b701d276425d53c4d8b48b627",
+      "size": 2839432,
+      "path": "Objects/009_gelatin_box/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/009_gelatin_box/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "c7f7607e0e51e22a7eec8467a2e7be43d5736d87",
+      "size": 1475100,
+      "lfs": {
+        "oid": "e978b7db27afb38549ae6df362909af01f5fe37fbf7cc8bb944efa1e687080d1",
+        "size": 1475100,
+        "pointerSize": 132
+      },
+      "xetHash": "e47beb55b55e9023c859d402ecf7429e971ace0db15095f7d3fb153601fd4cf8",
+      "path": "Objects/009_gelatin_box/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "4595d6d8cda9ea670dfe00f7723f436ac01075c9",
+      "size": 32,
+      "path": "Objects/009_gelatin_box/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "b438c124f3419764574a2a305aaeb63d527747a0",
+      "size": 1154440,
+      "lfs": {
+        "oid": "aa35cb53842844443e55b7d75a9af8054e49e51fc9a8bccd268080cfce6554ac",
+        "size": 1154440,
+        "pointerSize": 132
+      },
+      "xetHash": "d1d206f034a575089c4b7cf08e828f2390ce1c56049e50083cbd0790865ba13e",
+      "path": "Objects/009_gelatin_box/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "4e4d46f70738cace35f8079bbb73bc887df43bd6",
+      "size": 1476,
+      "path": "Objects/009_gelatin_box/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "69feaf75211cf57313694ffa6b23fcd2b5935697",
+      "size": 1154364,
+      "lfs": {
+        "oid": "a0eaf63710af0184c8734e969f2a5f64e0cbdcb55852abd255a78800e8b8694a",
+        "size": 1154364,
+        "pointerSize": 132
+      },
+      "xetHash": "f6eb449231bf7b5a11926d2668bebc2326a8b836c9885172123a810289b62d43",
+      "path": "Objects/009_gelatin_box/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "5c8ba8a18064fcdf1de3683dc8a2871ccd9122fd",
+      "size": 8040853,
+      "lfs": {
+        "oid": "3eab55fd6e4cc2a15d522bcbba63022bd778ea660c2a65c3215392912cb8e59e",
+        "size": 8040853,
+        "pointerSize": 132
+      },
+      "xetHash": "050bbc9b9228f23fd6b54c6d48e9517ae241f899975d88178366a017c908ec87",
+      "path": "Objects/009_gelatin_box/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "8becf5d5961f518e778d7b54ec471e5c43de0682",
+      "size": 32,
+      "path": "Objects/009_gelatin_box/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "99d3dae2ff918b714712b4942fa234315c0507d4",
+      "size": 1425,
+      "path": "Objects/009_gelatin_box/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6f854a275da447a93faec40e359f71eaae0b8bf4",
+      "size": 1155159,
+      "lfs": {
+        "oid": "0cd166e54db7292bc609460efe5ad78b6725e2a3274a1158e1a3964910732420",
+        "size": 1155159,
+        "pointerSize": 132
+      },
+      "xetHash": "0b17e2b04d9c8840ee8d839ae253b93936e9456925ce56e5942f6faed183153f",
+      "path": "Objects/009_gelatin_box/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "5c8ba8a18064fcdf1de3683dc8a2871ccd9122fd",
+      "size": 8040853,
+      "lfs": {
+        "oid": "3eab55fd6e4cc2a15d522bcbba63022bd778ea660c2a65c3215392912cb8e59e",
+        "size": 8040853,
+        "pointerSize": 132
+      },
+      "xetHash": "050bbc9b9228f23fd6b54c6d48e9517ae241f899975d88178366a017c908ec87",
+      "path": "Objects/009_gelatin_box/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "e527548e2504c6f72f95690143cc38f14cefa117",
+      "size": 32,
+      "path": "Objects/009_gelatin_box/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "f813e06bebb1052354b063efc179c90faa1f651a",
+      "size": 1322,
+      "path": "Objects/009_gelatin_box/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "4a068b1b85098a6d11ee9e684ac7e24749a6a85e",
+      "size": 1155153,
+      "lfs": {
+        "oid": "5969af509df178a955cf437136699479bc125b61c3acbf56cce58575c5fdda9b",
+        "size": 1155153,
+        "pointerSize": 132
+      },
+      "xetHash": "689709da9cab0f907e31feef4f7e85c263b3ab4ced35141e10353d6673ecc49e",
+      "path": "Objects/009_gelatin_box/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "5c8ba8a18064fcdf1de3683dc8a2871ccd9122fd",
+      "size": 8040853,
+      "lfs": {
+        "oid": "3eab55fd6e4cc2a15d522bcbba63022bd778ea660c2a65c3215392912cb8e59e",
+        "size": 8040853,
+        "pointerSize": 132
+      },
+      "xetHash": "050bbc9b9228f23fd6b54c6d48e9517ae241f899975d88178366a017c908ec87",
+      "path": "Objects/009_gelatin_box/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "7522883766df087a17e9dfc6b2af7bfb8e063eb7",
+      "size": 192,
+      "path": "Objects/065-a_cups/google_16k/kinbody.xml"
+    },
+    {
+      "type": "file",
+      "oid": "c2aa52473401fa8f54efa3be2825f6cd24cdf363",
+      "size": 1021630,
+      "path": "Objects/065-a_cups/google_16k/nontextured.ply"
+    },
+    {
+      "type": "file",
+      "oid": "a4cf719e9a71634a371beff424bd55a5248ff372",
+      "size": 819284,
+      "lfs": {
+        "oid": "16adb341585d08209a25e8a75ba939f8403c06b1f436db18b0d8ec6c92377bb1",
+        "size": 819284,
+        "pointerSize": 131
+      },
+      "xetHash": "71ac027a0522dd50c17e93e197ae92f610ece0812fd9faf5967d67a271468474",
+      "path": "Objects/065-a_cups/google_16k/nontextured.stl"
+    },
+    {
+      "type": "file",
+      "oid": "199d6c8da8749b5063bcdd320174c6845bf95746",
+      "size": 4745201,
+      "lfs": {
+        "oid": "2ee658b32a85e85db2fa4ed4af4eeab53271a4b02ca96e35d442a209d99bc342",
+        "size": 4745201,
+        "pointerSize": 132
+      },
+      "xetHash": "f8c1e073ecb764b2a82a34a6b882f6c0affef05a2db9b9cf3c88ba73da481105",
+      "path": "Objects/065-a_cups/google_16k/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "021d9fb2952002119aa6cb297f5747bc76f77357",
+      "size": 2838491,
+      "path": "Objects/065-a_cups/google_16k/textured.dae"
+    },
+    {
+      "type": "file",
+      "oid": "c6e411f88f1403a4eddf2aff5ad69428cf84e956",
+      "size": 70,
+      "path": "Objects/065-a_cups/google_16k/textured.mtl"
+    },
+    {
+      "type": "file",
+      "oid": "66af3221ce3c2b02e2ebd83dc3c3ae2b0ee9a362",
+      "size": 1482529,
+      "path": "Objects/065-a_cups/google_16k/textured.obj"
+    },
+    {
+      "type": "file",
+      "oid": "6783bae7087da1e5293cc6b2fdebde3a01955d0e",
+      "size": 32,
+      "path": "Objects/065-a_cups/google_16k/usd/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "d55dad6b77f7cde01a14eb3bdbada724044fe43b",
+      "size": 1155719,
+      "lfs": {
+        "oid": "bc9b3ca5cefc5c4874f2689a202ce88b0244579f5a057ecf3f0e2b4f76fc0215",
+        "size": 1155719,
+        "pointerSize": 132
+      },
+      "xetHash": "60a666a01d61b388a5a639c7679b28895f1232db96ddf260e6573469d43086fd",
+      "path": "Objects/065-a_cups/google_16k/usd/Props/instanceable_meshes.usd"
+    },
+    {
+      "type": "file",
+      "oid": "cb609c9505b5d2e7e490b210c8fc4535a6659a9a",
+      "size": 1465,
+      "path": "Objects/065-a_cups/google_16k/usd/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "771b42a57f5791977ff57da95bda1b4631795704",
+      "size": 1155614,
+      "lfs": {
+        "oid": "e348b3a40d8a57dcdc5240093390f9f906cd25e84c6e927366de0507c1528837",
+        "size": 1155614,
+        "pointerSize": 132
+      },
+      "xetHash": "66bae3b25af6da68d33c8a8b3a51196ca22eda1fc2dc4f843e66372d843d6880",
+      "path": "Objects/065-a_cups/google_16k/usd/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "199d6c8da8749b5063bcdd320174c6845bf95746",
+      "size": 4745201,
+      "lfs": {
+        "oid": "2ee658b32a85e85db2fa4ed4af4eeab53271a4b02ca96e35d442a209d99bc342",
+        "size": 4745201,
+        "pointerSize": 132
+      },
+      "xetHash": "f8c1e073ecb764b2a82a34a6b882f6c0affef05a2db9b9cf3c88ba73da481105",
+      "path": "Objects/065-a_cups/google_16k/usd/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "fdec206ce7961052a0a71b8145383f09664d266b",
+      "size": 32,
+      "path": "Objects/065-a_cups/google_16k/usd_decomposition_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "166c2648604fee58ee2e74f983975b48d5da9207",
+      "size": 1436,
+      "path": "Objects/065-a_cups/google_16k/usd_decomposition_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "73c59ab34f4e3fcf58559ceac191264d0ce96940",
+      "size": 1156414,
+      "lfs": {
+        "oid": "f8f349937154603f29d276ce0503f1436ba888d727d4961bab183de78264a94d",
+        "size": 1156414,
+        "pointerSize": 132
+      },
+      "xetHash": "421261ff0a0d9b88318fcac948610f9ea0bef7d0044c3cc17ec09a89a9b5d338",
+      "path": "Objects/065-a_cups/google_16k/usd_decomposition_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "199d6c8da8749b5063bcdd320174c6845bf95746",
+      "size": 4745201,
+      "lfs": {
+        "oid": "2ee658b32a85e85db2fa4ed4af4eeab53271a4b02ca96e35d442a209d99bc342",
+        "size": 4745201,
+        "pointerSize": 132
+      },
+      "xetHash": "f8c1e073ecb764b2a82a34a6b882f6c0affef05a2db9b9cf3c88ba73da481105",
+      "path": "Objects/065-a_cups/google_16k/usd_decomposition_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "2a2bd0ecf7a2c71cb2533c848ec431ad39d171bf",
+      "size": 32,
+      "path": "Objects/065-a_cups/google_16k/usd_sdf_linux/.asset_hash"
+    },
+    {
+      "type": "file",
+      "oid": "96c22931baac7c4431c366671538cb3fa6ea6abd",
+      "size": 1333,
+      "path": "Objects/065-a_cups/google_16k/usd_sdf_linux/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "437334c65ba4bfd798176021f456a74a41a3ebff",
+      "size": 1156410,
+      "lfs": {
+        "oid": "5fe3ea9fb26895c9fb2d199fc6c998fd7dc4e08bab3ac566130c7df423e07b56",
+        "size": 1156410,
+        "pointerSize": 132
+      },
+      "xetHash": "0f92091aea534eddfa8eaa9d8777bcabc2c0c9c6b499776a884980054c57a592",
+      "path": "Objects/065-a_cups/google_16k/usd_sdf_linux/textured.usd"
+    },
+    {
+      "type": "file",
+      "oid": "199d6c8da8749b5063bcdd320174c6845bf95746",
+      "size": 4745201,
+      "lfs": {
+        "oid": "2ee658b32a85e85db2fa4ed4af4eeab53271a4b02ca96e35d442a209d99bc342",
+        "size": 4745201,
+        "pointerSize": 132
+      },
+      "xetHash": "f8c1e073ecb764b2a82a34a6b882f6c0affef05a2db9b9cf3c88ba73da481105",
+      "path": "Objects/065-a_cups/google_16k/usd_sdf_linux/textures/texture_map.png"
+    },
+    {
+      "type": "file",
+      "oid": "83b5c172bb88e3d3fb46639d0ee9945b605915fe",
+      "size": 284886,
+      "lfs": {
+        "oid": "374a089191e02b85ce914be31328e1d0f279536cf7d290c5e808bb07f4a12e6e",
+        "size": 284886,
+        "pointerSize": 131
+      },
+      "xetHash": "96d43ac8d6ec3740b79b33d78b232dd74c6a44129f9a1e279d2e9a348b876061",
+      "path": "Objects/thor/Armchair_220_1_prim/Armchair_220_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "5c4060cf0aaae66a930f57966a5d6f3f7bc4b7ea",
+      "size": 338997,
+      "lfs": {
+        "oid": "ebfdea950cad634d6fe9e8c7e186a68763ddcb94b0101c6c105eae596fac2782",
+        "size": 338997,
+        "pointerSize": 131
+      },
+      "xetHash": "7aceecdae3772f8de2e4fcbf7392928bb84806a1f82e6a3320c724a51aa470ad",
+      "path": "Objects/thor/Armchair_220_1_prim/Textures/Carpet2.png"
+    },
+    {
+      "type": "file",
+      "oid": "ed089832c6fbdcd12c1e55acd684e0e9898a794d",
+      "size": 202681,
+      "lfs": {
+        "oid": "278fcda0717623a415c54d92019595bd3d610a08a11b3030b49202b7e2dd9dcd",
+        "size": 202681,
+        "pointerSize": 131
+      },
+      "xetHash": "6688400a6753dd93ec9bca1e3b112321ab5f08eca8626b2d01364066e1b4eac3",
+      "path": "Objects/thor/Armchair_220_1_prim/Textures/TexturesCom_FabricPlain0072_seamless_albedo_S.png"
+    },
+    {
+      "type": "file",
+      "oid": "d6f4ebe5a73de8c201e7c6cfdf347d57cae2f5cf",
+      "size": 288805,
+      "lfs": {
+        "oid": "c308b8850ff0875b7c96fb3982e9c65e840c50a86be208d607a46694670aed5c",
+        "size": 288805,
+        "pointerSize": 131
+      },
+      "xetHash": "8ecba44e2357ccc7272d8691f0051602e31d2eed4d656a853a36a5e7f9a720d9",
+      "path": "Objects/thor/Boot_1_mesh/Boot_1_mesh.usda"
+    },
+    {
+      "type": "file",
+      "oid": "8f7b8cb46e594c176f39befcba3040e748e79e0b",
+      "size": 109242,
+      "lfs": {
+        "oid": "f1fb808833b3dcbec42d22632d5a3456cc10d8535a0c76e49dccae509381c023",
+        "size": 109242,
+        "pointerSize": 131
+      },
+      "xetHash": "229f676978e3671d5c513bdfa4a92b32c680f1aeac6d4fdd1bb52c213dd2464d",
+      "path": "Objects/thor/Boot_1_mesh/Textures/Boots_Boots_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "24d96a759e3cea68e10bae86f0165b72292bfc7c",
+      "size": 67003,
+      "path": "Objects/thor/Box_20_prim/Box_20_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "fdab41bb4b5b459e750d8f2633ac35f19e803e04",
+      "size": 898532,
+      "lfs": {
+        "oid": "b39f485634041839308b81c24dcb4f559eabd4e3208a4a1c44fa6cd4c36f1885",
+        "size": 898532,
+        "pointerSize": 131
+      },
+      "xetHash": "0eec615bc53acb1fe70dec84963055fb5e6360ff34e671a54cbeb519156156d8",
+      "path": "Objects/thor/Box_20_prim/Textures/Cardboard_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "dfcd20c52d44ff51a4c11d2236f9b9d998048354",
+      "size": 96219,
+      "path": "Objects/thor/Candle_1_prim/Candle_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "d80c6d7f93fc4f0c6d55a5fa5db793eaa8232a29",
+      "size": 231667,
+      "lfs": {
+        "oid": "40cbb265724a9f6318b23a9ba4f4b4e0038e619ee3632388e35b989c87a0c71f",
+        "size": 231667,
+        "pointerSize": 131
+      },
+      "xetHash": "b6fc08927875f2f512b191be1d8c88495f3a457841bdfae5570f59b59769c633",
+      "path": "Objects/thor/Chair_210_2_prim/Chair_210_2_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "88299486d782c1d8caee2ff31d9354d9f612d067",
+      "size": 85376,
+      "lfs": {
+        "oid": "fd34257274bd7e71f5300c9b1ea4202386c4e39f1d392023a27fb30f0ff31372",
+        "size": 85376,
+        "pointerSize": 130
+      },
+      "xetHash": "86360ef8fca86834416917e43b361bb0bf4f6f28fcbf68b7aa9b6f0f379ca8fb",
+      "path": "Objects/thor/Chair_210_2_prim/Textures/WoodGrains1.png"
+    },
+    {
+      "type": "file",
+      "oid": "4c27ea77a7c8100de386679000e0be70afcd727f",
+      "size": 30614,
+      "path": "Objects/thor/Coffee_Table_206_1_prim/Coffee_Table_206_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "73253068c2619e5abeffff58460eafb784ac4959",
+      "size": 136055,
+      "lfs": {
+        "oid": "e6cf6b3b75dee45e0eb9b6026ec3f02c92ba8dd2ac9f7737d6607960852a8e25",
+        "size": 136055,
+        "pointerSize": 131
+      },
+      "xetHash": "eda7859c8bb5b0575d3ef2b01127ef38118a59ea551b6b4d7bb95ea650aacae6",
+      "path": "Objects/thor/Coffee_Table_206_1_prim/Textures/TexturesCom_WoodWhite.png"
+    },
+    {
+      "type": "file",
+      "oid": "038905cca21eb6d90a0f0aad1284ab711b66bee3",
+      "size": 314966,
+      "lfs": {
+        "oid": "6f910afc51c55fb37d69869dde1cbff34db4b5eb7b4f9c521979cec882fa3eb3",
+        "size": 314966,
+        "pointerSize": 131
+      },
+      "xetHash": "b6c6c36a045276b783d86b4dc5c4c929776a34c6a3dee17046199ef80ab49008",
+      "path": "Objects/thor/Dresser_220_1_prim/Dresser_220_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "b0181c39133c24150f0b083ff252ba73c79b5c68",
+      "size": 63277,
+      "lfs": {
+        "oid": "8f98c0980fde3103bd3dd44587f2a6dee93bdafac138faa42d59fe3150ef5687",
+        "size": 63277,
+        "pointerSize": 130
+      },
+      "xetHash": "48b442b236200ff02545207c97b80f6bfb72be5e386ebb51240323626e71a702",
+      "path": "Objects/thor/Dresser_220_1_prim/Textures/FlowerDecal.png"
+    },
+    {
+      "type": "file",
+      "oid": "9ea6130c5263c1816b9af59be931f12e941b88b5",
+      "size": 37793,
+      "lfs": {
+        "oid": "33047da5bc6bc063d029bd33c74f3935a3fae9686eff90c75bb6af143cf94c8e",
+        "size": 37793,
+        "pointerSize": 130
+      },
+      "xetHash": "799261a46618b0e05471675ab96b977f4ca4e242a0862efe662ce176dd7e8e59",
+      "path": "Objects/thor/Dresser_220_1_prim/Textures/HammeredMetal_MetallicSmoothness.png"
+    },
+    {
+      "type": "file",
+      "oid": "88299486d782c1d8caee2ff31d9354d9f612d067",
+      "size": 85376,
+      "lfs": {
+        "oid": "fd34257274bd7e71f5300c9b1ea4202386c4e39f1d392023a27fb30f0ff31372",
+        "size": 85376,
+        "pointerSize": 130
+      },
+      "xetHash": "86360ef8fca86834416917e43b361bb0bf4f6f28fcbf68b7aa9b6f0f379ca8fb",
+      "path": "Objects/thor/Dresser_220_1_prim/Textures/WoodGrains1.png"
+    },
+    {
+      "type": "file",
+      "oid": "5003a35d1a964c617e8272a90c86546cd4fb6f75",
+      "size": 234737,
+      "lfs": {
+        "oid": "8f44f10da65f3c4452e1a6cea7ae2ea13deb7f4b97847f0ced1cc6d8fa232071",
+        "size": 234737,
+        "pointerSize": 131
+      },
+      "xetHash": "f16eaa24e987e9dbdba41bbf9b0deb5e916755a312e36305725c27ee8afeb4df",
+      "path": "Objects/thor/Floor_Lamp_20_prim/Floor_Lamp_20_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "c5451a17b5f5976bbbbbb916c8aa9b510a3bda01",
+      "size": 59057,
+      "lfs": {
+        "oid": "a371d4ebf8938dccd0419ffbeb000386c8598f5756c6f7bf174dcbc16e2586d0",
+        "size": 59057,
+        "pointerSize": 130
+      },
+      "xetHash": "2d34d2d22af23a786b731facb4f74b80696cb704e9ca3a89378e96b59a1e3724",
+      "path": "Objects/thor/Floor_Lamp_20_prim/Textures/BumpyPlastic_Albedo.png"
+    },
+    {
+      "type": "file",
+      "oid": "ed089832c6fbdcd12c1e55acd684e0e9898a794d",
+      "size": 202681,
+      "lfs": {
+        "oid": "278fcda0717623a415c54d92019595bd3d610a08a11b3030b49202b7e2dd9dcd",
+        "size": 202681,
+        "pointerSize": 131
+      },
+      "xetHash": "6688400a6753dd93ec9bca1e3b112321ab5f08eca8626b2d01364066e1b4eac3",
+      "path": "Objects/thor/Floor_Lamp_20_prim/Textures/TexturesCom_FabricPlain0072_seamless_albedo_S.png"
+    },
+    {
+      "type": "file",
+      "oid": "39abb7740936fbbd5488dff3caee58b4ac6021dc",
+      "size": 72254,
+      "lfs": {
+        "oid": "a18d95bdd81ae18497b8cf70cf5baa9f49b7cfe25589ee254c24fefca0a33b27",
+        "size": 72254,
+        "pointerSize": 130
+      },
+      "xetHash": "f5c7ad7fd3762738119130965112248417bc4b42589364cc68a88ff34e6d13a2",
+      "path": "Objects/thor/Hand_Statue_3_prim/Hand_Statue_3_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "0928008047a4c9c772d73c9752f4e702de4b1fb8",
+      "size": 3848,
+      "lfs": {
+        "oid": "d8bf26ef8ba852baa7266e6a5a2c89acb587a2abcb1bf587043210a27cb6aa61",
+        "size": 3848,
+        "pointerSize": 129
+      },
+      "xetHash": "05b079e6da09c0b22d7997ee2c46e43316c0ac6af3791b540f4b44e1f2d2ce4d",
+      "path": "Objects/thor/Hand_Statue_3_prim/Textures/HammeredMetal_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "65fa860cad27759a741dc85b7b5bec6f280d73c2",
+      "size": 502398,
+      "lfs": {
+        "oid": "899803342cc9e1b8fdf63bc9c97e93ae3de0e54891b9f7225977c15365b987d4",
+        "size": 502398,
+        "pointerSize": 131
+      },
+      "xetHash": "1a33120701f6fd94a3e9edb0ccb2f0c91ef9ea64f6de25998264d937137c2c14",
+      "path": "Objects/thor/Houseplant_20_prim/Houseplant_20_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "90ce2dfeda1f6cec2d83fc590f718e6f316af715",
+      "size": 134671,
+      "lfs": {
+        "oid": "88ac7c59a0ee3ca3f9865d36d56779243c9875f6d917b7cd3241de3a2d979a31",
+        "size": 134671,
+        "pointerSize": 131
+      },
+      "xetHash": "26c6195fe114ffb923393505a1a8b68bd69b445a85aca880e9190272ea17905f",
+      "path": "Objects/thor/Houseplant_20_prim/Textures/HousePlant2_DefaultMaterial_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "d47df3059ca85af87f047be46b64a1be1359f69c",
+      "size": 22944,
+      "lfs": {
+        "oid": "4b4f6b72a5c7063fb0b092bcc51ee2912789f48304ef2b4a35ea6c4c77511d63",
+        "size": 22944,
+        "pointerSize": 130
+      },
+      "xetHash": "6b21cf43981112437150f0ed2d89c465a18649bab69ddf754b90f4f5efe08519",
+      "path": "Objects/thor/Houseplant_20_prim/Textures/Noise1NRM.png"
+    },
+    {
+      "type": "file",
+      "oid": "fd896f33b678d66655c5b4accfa6ae849576e665",
+      "size": 142037,
+      "lfs": {
+        "oid": "e09cab6e6e07c7cbca52255b33beb545a4237c4a316e9f29206f5de3bc66aec8",
+        "size": 142037,
+        "pointerSize": 131
+      },
+      "xetHash": "a57355e8f4b05b81bd3b81e0c2b9bf9e4cddc75a069cb47adeb46258d2b9605b",
+      "path": "Objects/thor/Remote_2_prim/Remote_2_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "0928008047a4c9c772d73c9752f4e702de4b1fb8",
+      "size": 3848,
+      "lfs": {
+        "oid": "d8bf26ef8ba852baa7266e6a5a2c89acb587a2abcb1bf587043210a27cb6aa61",
+        "size": 3848,
+        "pointerSize": 129
+      },
+      "xetHash": "05b079e6da09c0b22d7997ee2c46e43316c0ac6af3791b540f4b44e1f2d2ce4d",
+      "path": "Objects/thor/Remote_2_prim/Textures/HammeredMetal_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "bb31c8cbfe01881caab754e7c2afe44a20f8b9c4",
+      "size": 606388,
+      "lfs": {
+        "oid": "5ad4e26b7d7f3d9872bcbfb09b296dae259b67902488bdcfbb02a27224c84664",
+        "size": 606388,
+        "pointerSize": 131
+      },
+      "xetHash": "638c7f787ad27ef0194963c8ae007a67dc80f1aaa2542627876892e42b7e7338",
+      "path": "Objects/thor/Room_Decor_1_1_prim/Room_Decor_1_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "358039093b4246c7c5ffb5dedfbf67e29316424a",
+      "size": 347533,
+      "lfs": {
+        "oid": "9a6588bc222544af3c1db42c361eefd1facdbb8b342e7c23129605ae56375e6f",
+        "size": 347533,
+        "pointerSize": 131
+      },
+      "xetHash": "d129fa851b3cdaa2d2ec93fe9a7c6deee80768c0c20631f612254f690ff3a524",
+      "path": "Objects/thor/Room_Decor_1_1_prim/Textures/marbleBase2.png"
+    },
+    {
+      "type": "file",
+      "oid": "6f74bb855b28399474cd570a0b58e283e7b448bc",
+      "size": 178987,
+      "lfs": {
+        "oid": "3b5bccf01c653fb93e7124c74027196d60df63229e1f3c7f6b71237cbf8f67af",
+        "size": 178987,
+        "pointerSize": 131
+      },
+      "xetHash": "73eac5bf5067f58864acc7246495b2d2adfb40815688452edca653b41b400c75",
+      "path": "Objects/thor/Side_Table_220_1_prim/Side_Table_220_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "0928008047a4c9c772d73c9752f4e702de4b1fb8",
+      "size": 3848,
+      "lfs": {
+        "oid": "d8bf26ef8ba852baa7266e6a5a2c89acb587a2abcb1bf587043210a27cb6aa61",
+        "size": 3848,
+        "pointerSize": 129
+      },
+      "xetHash": "05b079e6da09c0b22d7997ee2c46e43316c0ac6af3791b540f4b44e1f2d2ce4d",
+      "path": "Objects/thor/Side_Table_220_1_prim/Textures/HammeredMetal_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "9ea6130c5263c1816b9af59be931f12e941b88b5",
+      "size": 37793,
+      "lfs": {
+        "oid": "33047da5bc6bc063d029bd33c74f3935a3fae9686eff90c75bb6af143cf94c8e",
+        "size": 37793,
+        "pointerSize": 130
+      },
+      "xetHash": "799261a46618b0e05471675ab96b977f4ca4e242a0862efe662ce176dd7e8e59",
+      "path": "Objects/thor/Side_Table_220_1_prim/Textures/HammeredMetal_MetallicSmoothness.png"
+    },
+    {
+      "type": "file",
+      "oid": "88299486d782c1d8caee2ff31d9354d9f612d067",
+      "size": 85376,
+      "lfs": {
+        "oid": "fd34257274bd7e71f5300c9b1ea4202386c4e39f1d392023a27fb30f0ff31372",
+        "size": 85376,
+        "pointerSize": 130
+      },
+      "xetHash": "86360ef8fca86834416917e43b361bb0bf4f6f28fcbf68b7aa9b6f0f379ca8fb",
+      "path": "Objects/thor/Side_Table_220_1_prim/Textures/WoodGrains1.png"
+    },
+    {
+      "type": "file",
+      "oid": "258139b7cc6048609d55b7f6a7a7ce9e200b9c8e",
+      "size": 481945,
+      "lfs": {
+        "oid": "81449a7d207b44752249f7d4cb295c02b501176f1f42d04853687c8180def394",
+        "size": 481945,
+        "pointerSize": 131
+      },
+      "xetHash": "a4dd2441a52f52b3107487a1774ed28c63dc85ce13facbb02df9e144ccc2198e",
+      "path": "Objects/thor/Sofa_218_2_mesh/Sofa_218_2_mesh.usda"
+    },
+    {
+      "type": "file",
+      "oid": "e91709012e209b55e409070308fac486f8d6b2ec",
+      "size": 4611,
+      "lfs": {
+        "oid": "525983d569ac3c74e9a6011e6f25930b4f77ca698c166b5a50ffe8235fad2771",
+        "size": 4611,
+        "pointerSize": 129
+      },
+      "xetHash": "0273713080ceed0c84f296a55a5ba549a5a3b07682e67ea6e64b95a1c1586e6d",
+      "path": "Objects/thor/Sofa_218_2_mesh/Textures/Sofa4_DefaultMaterial_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "3bd7c51c96bdffb5b32dbd1c95a5d02e589613ac",
+      "size": 349348,
+      "lfs": {
+        "oid": "5e2844d0e5231ad67b5c3db9e5a3f4656595e579297cc05e8759f1319d841015",
+        "size": 349348,
+        "pointerSize": 131
+      },
+      "xetHash": "c19f49433e23e689fb2bab104b53ebdd7e4aa19d3910982d47d53ac7a867103f",
+      "path": "Objects/thor/Sofa_220_1_mesh/Sofa_220_1_mesh.usda"
+    },
+    {
+      "type": "file",
+      "oid": "897eb63838543bd5a49be484b7c66011db18d2ed",
+      "size": 27315,
+      "lfs": {
+        "oid": "3936e9edde4c52651696828cdb56f05b23390cc5d6bfc6f0a07e3c8a3d999fe7",
+        "size": 27315,
+        "pointerSize": 130
+      },
+      "xetHash": "c362e05683b065540e623733b03d027d799cd009db6e6384ae99f67c688b231c",
+      "path": "Objects/thor/Sofa_220_1_mesh/Textures/Plaid2.png"
+    },
+    {
+      "type": "file",
+      "oid": "ef1609ef47aee368f43b252db008f898257dcb99",
+      "size": 33733,
+      "lfs": {
+        "oid": "3465d9a15c71db2edc3b16f9052cbe41e9d9066eb4db44c249622a6a63ceedf8",
+        "size": 33733,
+        "pointerSize": 130
+      },
+      "xetHash": "571745d710d94af537e0fac812fcd6ed347d10448a4b62da1c296897fcd9d13b",
+      "path": "Objects/thor/TV_Stand_220_1_prim/TV_Stand_220_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "0928008047a4c9c772d73c9752f4e702de4b1fb8",
+      "size": 3848,
+      "lfs": {
+        "oid": "d8bf26ef8ba852baa7266e6a5a2c89acb587a2abcb1bf587043210a27cb6aa61",
+        "size": 3848,
+        "pointerSize": 129
+      },
+      "xetHash": "05b079e6da09c0b22d7997ee2c46e43316c0ac6af3791b540f4b44e1f2d2ce4d",
+      "path": "Objects/thor/TV_Stand_220_1_prim/Textures/HammeredMetal_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "61722d537e8fe34a516088d3aa052344fa0a0761",
+      "size": 334939,
+      "lfs": {
+        "oid": "81faf52f028b689928027828c63c377a108c8afe0c65ef272087d0a94a85f441",
+        "size": 334939,
+        "pointerSize": 131
+      },
+      "xetHash": "239b8d76c57719eb38a6d1bd92dc6a94fc0cd7e15fd9cc06789a4b45a3fcc6c6",
+      "path": "Objects/thor/Television_20_mesh/Television_20_mesh.usda"
+    },
+    {
+      "type": "file",
+      "oid": "0190fdb18f4c938c5b4547e08248c0514d0ff095",
+      "size": 4529,
+      "lfs": {
+        "oid": "b5efc442a5902203491babba251d28aea29c274135cc7281460531e18898ebd0",
+        "size": 4529,
+        "pointerSize": 129
+      },
+      "xetHash": "223e1dfe181171bc7ada6d9f6775f57430a9fa3d128e32855e9569fad8471ddb",
+      "path": "Objects/thor/Television_20_mesh/Textures/MetalBumpy_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "7f1868fec48b37c35642d7525481fdc1e71c0693",
+      "size": 246287,
+      "lfs": {
+        "oid": "ad2ee84ce6cd225ea854b72be7d395baf767022f69e7ffc350e16e9b57144bdc",
+        "size": 246287,
+        "pointerSize": 131
+      },
+      "xetHash": "411686f145714951d9af26c1d491912c70c48fe01118ff17f93989e798afbad6",
+      "path": "Objects/thor/Tissue_Box_1_prim/Textures/Carpet1.png"
+    },
+    {
+      "type": "file",
+      "oid": "3b6504ae5c4d6047eed0aaf49978d3b291f99ead",
+      "size": 143698,
+      "lfs": {
+        "oid": "00a0568d96877b040d5a1ebe49b8403804cb52377d7b0cca993091fe78a900b5",
+        "size": 143698,
+        "pointerSize": 131
+      },
+      "xetHash": "1f489ace3d8404818c1e6c2d06b8955cb94bd2c9c9da7cc22dc0b4eecfa346bc",
+      "path": "Objects/thor/Tissue_Box_1_prim/Textures/TissueBoxDIF.png"
+    },
+    {
+      "type": "file",
+      "oid": "820d91ae6dcc039c9514153f345f63f603476a2a",
+      "size": 69862,
+      "lfs": {
+        "oid": "6732a5e96cc2da1ec4643d936edd54582cb84249bf71af7ee6b26db72c6ecd35",
+        "size": 69862,
+        "pointerSize": 130
+      },
+      "xetHash": "466bfdc5e0b874bd364cf987447194f7a7a7b866d1743c71309eb07da5fd6db7",
+      "path": "Objects/thor/Tissue_Box_1_prim/Tissue_Box_1_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "89b8b74dbc706f38e545ccf11b289a46e13fb25b",
+      "size": 6097,
+      "lfs": {
+        "oid": "e5a9cecfeb8fb1a9df865453401d08d46538b7c9de2649d91ffb2e21204c0aca",
+        "size": 6097,
+        "pointerSize": 129
+      },
+      "xetHash": "e97b912673c4b3e32ac94af6d85d2538b275fc22a37dde9b95a8f2bf75406674",
+      "path": "Objects/thor/bin_20_prim/Textures/Bin_Decal_AlbedoTransparency.png"
+    },
+    {
+      "type": "file",
+      "oid": "35bf2ec427e685a082732f92ba8107db39bf4521",
+      "size": 104452,
+      "lfs": {
+        "oid": "7f6198bbbad0eb95203bb9f49575dd9884542d44dcc0ff73214a2b876619b22c",
+        "size": 104452,
+        "pointerSize": 131
+      },
+      "xetHash": "e7ab69f2498f436650b8a52cbb332889cc8770ed7b71a0da082171a9e7e7b713",
+      "path": "Objects/thor/bin_20_prim/bin_20_prim.usda"
+    },
+    {
+      "type": "file",
+      "oid": "e94f2532ad27162ef23567c000a0558fa3f95549",
+      "size": 229829,
+      "lfs": {
+        "oid": "a346915a31bc4e38499ba08e5eab3f77d9c0d2fdf144faf3df2747598825d4ed",
+        "size": 229829,
+        "pointerSize": 131
+      },
+      "xetHash": "91d92b6cba694cd44695984c79ce8b4890860732d930263ce22a11e15372e402",
+      "path": "Objects/thor/pillow_20_mesh/pillow_20_mesh.usda"
+    },
+    {
+      "type": "file",
+      "path": "textures/wood/wood0060.jpg",
+      "size": 241303,
+      "verified_local_sha256": "415476f0d9e25e35e5bc3ebf0c8ed1a0a2541f152ba8488117473dfa0f6f87b5"
+    }
+  ]
+}
