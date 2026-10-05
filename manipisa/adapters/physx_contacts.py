@@ -57,6 +57,24 @@ class PhysXContactSource:
     def _numpy(value):
         return value.detach().cpu().numpy().copy() if hasattr(value, "detach") else np.array(value, copy=True)
 
+    @classmethod
+    def _numpy_slice(cls, value, indices, *, width=None):
+        """Copy only the valid patch range; empty ranges need no device read.
+
+        PhysX supplies contiguous (capacity, 1)/(capacity, 3) float buffers,
+        so these reshapes and basic slices are views before the CPU transfer.
+        Keep _numpy's final copy for CPU tensors backed by reusable buffers.
+        """
+        if not hasattr(value, "reshape"):
+            value = np.asarray(value)
+        shaped = value.reshape(-1) if width is None else value.reshape(-1, width)
+        selected = shaped[indices]
+        if selected.shape[0] == 0:
+            # dtype/shape are host metadata, including for CUDA tensors.
+            dtype = np.dtype(str(selected.dtype).removeprefix("torch."))
+            return np.empty(tuple(selected.shape), dtype=dtype)
+        return cls._numpy(selected)
+
     def _buffer(self, count, start):
         count, start = int(self._numpy(count).reshape(-1)[0]), int(self._numpy(start).reshape(-1)[0])
         if count < 0 or count >= self.capacity or start < 0 or start+count > self.capacity:
@@ -72,10 +90,10 @@ class PhysXContactSource:
                 view = self._views[name]
                 force, points, normals, distances, count, start = view.get_contact_data(dt=self.dt)
                 indices = self._buffer(count, start)
-                f = self._numpy(force).reshape(-1)[indices]
-                p = self._numpy(points).reshape(-1,3)[indices]
-                n = self._numpy(normals).reshape(-1,3)[indices]
-                d = self._numpy(distances).reshape(-1)[indices]
+                f = self._numpy_slice(force, indices)
+                p = self._numpy_slice(points, indices, width=3)
+                n = self._numpy_slice(normals, indices, width=3)
+                d = self._numpy_slice(distances, indices)
                 if not np.isfinite(np.r_[f,p.ravel(),n.ravel(),d]).all() or (f < -1e-6).any():
                     raise ValueError("Invalid raw contact points/forces")
                 normal_vectors = f[:,None] * n
@@ -89,8 +107,8 @@ class PhysXContactSource:
                 try:
                     friction, fp, fc, fs = view.get_friction_data(dt=self.dt)
                     fi = self._buffer(fc, fs)
-                    tangential = -self._numpy(friction).reshape(-1,3)[fi]
-                    positions = self._numpy(fp).reshape(-1,3)[fi]
+                    tangential = -self._numpy_slice(friction, fi, width=3)
+                    positions = self._numpy_slice(fp, fi, width=3)
                     if not np.isfinite(np.r_[tangential.ravel(),positions.ravel()]).all():
                         raise ValueError("Invalid friction patches")
                     total_force += tangential.sum(axis=0)

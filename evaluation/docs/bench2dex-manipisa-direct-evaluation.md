@@ -1,5 +1,7 @@
 # ManipISA 与 Direct 的 Bench2Dex 对照方案
 
+实施更新（2026-10-05）：开发运行器、WSL Codex 计量和自动三图反馈已接入，当前执行范围与配置见 [开发运行说明](ur5-wuji-development-benchmark.md)。下文保留原指标协议；“尚未运行对照实验”属于原稿时间点，实际完成范围以各次运行记录为准。
+
 论文层面的主实验、Agent 候选、消融与预算规模见 [CVPR 主实验设计](cvpr-main-experiment-design.md)。本文件保留指标采集口径。
 
 本方案在每个 Agent 内比较 ManipISA 和原生 SDK Direct 两种接口。评测任务、成功判定与扰动协议沿用 Bench2Dex；本轮仅确定指标及其采集口径，不增加任务或契约测试。保留 SR、LSCR、SafeSR、平均成功仿真耗时，以及 Native tokens、墙钟时间和模型调用次数七项原始指标；另按 [总评分规范](manipisa-overall-scoring.md) 计算每个模型 Direct／ManipISA 的 Overall：完成程度 30%、执行可靠性 30%、成本效率 40%；成本内部墙钟、token、模型请求权重为 5∶4∶1。

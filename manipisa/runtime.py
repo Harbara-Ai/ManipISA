@@ -2,17 +2,26 @@
 from __future__ import annotations
 
 from copy import deepcopy
-from dataclasses import dataclass, replace
+from dataclasses import asdict, dataclass, replace
 import math
 from uuid import uuid4
 
 from .adapters.base import Adapter
 from .evidence import evaluate_goal
+from .feedback import summarize_feedback
 from .types import (
     AdapterError, Evidence, ExecutionReport, Instruction, Mode, PreparedTask,
     StateSnapshot, Status, TERMINAL, Truth, validate_instruction,
-    ContactGoal, GraspGoal, WrenchGoal,
+    ContactGoal, GraspGoal, WrenchGoal, json_safe,
 )
+
+
+class _PreparationRejected(AdapterError):
+    """Carry the checked public evidence into a rejected submission report."""
+    def __init__(self, reason, detail, *, evidence, goal):
+        super().__init__(reason, detail)
+        self.evidence = evidence
+        self.goal = goal
 
 
 @dataclass
@@ -104,12 +113,50 @@ class Runtime:
     def _conflict(a, b):
         return bool(a.resources & b.resources or a.coupling_keys & b.coupling_keys)
 
+    def _require_call_id(self, value, operation):
+        if not isinstance(value, str):
+            hint = "Use report.call_id" if isinstance(value, ExecutionReport) else (
+                "Use report['call_id'] for a serialized report" if isinstance(value, dict)
+                else "Pass the call_id string from the submission report")
+            raise TypeError(f"{operation}(call_id) expects a call_id string; received {type(value).__name__}. {hint}.")
+        if value in self._holds or value.startswith("hold_"):
+            raise ValueError(f"{operation}(call_id) received a control_handle. Use the owning report.call_id; "
+                             "control_handle is only for submit(..., replace_handle=...).")
+        if value not in self._calls and value not in self._rejections:
+            raise KeyError(f"Unknown call_id {value!r}; use a call_id returned by this Runtime.submit().")
+        return value
+
+    def _require_replace_handle(self, value):
+        if not isinstance(value, str):
+            hint = "Use report.control_handle" if isinstance(value, ExecutionReport) else (
+                "Use report['control_handle'] for a serialized report" if isinstance(value, dict)
+                else "Pass a retained control_handle string")
+            raise AdapterError("INVALID_ARGUMENT", f"replace_handle expects a control_handle string; "
+                               f"received {type(value).__name__}. {hint}.")
+        if value in self._calls or value in self._rejections:
+            report = self.query(value)
+            if report.control_handle is not None:
+                detail = f"Use runtime.query(call_id).control_handle ({report.control_handle!r})."
+            else:
+                detail = f"This call is {report.status} and has no retained control_handle. No call was canceled."
+            raise AdapterError("RESOURCE_CONFLICT", "replace_handle received a call_id. " + detail)
+        if value not in self._holds:
+            raise AdapterError("RESOURCE_CONFLICT", f"Unknown or already replaced control_handle {value!r}; "
+                               "inspect runtime.feedback()['control_handles'] for current ownership.")
+
     def _prepare(self, instruction, replace_handle=None, exclude_call=None):
         validate_instruction(instruction)
+        if replace_handle is not None:
+            self._require_replace_handle(replace_handle)
         state = self._observe()
         if instruction.env_id != state.env_id:
             raise AdapterError("UNSUPPORTED_CAPABILITY", "Adapter and instruction env_id differ")
-        prepared = self.adapter.prepare(instruction, state)
+        try:
+            prepared = self.adapter.prepare(instruction, state)
+        except AdapterError as exc:
+            if exc.reason == "UNREACHABLE":
+                raise AdapterError(exc.reason, "Requested goal rejected by adapter before execution: " + str(exc)) from exc
+            raise
         if not prepared.resources:
             raise AdapterError("BACKEND_ERROR", "Prepared task has no physical resources")
         if replace_handle is not None:
@@ -128,11 +175,15 @@ class Runtime:
                                       *prepared.mandatory_invariants), instruction, state)
         predicates.update(self._joint_speed_evidence(instruction, state))
         predicates.update(self._adapter_evidence(instruction, prepared, state, entering=True))
-        if evaluate_goal(instruction, state).evidence.truth == Truth.UNKNOWN:
-            raise AdapterError("EVIDENCE_UNAVAILABLE", "Required goal observation is unavailable")
+        goal = evaluate_goal(instruction, state)
+        if goal.evidence.truth == Truth.UNKNOWN:
+            raise _PreparationRejected("EVIDENCE_UNAVAILABLE", "Required goal observation is unavailable",
+                                       evidence=predicates, goal=goal)
         if any(e.truth != Truth.SATISFIED for e in predicates.values()):
-            raise AdapterError("PRECONDITION_FAILED", "; ".join(f"{k}={v.truth}" for k,v in predicates.items()
-                                                                if v.truth != Truth.SATISFIED))
+            detail = "; ".join(f"{k}={v.truth}: {v.detail}" for k, v in predicates.items()
+                               if v.truth != Truth.SATISFIED)
+            raise _PreparationRejected("PRECONDITION_FAILED", "Current-state preconditions not satisfied: " + detail,
+                                       evidence=predicates, goal=goal)
         return prepared, state
 
     def submit(self, instruction: Instruction, *, replace_handle: str | None = None) -> ExecutionReport:
@@ -142,7 +193,8 @@ class Runtime:
         except Exception as exc:
             fallback = "INVALID_ARGUMENT" if isinstance(exc, (ValueError, TypeError)) else "BACKEND_ERROR"
             report = ExecutionReport(call_id, instruction.operation, Status.REJECTED, self._snapshot.timestamp,
-                                     getattr(exc, "reason", fallback), str(exc))
+                                     getattr(exc, "reason", fallback), str(exc),
+                                     goal=getattr(exc, "goal", None), evidence=getattr(exc, "evidence", {}))
             self._rejections[call_id] = report
             return deepcopy(report)
         report = ExecutionReport(call_id, instruction.operation, Status.RUNNING, state.timestamp)
@@ -152,6 +204,7 @@ class Runtime:
         return deepcopy(report)
 
     def query(self, call_id: str) -> ExecutionReport:
+        self._require_call_id(call_id, "query")
         if call_id in self._rejections:
             return deepcopy(self._rejections[call_id])
         return deepcopy(self._calls[call_id].report)
@@ -177,6 +230,7 @@ class Runtime:
                               reason=reason, detail=detail, control_handle=handle)
 
     def cancel(self, call_id: str) -> ExecutionReport:
+        self._require_call_id(call_id, "cancel")
         call = self._calls.get(call_id)
         if call is None or call.report.status in TERMINAL:
             return self.query(call_id)
@@ -188,6 +242,12 @@ class Runtime:
         return self.query(call_id)
 
     def update(self, call_id: str, instruction: Instruction) -> dict:
+        try:
+            self._require_call_id(call_id, "update")
+            if not isinstance(instruction, Instruction):
+                raise TypeError("update(call_id, instruction) expects an Instruction instance as its second argument.")
+        except (TypeError, ValueError, KeyError) as exc:
+            return {"accepted": False, "reason": "INVALID_ARGUMENT", "detail": str(exc)}
         call = self._calls.get(call_id)
         if call is None or call.report.status in TERMINAL:
             return {"accepted": False, "reason": "TERMINAL_CALL", "detail": "Submit a new instruction"}
@@ -210,7 +270,11 @@ class Runtime:
             if call.report.status == Status.ACTIVE and evaluate_goal(instruction, state).evidence.truth != Truth.SATISFIED:
                 raise AdapterError("PRECONDITION_FAILED", "Updated SUSTAIN goal must already hold")
         except (AdapterError, ValueError, TypeError) as exc:
-            return {"accepted": False, "reason": getattr(exc, "reason", "INVALID_ARGUMENT"), "detail": str(exc)}
+            result = {"accepted": False, "reason": getattr(exc, "reason", "INVALID_ARGUMENT"), "detail": str(exc)}
+            if isinstance(exc, _PreparationRejected):
+                result["evidence"] = {key: json_safe(asdict(value)) for key, value in exc.evidence.items()}
+                result["goal"] = json_safe(asdict(exc.goal))
+            return result
         call.instruction, call.prepared, call.satisfied_since = instruction, prepared, None
         return {"accepted": True, "reason": None, "detail": "Original time budget preserved"}
 
@@ -267,7 +331,12 @@ class Runtime:
             if state.timestamp - call.report.active_since + 1e-9 >= command.sustain_s:
                 self._finish(call, Status.SUCCEEDED, state)
 
-    def step(self) -> StateSnapshot:
+    def step(self, *, return_snapshot: bool = True) -> StateSnapshot | None:
+        """Advance one tick; hosts may skip the otherwise unused return copy.
+
+        Observations, contract checks, commands and retained-control checks are
+        identical in both paths. The default still returns an isolated snapshot.
+        """
         try:
             state = self._observe()
         except Exception as exc:
@@ -304,7 +373,7 @@ class Runtime:
                     hold.state, hold.detail = "EXPIRED", "Hold interval ended; FAULT_AND_HOLD retains resources pending explicit handoff"
         if self.rgb is not None:
             self.rgb.sample(state.timestamp)
-        return deepcopy(state)
+        return deepcopy(state) if return_snapshot else None
 
     def set_rgb_enabled(self, enabled: bool):
         if self.rgb is None and enabled:
@@ -324,6 +393,27 @@ class Runtime:
                 for key,h in self._holds.items()},
             "rgb": self.rgb.metadata(self._snapshot.timestamp) if self.rgb is not None else {"enabled": False, "frames": {}},
         }
+
+    def feedback_summary(self, *, previous_reports=None) -> dict:
+        """Current state plus active/changed reports, without consuming a cursor.
+
+        No observation or physics is triggered. Explicit ``query`` and full
+        ``feedback`` calls remain independent of the caller-owned report baseline.
+        """
+        # Serialize non-contact state once; do not materialize a complete
+        # StateSnapshot.to_dict() before compacting the contact collection.
+        state = json_safe(asdict(replace(self._snapshot, contacts={})))
+        state["contacts"] = self._snapshot.contacts
+        return summarize_feedback({
+            "state": state,
+            "state_valid": self._state_error is None,
+            "state_error": self._state_error,
+            "instructions": [call.report for call in self._calls.values()] + list(self._rejections.values()),
+            "control_handles": {key: {"owner": h.owner, "state": h.state, "created_at": h.created_at,
+                "expires_at": h.expires_at, "resources": sorted(h.prepared.resources), "detail": h.detail}
+                for key, h in self._holds.items()},
+            "rgb": self.rgb.metadata(self._snapshot.timestamp) if self.rgb is not None else {"enabled": False, "frames": {}},
+        }, previous_reports=previous_reports)
 
     def images(self):
         """Optional RGB attachments; separate from the JSON-serializable feedback."""

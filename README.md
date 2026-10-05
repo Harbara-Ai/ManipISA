@@ -1,5 +1,7 @@
 # ManipISA Runtime
 
+UR5＋Wuji 的 Direct／ManipISA 开发评测入口见 [开发运行说明](evaluation/docs/ur5-wuji-development-benchmark.md)。当前配置使用 WSL Codex `gpt-6-luna / medium`、结构化仿真真值和三路 640×480 透视 RGB；物理预算为 3×官方 expert_time_step，墙钟上限为每回合 1200 秒。配置切换不改写历史 Sol/high 回合，也不表示新的批次已经运行。
+
 ManipISA 的可运行执行层：Agent → Instruction → Runtime → Adapter → Controller。结构化反馈与 RGB 回传共用同一套 Runtime；当前不接入 TacMap 或触觉图像，不设置独立 Safety 或 Capability 模块。接触与交互力使用 PhysX 结构化反馈。
 
 六个操作码均已有执行路径；完整语义仍以 [v0.2 指令契约](docs/manipisa-v0.2-core-contracts.md) 为设计目标。支持的参数组合和验证范围见下表及 [接触执行说明](docs/manipisa-interaction-runtime.md)。
@@ -19,7 +21,7 @@ ManipISA 的可运行执行层：Agent → Instruction → Runtime → Adapter �
 | 对象观测 | 可注入只读实体刚体状态；当前没有据此执行对象运动 |
 | RGB | 可选接入 Bench2Dex CameraRig；时间、相机 ID、标定、有效性和 RGB 数组分开返回 |
 
-首次克隆的环境准备与外部依赖见 [仓库说明](REPOSITORY.md)。
+首次克隆的环境准备与外部依赖见 [仓库说明](REPOSITORY.md)。Runtime 调用、错误诊断和交接示例见 [quickstart](docs/runtime-quickstart.md)；自动回复与三图反馈见 [精简反馈](docs/concise-feedback.md)；执行分段计时见 [性能诊断](docs/runtime-profiling.md)。
 
 ## 运行
 
@@ -88,6 +90,8 @@ images = runtime.images()       # 相机 ID → RGBFrame，包含 RGB 数组和�
 
 ## 结构化反馈与 RGB 开关
 
+以下描述通用 Runtime 的可选 RGBChannel。Bench2Dex 开发评测由宿主另行提供动作后的自动三图反馈：一次 Python 调用实际推进物理且未终止时捕获一次，纯查询不渲染，完整约定见 [精简反馈](docs/concise-feedback.md)。
+
 RGB 通道使用 Bench2Dex 的相机同步 → render → capture 顺序。建议先配置传感器和渲染环境，再通过 runtime.set_rgb_enabled(True/False) 控制回传。
 
 - 关闭时不调用通道的捕获或渲染，不返回旧图像；宿主自己的可视化渲染由宿主管理。
@@ -116,7 +120,7 @@ Windows 独立验证入口在同步写完报告和图像后采用 Bench2Dex/repl
 
 ## 评测与总评分
 
-评分规范、Direct 对照评测协议和论文主实验设计统一见 [evaluation](evaluation/README.md)。总评分采用任务完成程度 30%、执行可靠性 30%、成本效率 40%；成本内部墙钟时间、Native tokens、模型请求数按 5∶4∶1 分配。当前交付为设计文档，正式评测运行器和评分器尚未实现。
+评分规范、Direct 对照评测协议和论文主实验设计统一见 [evaluation](evaluation/README.md)。总评分采用任务完成程度 30%、执行可靠性 30%、成本效率 40%；成本内部墙钟时间、Native tokens、模型请求数按 5∶4∶1 分配。开发运行器、WSL Codex 接入、原生用量计量和评分器已实现；多初始化、多扰动的正式评测配置尚未冻结。评分参考值仍为 600 秒／200,000 native tokens／30 次请求，独立于当前 1200 秒停止上限。实现与入口见 [evaluation](evaluation/README.md)。
 
 ## 文件
 

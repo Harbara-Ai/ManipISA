@@ -1,0 +1,67 @@
+{
+  "experiment_version": "ur5-wuji-all26-v0.2-visual3-budget3x1200-development",
+  "task_catalog": "Bench2Dex/scenes/task.md",
+  "expected_task_count": 26,
+  "robot_key": "multi_ur5_wuji_with_flange",
+  "methods": [
+    "direct",
+    "manipisa"
+  ],
+  "agent": {
+    "backend": "codex",
+    "execution_platform": "wsl",
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "authentication": "existing_wsl_codex_login",
+    "wsl": {
+      "distribution": "Ubuntu-22.04",
+      "user": "haibara",
+      "codex_executable": "/home/haibara/.local/bin/codex",
+      "python_executable": "/usr/bin/python3",
+      "project_root": "/mnt/d/yl/embodied ai/ManipISA",
+      "transport": "shared_files"
+    },
+    "preauthorized_simulation_tools": [
+      "start_task",
+      "observe",
+      "read_api",
+      "execute_python"
+    ],
+    "tool_authorization_date": "2026-10-05"
+  },
+  "observations": {
+    "state_source": "simulation_privileged",
+    "rgb": true,
+    "tactile": false,
+    "hidden_evaluator_feedback": false,
+    "camera_ids": [
+      "cam_overhead",
+      "cam_wrist_left",
+      "cam_wrist_right"
+    ]
+  },
+  "physics_dt": 0.016666666666666666,
+  "expert_budget_scale": 3.0,
+  "policy_stride": 3,
+  "simulation_paused_during_inference": true,
+  "score": {
+    "wall_time_ref_s": 600,
+    "native_tokens_ref": 200000,
+    "model_requests_ref": 30,
+    "partial_progress_weight": 0.25,
+    "version": "manipisa-overall-v0.1-user-refs-20261005"
+  },
+  "development_run": {
+    "episodes_per_task_per_method": 1,
+    "planned_episodes": 52,
+    "channel": "base_layout_development",
+    "wall_time_limit_s": 1200,
+    "model_request_limit": null,
+    "native_token_limit": null
+  },
+  "formal_run": {
+    "status": "not_frozen",
+    "episodes_per_task": null,
+    "channels": null
+  }
+}

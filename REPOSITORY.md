@@ -4,7 +4,9 @@
 
 ## 评测文档与实现组织
 
-总评分标准、Bench2Dex 对照评测协议和主实验设计统一位于 [`evaluation/docs/`](evaluation/docs)，入口见 [Evaluation README](evaluation/README.md)。顶层 `docs/` 保留指令设计、运行时与 Adapter 文档。后续评测代码和冻结配置也放在 `evaluation/`，按职责建立子目录；当前仅有评测文档。
+总评分标准、Bench2Dex 对照评测协议、主实验设计与开发运行说明统一位于 [`evaluation/docs/`](evaluation/docs)，入口见 [Evaluation README](evaluation/README.md)。顶层 `docs/` 保留指令设计、运行时、Adapter、精简反馈与性能诊断文档。
+
+已验证的评测实现位于 [`manipisa/evaluation/`](manipisa/evaluation)，运行入口位于 [`scripts/`](scripts) 和 [`examples/`](examples)，实验配置位于 [`configs/`](configs)。本次保留这些实际路径，不为文档整理迁移实现；`evaluation/` 是评测文档入口。开发运行器与评分器已实现，正式评测配置尚未冻结。
 
 ## 只运行单元与契约测试
 
@@ -39,7 +41,7 @@ git clone https://github.com/isaac-sim/IsaacLab.git IsaacLab
 git -C IsaacLab checkout 37ddf626871758333d6ed89cf64ad702aef127d0
 ```
 
-随后按对应版本的上游说明安装仿真依赖，并准备场景所需资产和数据。`reproduction/` 保留原工作区的下载、检查和回放脚本；其中 `complete_install.ps1` 依赖已有环境、安装日志和本地 wheel，不能作为全新机器的一键安装入口。Windows 环境约束和已知依赖冲突见 [复现记录](reproduction/README.txt)。
+随后按对应版本的上游说明安装仿真依赖，并准备场景所需资产和数据。当前三路 640×480 透视相机依赖仓库内的 [Bench2Dex 相机补丁](integrations/bench2dex/pinhole-wrist-cameras.patch)，须在上述固定版本上应用；命令和 WSL／Windows 路径配置见 [开发运行说明](evaluation/docs/ur5-wuji-development-benchmark.md)。配置中的 WSL 发行版、用户名、可执行文件、项目路径和示例中的 `I:` 均来自原工作区，使用者应按实际安装位置调整。`reproduction/` 保留原工作区的下载、检查和回放脚本；其中 `complete_install.ps1` 依赖已有环境、安装日志和本地 wheel，不能作为全新机器的一键安装入口。Windows 环境约束和已知依赖冲突见 [复现记录](reproduction/README.txt)。
 
 原始回放记录保留了官方 RGB/触觉验证结果；ManipISA Runtime 当前不接入触觉图像。两者的验证范围不同。
 
@@ -47,6 +49,6 @@ git -C IsaacLab checkout 37ddf626871758333d6ed89cf64ad702aef127d0
 
 `artifacts/` 中保留文档引用的报告、配对比较、测试日志，以及对应最终运行的轨迹和少量 PNG。`reproduction/runs/` 仅保留已通过回放的命令、退出码、验证报告与成功复核日志；原始 HDF5、回放 HDF5、视频和批量图像需要本地生成。
 
-这些是原工作区的历史验证记录，可能包含当时的本地绝对路径，不能据此认定克隆后的机器已经通过仿真验收。新增运行产物由 `.gitignore` 排除，已选入版本控制的历史证据保留。
+这些是原工作区的历史验证记录，可能包含当时的本地绝对路径，不能据此认定克隆后的机器已经通过仿真验收。文档提及的 2026-10-05 性能诊断与模型回合保留在原工作区，本次文档同步不额外上传这些 artifacts。新增运行产物由 `.gitignore` 排除，已选入版本控制的历史证据保留。
 
 部分设计文档中的第三方源码链接按原工作区目录保留，需要上述外部 checkout；`../../wuji/` 指向另一个历史参考项目，不是 ManipISA 单元测试所需依赖。
