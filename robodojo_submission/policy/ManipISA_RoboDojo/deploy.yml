@@ -1,0 +1,20 @@
+policy_name: ManipISA_RoboDojo
+protocol: ws
+host: localhost
+port: null
+bench_name: RoboDojo
+task_name: null
+ckpt_name: codex
+env_cfg_type: arx_x5
+seed: null
+action_type: ee
+gpu_id: null
+eval_batch: false
+# Fixed submission identity; authentication uses the existing Linux Codex login.
+model: gpt-6-astra
+reasoning_effort: high
+agent_wall_limit_s: 600
+agent_startup_timeout_s: 180
+action_timeout_s: 900
+request_timeout_s: 960
+artifact_dir: results/evaluation

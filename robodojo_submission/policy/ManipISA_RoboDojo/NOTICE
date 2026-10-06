@@ -1,0 +1,15 @@
+This package uses the XPolicyLab policy-template shell entrypoint conventions
+and RoboDojo evaluator-launch conventions.
+
+XPolicyLab: https://github.com/XPolicyLab/XPolicyLab
+Reference revision: bb9a0b5f5136a74503b679af830bfd0a3a837d5c
+Upstream license: LICENSE-XPolicyLab.txt (Apache-2.0).
+
+RoboDojo: https://github.com/RoboDojo-Benchmark/RoboDojo
+Reference revision: 266130a3ec41ba9b20b0e5648d2f3542f219c06c
+Upstream license: LICENSE-RoboDojo.txt (MIT).
+
+Local changes bind the policy to an isolated ManipISA checkout, validate
+versions, configure transport timeouts and clean up the policy worker on exit.
+The official environment's physics, task logic and scoring remain external.
+These notices do not imply endorsement or verified leaderboard acceptance.

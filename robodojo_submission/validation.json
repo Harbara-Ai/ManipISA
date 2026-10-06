@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-06",
+  "scope": "Submission integration and synthetic protocol checks; no Isaac physics or official task score",
+  "unit_tests": {
+    "tests_run": 41,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "elapsed_s": 7.8072165610064985,
+    "scope": "Synthetic observations, local subprocesses and deployment fixtures; no model or physics"
+  },
+  "syntax": {
+    "python_files": 28,
+    "shell_entrypoints": "passed"
+  },
+  "preservation": {
+    "repository_existing_files_changed": 0,
+    "original_project_source_files_compared": 60,
+    "pinned_core_files_verified": 30,
+    "original_project_writes_by_this_change": false,
+    "concurrent_original_project_changes_observed": [
+      "manipisa/evidence.py",
+      "manipisa/runtime.py",
+      "manipisa/types.py",
+      "manipisa/__init__.py",
+      "manipisa/adapters/interaction_control.py",
+      "manipisa/adapters/isaaclab.py",
+      "manipisa/evaluation/native_agent.py",
+      "manipisa/evaluation/programs.py",
+      "manipisa/evaluation/simulation.py",
+      "tests/test_runtime_diagnostics.py"
+    ],
+    "concurrent_changes_preserved": true,
+    "note": "The user confirmed another task is modifying the original project. This submission used a separate checkout; observed original-project changes were neither reverted nor imported."
+  },
+  "official_websocket": {
+    "passed": true,
+    "plain_rgb": true,
+    "encoded_rgb": true,
+    "reset_seconds": [
+      0.0006855329993413761,
+      0.0005636249989038333
+    ]
+  },
+  "windows_to_wsl": {
+    "passed": true,
+    "host": "127.0.0.2",
+    "episodes": [
+      {
+        "encoded_rgb": false,
+        "actions": 14,
+        "right_final_x": 0.312,
+        "left_gripper_target": 0.25,
+        "reset_seconds": 0.01600000000325963
+      },
+      {
+        "encoded_rgb": true,
+        "actions": 14,
+        "right_final_x": 0.312,
+        "left_gripper_target": 0.25,
+        "reset_seconds": 0.01600000000325963
+      }
+    ]
+  },
+  "live_codex_fixture": {
+    "passed": true,
+    "codex_version": "0.160.1",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "action_count": 8,
+    "elapsed_seconds": 28.613197379992926,
+    "reset_seconds": 0.011247589005506597,
+    "move_contract": "SUCCEEDED",
+    "right_final_x_m": 0.308,
+    "automatic_three_image_replies": 2,
+    "source_files_changed_during_episode": false,
+    "earlier_failure_resolved": "Code-mode MCP host must remain enabled; the final fixture passed after removing its disable flag"
+  },
+  "full_physics_evaluation": "not_run",
+  "official_score": null,
+  "official_verified": false,
+  "limitations": [
+    "No complete RoboDojo task scores or hidden-layout verification.",
+    "Closed-model artifact eligibility still needs committee confirmation.",
+    "Windows tasks requiring the official Linux fcntl monitor remain unsupported."
+  ],
+  "clean_environment": {
+    "schema_version": 1,
+    "checked_at_utc": "2026-10-06T04:50:31.308427+00:00",
+    "passed": true,
+    "scope": "Requirements-only policy environment: configuration, synthetic official WebSocket transport, and all submission regression tests. No live model, Isaac simulation, or official score.",
+    "python": "3.11.16",
+    "platform": "linux",
+    "environment": {
+      "fresh_venv": true,
+      "include_system_site_packages": false,
+      "inherited_pythonpath": false,
+      "external_dependency_overlays": false,
+      "installed_from": "robodojo_submission/requirements.txt",
+      "requirements_sha256": "5fb28612620c8cea7449d3e27e76879630cad7b3c50297888ca217c38d7d4ea4",
+      "installation_exit_code": 0,
+      "packages": {
+        "annotated-types": "0.8.0",
+        "h5py": "3.16.0",
+        "msgpack": "1.2.3",
+        "msgpack-numpy": "0.4.8",
+        "numpy": "2.4.6",
+        "opencv-python-headless": "4.11.0.86",
+        "pillow": "12.3.0",
+        "pip": "24.0",
+        "pydantic": "2.13.5",
+        "pydantic_core": "2.46.5",
+        "PyYAML": "6.0.3",
+        "scipy": "1.17.1",
+        "setuptools": "79.0.1",
+        "typing-inspection": "0.4.4",
+        "typing_extensions": "4.16.0",
+        "websockets": "15.0.1"
+      }
+    },
+    "pip_check": {
+      "passed": true,
+      "exit_code": 0,
+      "message": "No broken requirements found."
+    },
+    "inspect": {
+      "passed": true,
+      "exit_code": 0,
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "msgpack_numpy_importable": true,
+      "provenance": {
+        "core_revision": "60d6338af4ffa435d6f6915a74764d9c555e607b",
+        "verified_core_files": 30,
+        "RoboDojo": "266130a3ec41ba9b20b0e5648d2f3542f219c06c",
+        "XPolicyLab": "bb9a0b5f5136a74503b679af830bfd0a3a837d5c"
+      }
+    },
+    "protocol": {
+      "passed": true,
+      "plain_rgb": true,
+      "encoded_rgb": true,
+      "host": "::1",
+      "reset_seconds": [
+        0.007812092997482978,
+        0.007653659995412454
+      ],
+      "captured_rgb": [
+        [
+          210,
+          50,
+          10
+        ],
+        [
+          209,
+          50,
+          10
+        ]
+      ],
+      "scope": "Official XPolicyLab transport with a pose-echo fixture; no physics or score",
+      "official_score": null
+    },
+    "unit_tests": {
+      "passed": true,
+      "tests_run": 41,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "elapsed_seconds": 8.0076,
+      "scope": "All submission unit tests; no live model or Isaac simulation"
+    },
+    "cleanup": {
+      "incomplete_submission_venv_removed": true,
+      "temporary_clean_venv_preserved": true,
+      "owned_install_processes_stopped": true
+    },
+    "official_score": null
+  },
+  "checked_at_utc": "2026-10-06T04:51:25.863463+00:00"
+}

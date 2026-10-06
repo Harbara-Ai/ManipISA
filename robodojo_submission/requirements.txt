@@ -1,0 +1,11 @@
+# Policy-side Python 3.11+. Simulator dependencies stay in RoboDojo's environment.
+numpy>=1.26,<3
+scipy>=1.11,<2
+Pillow>=10
+PyYAML>=6
+websockets>=15,<16
+msgpack>=1
+msgpack-numpy>=0.4.8
+opencv-python-headless>=4.9,<4.12
+pydantic>=2,<3
+h5py>=3.10,<4

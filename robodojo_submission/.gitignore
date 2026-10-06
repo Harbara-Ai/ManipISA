@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+results/
+artifacts/
+kit-runtime/
+testdeps/
+sim-deps-windows/
+protocol-deps/
+submission-root.json
+*.local.json
+*.local.yml

@@ -1,0 +1,41 @@
+{
+  "submission_name": "ManipISA_RoboDojo",
+  "purpose": "RoboDojo simulation submission candidate; official verification pending",
+  "core_repository": "https://github.com/Harbara-Ai/ManipISA",
+  "core_revision": "60d6338af4ffa435d6f6915a74764d9c555e607b",
+  "robodojo_revision": "266130a3ec41ba9b20b0e5648d2f3542f219c06c",
+  "xpolicylab_revision": "bb9a0b5f5136a74503b679af830bfd0a3a837d5c",
+  "protocol_url": "https://robodojo-benchmark.com/leaderboard/protocol",
+  "protocol_reviewed_version": "2026.10.3",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "robot": "dual_x5",
+  "env_cfg_type": "arx_x5",
+  "action_type": "ee",
+  "eval_batch": false,
+  "agent_wall_limit_s": 600,
+  "task_policy_routing": false,
+  "observation_profile": "rgb3-public-robot-state-v1",
+  "camera_names": ["cam_head", "cam_left_wrist", "cam_right_wrist"],
+  "allowed_state_fields": [
+    "left_arm_joint_state", "right_arm_joint_state",
+    "left_ee_pose", "right_ee_pose",
+    "left_ee_joint_state", "right_ee_joint_state"
+  ],
+  "gripper_feedback_semantics": "previous control target; no measured grasp or force evidence",
+  "end_effector_frame": "X5 link6; environment-origin position in meters; wxyz quaternion",
+  "velocity_semantics": "finite difference over official observation intervals",
+  "excluded_agent_inputs": [
+    "object ground-truth poses", "friction/material coefficients", "contact forces/wrenches",
+    "evaluator success/reward/stage labels", "case/trial metadata", "depth", "camera calibration"
+  ],
+  "exclusion_scope": "This candidate's declared profile; not a claim that every RoboDojo track bans optional sensors",
+  "score_source": "unmodified official evaluator; Runtime instruction completion is not task success",
+  "official_verified": false,
+  "official_score": null,
+  "submission_items_pending": [
+    "full official evaluation and hidden-layout verification",
+    "committee confirmation of closed-model artifact and reproducibility requirements",
+    "required evaluation videos and research disclosure"
+  ]
+}
